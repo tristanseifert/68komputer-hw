@@ -1,4 +1,4 @@
-#68komputer Hardware
+# 68komputer Hardware
 Hardware designs for the 68komputer.
 
 ## License
