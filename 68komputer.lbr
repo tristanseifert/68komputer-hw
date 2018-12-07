@@ -4835,6 +4835,83 @@ rectangle</description>
 <text x="-25.908" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="-17.145" y="-1.016" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="SO32X" urn="urn:adsk.eagle:footprint:4198/1">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+extra wide body 8.9 mm/JEDEC MO-120AC</description>
+<wire x1="10.22" y1="-4.5" x2="-10.22" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-10.22" y1="-4.5" x2="-10.22" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-10.22" y1="-4" x2="-10.22" y2="4.5" width="0.2032" layer="51"/>
+<wire x1="-10.22" y1="4.5" x2="10.22" y2="4.5" width="0.2032" layer="51"/>
+<wire x1="10.22" y1="-4" x2="-10.22" y2="-4" width="0.2032" layer="51"/>
+<wire x1="10.22" y1="4.5" x2="10.22" y2="-4" width="0.2032" layer="51"/>
+<wire x1="10.22" y1="-4" x2="10.22" y2="-4.5" width="0.2032" layer="51"/>
+<smd name="2" x="-8.255" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="5.715" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-9.525" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-6.985" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-5.715" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="6.985" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="4.445" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="3.175" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-3.175" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="0.635" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-4.445" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-1.905" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="1.905" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-0.635" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="8.255" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="9.525" y="-5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="9.525" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="8.255" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="6.985" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="5.715" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="4.445" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="3.175" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="1.905" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="0.635" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="25" x="-0.635" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="26" x="-1.905" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="27" x="-3.175" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="28" x="-4.445" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="29" x="-5.715" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="30" x="-6.985" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="31" x="-8.255" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<smd name="32" x="-9.525" y="5.4" dx="0.6" dy="2.2" layer="1"/>
+<text x="-8.255" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.255" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-9.7701" y1="-6.1199" x2="-9.2799" y2="-4.5999" layer="51"/>
+<rectangle x1="-8.5001" y1="-6.1199" x2="-8.0099" y2="-4.5999" layer="51"/>
+<rectangle x1="-7.2301" y1="-6.1199" x2="-6.7399" y2="-4.5999" layer="51"/>
+<rectangle x1="-5.9601" y1="-6.1199" x2="-5.4699" y2="-4.5999" layer="51"/>
+<rectangle x1="-4.6901" y1="-6.1199" x2="-4.1999" y2="-4.5999" layer="51"/>
+<rectangle x1="-3.4201" y1="-6.1199" x2="-2.9299" y2="-4.5999" layer="51"/>
+<rectangle x1="-2.1501" y1="-6.1199" x2="-1.6599" y2="-4.5999" layer="51"/>
+<rectangle x1="-0.8801" y1="-6.1199" x2="-0.3899" y2="-4.5999" layer="51"/>
+<rectangle x1="0.3899" y1="-6.1199" x2="0.8801" y2="-4.5999" layer="51"/>
+<rectangle x1="1.6599" y1="-6.1199" x2="2.1501" y2="-4.5999" layer="51"/>
+<rectangle x1="2.9299" y1="-6.1199" x2="3.4201" y2="-4.5999" layer="51"/>
+<rectangle x1="4.1999" y1="-6.1199" x2="4.6901" y2="-4.5999" layer="51"/>
+<rectangle x1="5.4699" y1="-6.1199" x2="5.9601" y2="-4.5999" layer="51"/>
+<rectangle x1="6.7399" y1="-6.1199" x2="7.2301" y2="-4.5999" layer="51"/>
+<rectangle x1="8.0099" y1="-6.1199" x2="8.5001" y2="-4.5999" layer="51"/>
+<rectangle x1="9.2799" y1="-6.1199" x2="9.7701" y2="-4.5999" layer="51"/>
+<rectangle x1="9.2799" y1="4.5999" x2="9.7701" y2="6.1199" layer="51"/>
+<rectangle x1="8.0099" y1="4.5999" x2="8.5001" y2="6.1199" layer="51"/>
+<rectangle x1="6.7399" y1="4.5999" x2="7.2301" y2="6.1199" layer="51"/>
+<rectangle x1="5.4699" y1="4.5999" x2="5.9601" y2="6.1199" layer="51"/>
+<rectangle x1="4.1999" y1="4.5999" x2="4.6901" y2="6.1199" layer="51"/>
+<rectangle x1="2.9299" y1="4.5999" x2="3.4201" y2="6.1199" layer="51"/>
+<rectangle x1="1.6599" y1="4.5999" x2="2.1501" y2="6.1199" layer="51"/>
+<rectangle x1="0.3899" y1="4.5999" x2="0.8801" y2="6.1199" layer="51"/>
+<rectangle x1="-0.8801" y1="4.5999" x2="-0.3899" y2="6.1199" layer="51"/>
+<rectangle x1="-2.1501" y1="4.5999" x2="-1.6599" y2="6.1199" layer="51"/>
+<rectangle x1="-3.4201" y1="4.5999" x2="-2.9299" y2="6.1199" layer="51"/>
+<rectangle x1="-4.6901" y1="4.5999" x2="-4.1999" y2="6.1199" layer="51"/>
+<rectangle x1="-5.9601" y1="4.5999" x2="-5.4699" y2="6.1199" layer="51"/>
+<rectangle x1="-7.2301" y1="4.5999" x2="-6.7399" y2="6.1199" layer="51"/>
+<rectangle x1="-8.5001" y1="4.5999" x2="-8.0099" y2="6.1199" layer="51"/>
+<rectangle x1="-9.7701" y1="4.5999" x2="-9.2799" y2="6.1199" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC8" urn="urn:adsk.eagle:package:16475/2" type="model">
@@ -4961,6 +5038,13 @@ rectangle</description>
 <description>Dual In Line Package</description>
 <packageinstances>
 <packageinstance name="DIL40"/>
+</packageinstances>
+</package3d>
+<package3d name="SO32X" urn="urn:adsk.eagle:package:4333/1" type="box">
+<description>SMALL OUTLINE INTEGRATED CIRCUIT
+extra wide body 8.9 mm/JEDEC MO-120AC</description>
+<packageinstances>
+<packageinstance name="SO32X"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5766,6 +5850,45 @@ rectangle</description>
 <pin name="!IACK" x="-15.24" y="15.24" length="middle" direction="in" function="dot"/>
 <pin name="VCC" x="-15.24" y="-30.48" length="middle" direction="pwr"/>
 <pin name="GND" x="-15.24" y="-33.02" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="CY62128B">
+<wire x1="0" y1="0" x2="0" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="0" y1="-58.42" x2="20.32" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-58.42" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-58.42" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
+<pin name="!CE1" x="-5.08" y="-2.54" length="middle" direction="in" function="dot"/>
+<pin name="CE2" x="-5.08" y="-5.08" length="middle" direction="in"/>
+<pin name="!OE" x="-5.08" y="-7.62" length="middle" direction="in" function="dot"/>
+<pin name="!WE" x="-5.08" y="-10.16" length="middle" direction="in" function="dot"/>
+<pin name="A0" x="-5.08" y="-15.24" length="middle" direction="in"/>
+<pin name="A1" x="-5.08" y="-17.78" length="middle" direction="in"/>
+<pin name="A2" x="-5.08" y="-20.32" length="middle" direction="in"/>
+<pin name="A3" x="-5.08" y="-22.86" length="middle" direction="in"/>
+<pin name="A4" x="-5.08" y="-25.4" length="middle" direction="in"/>
+<pin name="A5" x="-5.08" y="-27.94" length="middle" direction="in"/>
+<pin name="A6" x="-5.08" y="-30.48" length="middle" direction="in"/>
+<pin name="A7" x="-5.08" y="-33.02" length="middle" direction="in"/>
+<pin name="A8" x="-5.08" y="-35.56" length="middle" direction="in"/>
+<pin name="A9" x="-5.08" y="-38.1" length="middle" direction="in"/>
+<pin name="A10" x="-5.08" y="-40.64" length="middle" direction="in"/>
+<pin name="A11" x="-5.08" y="-43.18" length="middle" direction="in"/>
+<pin name="A12" x="-5.08" y="-45.72" length="middle" direction="in"/>
+<pin name="A13" x="-5.08" y="-48.26" length="middle" direction="in"/>
+<pin name="A14" x="-5.08" y="-50.8" length="middle" direction="in"/>
+<pin name="A15" x="-5.08" y="-53.34" length="middle" direction="in"/>
+<pin name="A16" x="-5.08" y="-55.88" length="middle" direction="in"/>
+<pin name="VCC" x="25.4" y="-53.34" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="25.4" y="-55.88" length="middle" direction="pwr" rot="R180"/>
+<pin name="D0" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="D1" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="D2" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="D3" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="D4" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="D5" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="D6" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="D7" x="25.4" y="-20.32" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7112,6 +7235,56 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:19651/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CY62128B" prefix="IC" uservalue="yes">
+<description>&lt;h1&gt;1-Mbit (128K x 8) Static RAM&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.westfloridacomponents.com/mm5/graphics/H02/CY62128BLL-55SCT.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CY62128B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOIC32" package="SO32X">
+<connects>
+<connect gate="G$1" pin="!CE1" pad="22"/>
+<connect gate="G$1" pin="!OE" pad="24"/>
+<connect gate="G$1" pin="!WE" pad="29"/>
+<connect gate="G$1" pin="A0" pad="12"/>
+<connect gate="G$1" pin="A1" pad="11"/>
+<connect gate="G$1" pin="A10" pad="23"/>
+<connect gate="G$1" pin="A11" pad="25"/>
+<connect gate="G$1" pin="A12" pad="4"/>
+<connect gate="G$1" pin="A13" pad="28"/>
+<connect gate="G$1" pin="A14" pad="3"/>
+<connect gate="G$1" pin="A15" pad="31"/>
+<connect gate="G$1" pin="A16" pad="2"/>
+<connect gate="G$1" pin="A2" pad="10"/>
+<connect gate="G$1" pin="A3" pad="9"/>
+<connect gate="G$1" pin="A4" pad="8"/>
+<connect gate="G$1" pin="A5" pad="7"/>
+<connect gate="G$1" pin="A6" pad="6"/>
+<connect gate="G$1" pin="A7" pad="5"/>
+<connect gate="G$1" pin="A8" pad="27"/>
+<connect gate="G$1" pin="A9" pad="26"/>
+<connect gate="G$1" pin="CE2" pad="30"/>
+<connect gate="G$1" pin="D0" pad="13"/>
+<connect gate="G$1" pin="D1" pad="14"/>
+<connect gate="G$1" pin="D2" pad="15"/>
+<connect gate="G$1" pin="D3" pad="17"/>
+<connect gate="G$1" pin="D4" pad="18"/>
+<connect gate="G$1" pin="D5" pad="19"/>
+<connect gate="G$1" pin="D6" pad="20"/>
+<connect gate="G$1" pin="D7" pad="21"/>
+<connect gate="G$1" pin="GND" pad="16"/>
+<connect gate="G$1" pin="VCC" pad="32"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4333/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
