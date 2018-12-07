@@ -24466,12 +24466,6 @@ Source: www.kingbright.com</description>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="GRN">
 <attribute name="MOUSER" value="604-APTR3216SGC"/>
 </part>
-<part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="GRN">
-<attribute name="MOUSER" value="604-APTR3216SGC"/>
-</part>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
-<attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
-</part>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
@@ -24552,6 +24546,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="P+29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28339,16 +28334,6 @@ $F80000 - $FFFFFF: RTC</text>
 <attribute name="NAME" x="119.888" y="174.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.888" y="182.245" size="1.778" layer="96"/>
 </instance>
-<instance part="LED7" gate="G$1" x="124.46" y="106.68" smashed="yes" rot="R270">
-<attribute name="MOUSER" x="124.46" y="106.68" size="1.27" layer="96" rot="R270" align="top-center" display="off"/>
-<attribute name="NAME" x="119.888" y="103.124" size="1.778" layer="95"/>
-<attribute name="VALUE" x="119.888" y="111.125" size="1.778" layer="96"/>
-</instance>
-<instance part="R5" gate="G$1" x="132.08" y="106.68" smashed="yes" rot="R180">
-<attribute name="MOUSER" x="132.08" y="106.68" size="1.27" layer="96" rot="R180" align="top-center" display="off"/>
-<attribute name="NAME" x="135.89" y="105.1814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="135.89" y="109.982" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R6" gate="G$1" x="132.08" y="116.84" smashed="yes" rot="R180">
 <attribute name="MOUSER" x="132.08" y="116.84" size="1.27" layer="96" rot="R180" align="top-center" display="off"/>
 <attribute name="NAME" x="135.89" y="115.3414" size="1.778" layer="95" rot="R180"/>
@@ -28372,9 +28357,12 @@ $F80000 - $FFFFFF: RTC</text>
 <instance part="GND31" gate="1" x="160.02" y="60.96" smashed="yes" rot="R90">
 <attribute name="VALUE" x="162.56" y="58.42" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="GND40" gate="1" x="116.84" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.3" y="119.38" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
-<bus name="!68681_CS,!68681_DTACK,!68681_IACK,!68681_IRQ,!68681_IRQACK,68681_XTAL[1..2],A[1..23],CLK,D[0..15],GPIO_IN[0..5],GPIO_OUT[0..7],!LDS,!OE,!RESET,!RTC_CS,R!W!,UART0_RX,UART0_TX,UART1_RX,UART1_TX">
+<bus name="!68681_CS,!68681_DTACK,!68681_IACK,!68681_IRQ,!68681_IRQACK,68681_XTAL[1..2],A[1..23],CLK,D[0..15],GPIO_IN[0..5],GPIO_OUT[0..6],!LDS,!OE,!RESET,!RTC_CS,R!W!,TIMER_CLK,UART0_RX,UART0_TX,UART1_RX,UART1_TX">
 <segment>
 <wire x1="7.62" y1="175.26" x2="7.62" y2="93.98" width="0.762" layer="92"/>
 <wire x1="7.62" y1="93.98" x2="53.34" y2="93.98" width="0.762" layer="92"/>
@@ -28387,7 +28375,7 @@ $F80000 - $FFFFFF: RTC</text>
 </bus>
 <bus name="GPIO_OUT[0..7]">
 <segment>
-<wire x1="144.78" y1="177.8" x2="144.78" y2="101.6" width="0.762" layer="92"/>
+<wire x1="144.78" y1="177.8" x2="144.78" y2="111.76" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -28515,8 +28503,15 @@ $F80000 - $FFFFFF: RTC</text>
 <pinref part="X3" gate="G$1" pin="5"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<wire x1="119.38" y1="116.84" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
+<junction x="119.38" y="116.84"/>
+</segment>
 </net>
-<net name="R!W!" class="0">
+<net name="R/!W!" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="!WE"/>
 <wire x1="71.12" y1="167.64" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
@@ -29044,74 +29039,62 @@ $F80000 - $FFFFFF: RTC</text>
 </net>
 <net name="GPIO_OUT2" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OP2"/>
-<wire x1="45.72" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="149.86" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="157.48" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="GPIO_OUT3" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OP3"/>
 <wire x1="45.72" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="147.32" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="GPIO_OUT3" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="147.32" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="GPIO_OUT4" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OP4"/>
 <wire x1="45.72" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="144.78" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="GPIO_OUT4" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="137.16" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="GPIO_OUT5" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OP5"/>
 <wire x1="45.72" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="142.24" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="GPIO_OUT5" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="127" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="GPIO_OUT6" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OP6"/>
 <wire x1="45.72" y1="139.7" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="139.7" x2="53.34" y2="137.16" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="GPIO_OUT6" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="116.84" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="GPIO_OUT7" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OP7"/>
 <wire x1="45.72" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="137.16" x2="53.34" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="106.68" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="68681_XTAL2" class="0">
@@ -29170,14 +29153,6 @@ $F80000 - $FFFFFF: RTC</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="119.38" y1="147.32" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
-<junction x="119.38" y="157.48"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="A"/>
@@ -29189,34 +29164,6 @@ $F80000 - $FFFFFF: RTC</text>
 <segment>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="LED5" gate="G$1" pin="C"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="119.38" y1="167.64" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
-<junction x="119.38" y="177.8"/>
-<pinref part="LED7" gate="G$1" pin="C"/>
-<pinref part="LED8" gate="G$1" pin="C"/>
-<wire x1="119.38" y1="106.68" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
-<junction x="119.38" y="116.84"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="119.38" y1="127" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
-<junction x="119.38" y="137.16"/>
-<wire x1="119.38" y1="116.84" x2="119.38" y2="127" width="0.1524" layer="91"/>
-<junction x="119.38" y="127"/>
-<wire x1="119.38" y1="167.64" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
-<junction x="119.38" y="167.64"/>
-<junction x="119.38" y="106.68"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<junction x="127" y="106.68"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -29247,6 +29194,13 @@ $F80000 - $FFFFFF: RTC</text>
 <pinref part="IC13" gate="G$1" pin="T2OUT"/>
 <wire x1="106.68" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <label x="111.76" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="TIMER_CLK" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OP2"/>
+<wire x1="45.72" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="149.86" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
