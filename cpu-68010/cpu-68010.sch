@@ -18488,6 +18488,15 @@ extra wide body 8.9 mm/JEDEC MO-120AC</description>
 <rectangle x1="-8.5001" y1="4.5999" x2="-8.0099" y2="6.1199" layer="51"/>
 <rectangle x1="-9.7701" y1="4.5999" x2="-9.2799" y2="6.1199" layer="51"/>
 </package>
+<package name="1792863">
+<pad name="1" x="0" y="-0.1" drill="1.2" diameter="2.2"/>
+<pad name="2" x="5" y="0.1" drill="1.2" diameter="2.2"/>
+<wire x1="-3" y1="5" x2="8" y2="5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-5.5" x2="8" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="5" x2="-3" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="8" y1="5" x2="8" y2="-5.5" width="0.127" layer="21"/>
+<text x="-3" y="5" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL32" urn="urn:adsk.eagle:package:18076/2" type="model">
@@ -18779,6 +18788,18 @@ extra wide body 8.9 mm/JEDEC MO-120AC</description>
 <pin name="D5" x="25.4" y="-15.24" length="middle" rot="R180"/>
 <pin name="D6" x="25.4" y="-17.78" length="middle" rot="R180"/>
 <pin name="D7" x="25.4" y="-20.32" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MA02-1">
+<wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<text x="-1.27" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19252,6 +19273,28 @@ extra wide body 8.9 mm/JEDEC MO-120AC</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1792863" prefix="SV">
+<description>&lt;h1&gt;PCB terminal block - PTS 1,5/ 2-5,0-H - 1792863&lt;/h1&gt;
+&lt;p&gt;&lt;span style="color: #0a0;"&gt;Footprint Proven&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1792863&amp;library=usen&amp;tab=1"&gt;Information&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MA02-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1792863">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="651-1792863" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -24433,10 +24476,10 @@ Source: www.kingbright.com</description>
 <part name="LED9" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="YEL">
 <attribute name="MOUSER" value="710-156120YS75300"/>
 </part>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="YEL">
@@ -24445,10 +24488,10 @@ Source: www.kingbright.com</description>
 <part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="YEL">
 <attribute name="MOUSER" value="710-156120YS75300"/>
 </part>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="YEL">
@@ -24457,16 +24500,16 @@ Source: www.kingbright.com</description>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="YEL">
 <attribute name="MOUSER" value="710-156120YS75300"/>
 </part>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="YEL">
 <attribute name="MOUSER" value="710-156120YS75300"/>
 </part>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="LED10" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="YEL">
@@ -24538,7 +24581,7 @@ Source: www.kingbright.com</description>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="GRN">
@@ -24566,26 +24609,31 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="RED">
 <attribute name="MOUSER" value="710-156120RS75300"/>
 </part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="2k">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="RED">
 <attribute name="MOUSER" value="710-156120RS75300"/>
 </part>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="SV1" library="68komputer" deviceset="1792863" device=""/>
+<part name="P+32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>External bus connection, power</description>
 <plain>
 <text x="215.9" y="81.28" size="2.54" layer="97" align="top-center">External bus I/F</text>
+<text x="5.08" y="88.9" size="2.54" layer="97">Unused gates connected to GND</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -24968,6 +25016,43 @@ Source: www.kingbright.com</description>
 <instance part="P+1" gate="1" x="7.62" y="45.72" smashed="yes" rot="R90">
 <attribute name="VALUE" x="5.08" y="45.72" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="SV1" gate="G$1" x="10.16" y="76.2" smashed="yes">
+<attribute name="VALUE" x="8.89" y="68.58" size="1.778" layer="96"/>
+<attribute name="NAME" x="8.89" y="79.502" size="1.778" layer="95"/>
+</instance>
+<instance part="P+32" gate="1" x="20.32" y="76.2" smashed="yes" rot="R270">
+<attribute name="VALUE" x="22.86" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="GND41" gate="1" x="20.32" y="73.66" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="71.12" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC2" gate="F" x="20.32" y="172.72" smashed="yes">
+<attribute name="NAME" x="22.86" y="175.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.86" y="167.64" size="1.778" layer="96"/>
+</instance>
+<instance part="IC17" gate="C" x="17.78" y="157.48" smashed="yes">
+<attribute name="NAME" x="20.32" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="20.32" y="152.4" size="1.778" layer="96"/>
+</instance>
+<instance part="IC17" gate="D" x="17.78" y="142.24" smashed="yes">
+<attribute name="NAME" x="20.32" y="145.415" size="1.778" layer="95"/>
+<attribute name="VALUE" x="20.32" y="137.16" size="1.778" layer="96"/>
+</instance>
+<instance part="IC7" gate="D" x="20.32" y="127" smashed="yes">
+<attribute name="NAME" x="21.59" y="130.175" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.59" y="121.92" size="1.778" layer="96"/>
+</instance>
+<instance part="IC7" gate="E" x="20.32" y="114.3" smashed="yes">
+<attribute name="NAME" x="21.59" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.59" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="IC7" gate="F" x="20.32" y="101.6" smashed="yes">
+<attribute name="NAME" x="21.59" y="104.775" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.59" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="GND42" gate="1" x="10.16" y="99.06" smashed="yes">
+<attribute name="VALUE" x="7.62" y="96.52" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="A[1..23],!AS,!BERR,!BG,!BGACK,!BR,CLK,D[0..15],E,!EXT_DTACK,!EXT_IRQ,FC[0..2],!HALT,!IPL[0..2],!LDS,R!W!,!UDS,!VMA,!VPA">
@@ -25018,6 +25103,10 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="2"/>
+<pinref part="P+32" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -25083,6 +25172,17 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="F" pin="I"/>
+<pinref part="IC7" gate="F" pin="I"/>
+<wire x1="10.16" y1="172.72" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+<junction x="10.16" y="101.6"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -27789,8 +27889,9 @@ No waitstates are inserted</text>
 <plain>
 <text x="33.02" y="177.8" size="1.778" layer="97" align="bottom-center">High ROM</text>
 <text x="86.36" y="177.8" size="1.778" layer="97" align="bottom-center">Low ROM</text>
-<text x="149.86" y="33.02" size="2.54" layer="94" align="top-left">ROM is decoded for $000000-$0FFFFF (1MB)
-No waitstates are inserted</text>
+<text x="149.86" y="34.29" size="2.54" layer="94" align="top-left">ROM is decoded for $000000-$0FFFFF (1MB)
+No waitstates are inserted
+IC12, IC13 should be socketed (32 pin DIP)</text>
 <text x="60.96" y="104.14" size="1.778" layer="97" align="top-center">IC3/IC4 can be one of SST39SF0[1,2,4]0</text>
 </plain>
 <instances>
@@ -28288,6 +28389,7 @@ $F80000 - $FFFFFF: RTC</text>
 /68681_CS: ~(~A[19] &amp; ~REGION[15])
 /RTC_CS: ~(A[19] &amp; ~REGION[15])</text>
 <wire x1="73.66" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="94"/>
+<text x="149.86" y="33.02" size="2.54" layer="94" align="top-left">IC15 should be socketed (28 pin DIP)</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
