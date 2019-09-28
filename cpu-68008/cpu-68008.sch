@@ -23103,7 +23103,7 @@ square</description>
 </instance>
 </instances>
 <busses>
-<bus name="68681_CLK,!68681_CS,!68681_DTACK,!68681_IACK,68681_IRQ,A[0..19],D[0..7],IO_IN[0..5],IO_OUT[0..5],!IPL1,!OE,OUT[0..1],!RESET,!RTC_CS,R/!W!,STATUS[0..1],UART0_RX,UART0_TX,UART1_RX,UART1_TX">
+<bus name="68681_CLK,!68681_CS,!68681_DTACK,!68681_IACK,!68681_IRQ,A[0..19],D[0..7],IO_IN[0..5],IO_OUT[0..5],!IPL1,!OE,OUT[0..1],!RESET,!RTC_CS,R/!W!,STATUS[0..1],UART0_RX,UART0_TX,UART1_RX,UART1_TX">
 <segment>
 <wire x1="25.4" y1="177.8" x2="68.58" y2="177.8" width="0.762" layer="92"/>
 <wire x1="68.58" y1="177.8" x2="71.12" y2="177.8" width="0.762" layer="92"/>
@@ -23123,7 +23123,7 @@ square</description>
 <label x="198.12" y="83.82" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="A[0..19],!AS,!BERR,!BG,!BR,!BUS_DTACK,!BUS_IRQ,CLK,D[0..7],!DS,!DTACK,E,FC[0..2],!HALT,!RESET,R/!W!,!VPA">
+<bus name="A[0..19],!AS,!BERR,!BG,!BR,!BUS_CS,!BUS_DTACK,!BUS_IRQ,CLK,D[0..7],!DS,!DTACK,E,FC[0..2],!HALT,!RESET,R/!W!,!VPA">
 <segment>
 <wire x1="71.12" y1="33.02" x2="71.12" y2="2.54" width="0.762" layer="92"/>
 <wire x1="71.12" y1="2.54" x2="101.6" y2="2.54" width="0.762" layer="92"/>
@@ -23908,7 +23908,7 @@ square</description>
 <wire x1="220.98" y1="93.98" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="68681_IRQ" class="0">
+<net name="!68681_IRQ" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="!INTR"/>
 <wire x1="60.96" y1="157.48" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
@@ -24053,6 +24053,13 @@ square</description>
 <pinref part="SV6" gate="1" pin="6"/>
 <wire x1="78.74" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="12.7" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!BUS_CS" class="0">
+<segment>
+<pinref part="SV6" gate="1" pin="7"/>
+<wire x1="93.98" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="15.24" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -24264,6 +24271,11 @@ C9, C12 for IC6</text>
 <wire x1="231.14" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
 <label x="236.22" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="IN1"/>
+<wire x1="48.26" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="43.18" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -24304,12 +24316,22 @@ C9, C12 for IC6</text>
 <wire x1="167.64" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
 <label x="172.72" y="137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="TMS"/>
+<wire x1="48.26" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
+<label x="43.18" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPLD_TDI" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="4"/>
 <wire x1="167.64" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <label x="172.72" y="139.7" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="TDI"/>
+<wire x1="48.26" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
+<label x="43.18" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPLD_TDO" class="0">
@@ -24318,12 +24340,22 @@ C9, C12 for IC6</text>
 <wire x1="167.64" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
 <label x="172.72" y="142.24" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="TDO"/>
+<wire x1="48.26" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+<label x="43.18" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPLD_TCK" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="6"/>
 <wire x1="167.64" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
 <label x="172.72" y="144.78" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="TCK"/>
+<wire x1="48.26" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
+<label x="43.18" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!BUS_DTACK" class="0">
@@ -24351,7 +24383,7 @@ C9, C12 for IC6</text>
 <segment>
 <pinref part="IC6" gate="G$1" pin="IO40"/>
 <wire x1="83.82" y1="124.46" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
-<label x="86.36" y="124.46" size="1.778" layer="95" xref="yes"/>
+<label x="88.9" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FC2" class="0">
@@ -24380,6 +24412,139 @@ C9, C12 for IC6</text>
 <pinref part="IC6" gate="G$1" pin="IO9"/>
 <wire x1="48.26" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 <label x="43.18" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!BUS_CS" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO11"/>
+<wire x1="48.26" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
+<label x="43.18" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!RTC_CS" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO28"/>
+<wire x1="83.82" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
+<label x="88.9" y="144.78" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!RAM_CS" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO29"/>
+<wire x1="83.82" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
+<label x="88.9" y="142.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!ROM_CS" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO31"/>
+<wire x1="83.82" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
+<label x="88.9" y="139.7" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!68681_DTACK" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO17"/>
+<wire x1="83.82" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<label x="88.9" y="167.64" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!OE" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO33"/>
+<wire x1="83.82" y1="137.16" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
+<label x="88.9" y="137.16" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A19" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO39"/>
+<wire x1="83.82" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
+<label x="88.9" y="127" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A18" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO37"/>
+<wire x1="83.82" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
+<label x="88.9" y="129.54" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A17" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO36"/>
+<wire x1="83.82" y1="132.08" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
+<label x="88.9" y="132.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A16" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO34"/>
+<wire x1="83.82" y1="134.62" x2="88.9" y2="134.62" width="0.1524" layer="91"/>
+<label x="88.9" y="134.62" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!HALT" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO27"/>
+<wire x1="83.82" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
+<label x="88.9" y="147.32" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!DTACK" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO20"/>
+<wire x1="83.82" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
+<label x="88.9" y="160.02" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A15" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO21"/>
+<wire x1="83.82" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
+<label x="88.9" y="157.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!AS" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO24"/>
+<wire x1="83.82" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
+<label x="88.9" y="154.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="R/!W!" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO25"/>
+<wire x1="83.82" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
+<label x="88.9" y="152.4" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!RESET" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO26"/>
+<wire x1="83.82" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
+<label x="88.9" y="149.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!68681_CS" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO14"/>
+<wire x1="83.82" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
+<label x="88.9" y="172.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!68681_IACK" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO12"/>
+<wire x1="48.26" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
+<label x="43.18" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!68681_IRQ" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="IO16"/>
+<wire x1="83.82" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
+<label x="88.9" y="170.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
