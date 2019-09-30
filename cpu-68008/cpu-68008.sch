@@ -22957,15 +22957,6 @@ square</description>
 <attribute name="MOUSER" value="710-156120VS75300"/>
 </part>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="+" pinorder="1"/>
-<pinmap gate="G$1" pin="-" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MOUSER" value="581-TAJD476M016RNJV"/>
-</part>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF">
 <attribute name="MOUSER" value="710-885012107015"/>
 </part>
@@ -23358,18 +23349,13 @@ square</description>
 <attribute name="NAME" x="234.823" y="178.2826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="234.823" y="173.2026" size="1.778" layer="96"/>
 </instance>
-<instance part="C24" gate="G$1" x="27.94" y="17.78" smashed="yes">
-<attribute name="MOUSER" x="27.94" y="17.78" size="1.27" layer="96" display="off"/>
-<attribute name="NAME" x="29.083" y="18.2626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="29.083" y="13.1826" size="1.778" layer="96"/>
+<instance part="C25" gate="G$1" x="27.94" y="17.78" smashed="yes">
+<attribute name="MOUSER" x="27.94" y="17.78" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="29.464" y="18.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.464" y="13.081" size="1.778" layer="96"/>
 </instance>
-<instance part="C25" gate="G$1" x="38.1" y="17.78" smashed="yes">
-<attribute name="MOUSER" x="38.1" y="17.78" size="1.27" layer="96" align="top-center" display="off"/>
-<attribute name="NAME" x="39.624" y="18.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.624" y="13.081" size="1.778" layer="96"/>
-</instance>
-<instance part="P+24" gate="1" x="48.26" y="22.86" smashed="yes">
-<attribute name="VALUE" x="48.26" y="22.86" size="1.778" layer="96"/>
+<instance part="P+24" gate="1" x="35.56" y="22.86" smashed="yes">
+<attribute name="VALUE" x="35.56" y="22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="124.46" y="17.78" smashed="yes">
 <attribute name="NAME" x="120.65" y="19.2786" size="1.778" layer="95"/>
@@ -23450,10 +23436,10 @@ square</description>
 <instance part="GND28" gate="1" x="7.62" y="12.7" smashed="yes">
 <attribute name="VALUE" x="5.08" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="C21" gate="G$1" x="48.26" y="17.78" smashed="yes">
-<attribute name="MOUSER" x="48.26" y="17.78" size="1.27" layer="96" align="top-center" display="off"/>
-<attribute name="NAME" x="49.784" y="18.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.784" y="13.081" size="1.778" layer="96"/>
+<instance part="C21" gate="G$1" x="35.56" y="17.78" smashed="yes">
+<attribute name="MOUSER" x="35.56" y="17.78" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="37.084" y="18.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="37.084" y="13.081" size="1.778" layer="96"/>
 </instance>
 <instance part="GND29" gate="1" x="27.94" y="10.16" smashed="yes">
 <attribute name="VALUE" x="25.4" y="7.62" size="1.778" layer="96"/>
@@ -23573,16 +23559,13 @@ square</description>
 <wire x1="22.86" y1="17.78" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <junction x="22.86" y="17.78"/>
 <wire x1="22.86" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="+"/>
-<wire x1="27.94" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
-<junction x="27.94" y="20.32"/>
 <pinref part="C25" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
-<junction x="38.1" y="20.32"/>
+<wire x1="27.94" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
+<junction x="27.94" y="20.32"/>
 <pinref part="P+24" gate="1" pin="+5V"/>
-<junction x="48.26" y="20.32"/>
+<junction x="35.56" y="20.32"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<junction x="48.26" y="20.32"/>
+<junction x="35.56" y="20.32"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
@@ -23676,13 +23659,10 @@ square</description>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="-"/>
-<junction x="38.1" y="12.7"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="GND29" gate="1" pin="GND"/>
 <junction x="27.94" y="12.7"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
