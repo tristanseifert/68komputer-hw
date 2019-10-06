@@ -23133,7 +23133,7 @@ square</description>
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
 <part name="IC2" library="68komputer" deviceset="AS6C4008" device="" package3d_urn="urn:adsk.eagle:package:18076/2" value="AS6C4008"/>
-<part name="IC6" library="68komputer" deviceset="ATF1504AS" device="PLCC44-SOCKET"/>
+<part name="IC6" library="68komputer" deviceset="ATF1504AS" device="PLCC44-SOCKET" value="ATF1504AS"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -23246,6 +23246,15 @@ square</description>
 </part>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
+</part>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
 </part>
 </parts>
 <sheets>
@@ -23472,6 +23481,11 @@ square</description>
 <instance part="P+19" gate="1" x="121.92" y="83.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="124.46" y="83.82" size="1.778" layer="96"/>
 </instance>
+<instance part="R23" gate="G$1" x="114.3" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="118.11" y="74.7014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="118.11" y="79.502" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="114.3" y="76.2" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
 </instances>
 <busses>
 <bus name="A[0..19],!AS,!BERR,!BG,!BR,CLK,D[0..7],!DS,!DTACK,E,FC[0..2],!HALT,!IPL0/2,!IPL1,!RESET,R/!W!,!VPA">
@@ -23498,7 +23512,7 @@ square</description>
 <wire x1="68.58" y1="101.6" x2="68.58" y2="38.1" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="!BG,!BR,!VPA">
+<bus name="!BERR,!BG,!BR,!VPA">
 <segment>
 <wire x1="101.6" y1="101.6" x2="101.6" y2="38.1" width="0.762" layer="92"/>
 </segment>
@@ -23578,6 +23592,9 @@ square</description>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="P+19" gate="1" pin="+5V"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="83.82" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<junction x="119.38" y="83.82"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -24345,6 +24362,11 @@ square</description>
 <pinref part="IC1" gate="G$1" pin="BERR"/>
 <wire x1="17.78" y1="147.32" x2="12.7" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="147.32" x2="10.16" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="76.2" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!BR" class="0">
