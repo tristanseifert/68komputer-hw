@@ -22930,9 +22930,12 @@ Based on the following sources:
 </classes>
 <parts>
 <part name="FRAME101" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="IC101" library="68komputer" deviceset="MC68008P" device="" package3d_urn="urn:adsk.eagle:package:19779/1" value="68008"/>
+<part name="IC101" library="68komputer" deviceset="MC68008P" device="" package3d_urn="urn:adsk.eagle:package:19779/1" value="68008">
+<attribute name="MOUSER_SOCKET" value="517-4848-6004-CP"/>
+</part>
 <part name="Q101" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="XO-" device="8" package3d_urn="urn:adsk.eagle:package:12069/1" value="8MHz">
 <attribute name="MOUSER" value="774-MXO45HS-3C-8.0"/>
+<attribute name="MOUSER_SOCKET" value="535-1108800"/>
 </part>
 <part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
@@ -22957,6 +22960,7 @@ Based on the following sources:
 <part name="GND109" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC103" library="68komputer" deviceset="SST39SF0X0" device="PDIP32" package3d_urn="urn:adsk.eagle:package:18076/2" value="39SF010">
 <attribute name="MOUSER" value="804-39SF010A7CPHE"/>
+<attribute name="MOUSER_SOCKET" value="517-4832-6000-CP"/>
 </part>
 <part name="P+104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+108" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -22969,7 +22973,9 @@ Based on the following sources:
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
 <part name="FRAME201" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="IC202" library="Parts" deviceset="DS1244" device="EDIP-28" package3d_urn="urn:adsk.eagle:package:826/2" value="DS1244Y"/>
+<part name="IC202" library="Parts" deviceset="DS1244" device="EDIP-28" package3d_urn="urn:adsk.eagle:package:826/2" value="DS1244Y">
+<attribute name="MOUSER_SOCKET" value="571-1-2199299-2"/>
+</part>
 <part name="P+205" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND209" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C203" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -23057,6 +23063,7 @@ Based on the following sources:
 <part name="P+101" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="IC201" library="68komputer" deviceset="MC68681" device="PLCC44-SOCKET" value="XR68C681">
 <attribute name="MOUSER" value="701-XR68C681CJ-F"/>
+<attribute name="MOUSER_SOCKET" value="940-44-044-24-000000"/>
 </part>
 <part name="GND201" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+201" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -23202,7 +23209,9 @@ Based on the following sources:
 <part name="C204" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
-<part name="IC102" library="68komputer" deviceset="AS6C4008" device="" package3d_urn="urn:adsk.eagle:package:18076/2" value="AS6C4008"/>
+<part name="IC102" library="68komputer" deviceset="AS6C4008" device="" package3d_urn="urn:adsk.eagle:package:18076/2" value="AS6C4008">
+<attribute name="MOUSER_SOCKET" value="517-4832-6000-CP"/>
+</part>
 <part name="C305" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
@@ -23255,8 +23264,8 @@ Based on the following sources:
 </part>
 <part name="P+207" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND213" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q201" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1" value=" 3.6864 MHz ">
-<attribute name="MOUSER" value=" 669-E1UFA18-3.6864M "/>
+<part name="Q201" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1" value="3.6864 MHz ">
+<attribute name="MOUSER" value="815-ABL-3.6864-B2"/>
 </part>
 <part name="R203" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="100R">
 <spice>
@@ -23355,11 +23364,13 @@ Based on the following sources:
 <instance part="IC101" gate="G$1" x="38.1" y="134.62" smashed="yes">
 <attribute name="NAME" x="22.86" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="22.86" y="93.98" size="1.778" layer="96"/>
+<attribute name="MOUSER_SOCKET" x="38.1" y="134.62" size="1.778" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="Q101" gate="G$1" x="205.74" y="139.7" smashed="yes">
 <attribute name="NAME" x="198.12" y="147.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="198.12" y="129.54" size="1.778" layer="96"/>
 <attribute name="MOUSER" x="205.74" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_SOCKET" x="205.74" y="139.7" size="1.778" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="C103" gate="G$1" x="180.34" y="177.8" smashed="yes">
 <attribute name="MOUSER" x="180.34" y="177.8" size="1.27" layer="96" align="top-center" display="off"/>
@@ -23397,6 +23408,7 @@ Based on the following sources:
 <instance part="IC103" gate="G$1" x="129.54" y="170.18" smashed="yes">
 <attribute name="NAME" x="129.54" y="170.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="109.22" size="1.778" layer="96" align="top-left"/>
+<attribute name="MOUSER_SOCKET" x="129.54" y="170.18" size="1.778" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="P+104" gate="1" x="109.22" y="114.3" smashed="yes" rot="R270">
 <attribute name="VALUE" x="104.14" y="116.84" size="1.778" layer="96"/>
@@ -23523,6 +23535,7 @@ Based on the following sources:
 <instance part="IC102" gate="G$1" x="81.28" y="170.18" smashed="yes">
 <attribute name="NAME" x="81.28" y="170.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="109.22" size="1.778" layer="95" align="top-left"/>
+<attribute name="MOUSER_SOCKET" x="81.28" y="170.18" size="1.778" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="R111" gate="G$1" x="114.3" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="118.11" y="97.5614" size="1.778" layer="95" rot="R180"/>
@@ -24465,6 +24478,7 @@ SV204: GPIOs</text>
 <instance part="IC202" gate="G$1" x="83.82" y="172.72" smashed="yes">
 <attribute name="VALUE" x="83.82" y="121.92" size="1.778" layer="96" align="top-left"/>
 <attribute name="NAME" x="83.82" y="172.72" size="1.778" layer="95"/>
+<attribute name="MOUSER_SOCKET" x="83.82" y="172.72" size="1.778" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="P+205" gate="1" x="114.3" y="127" smashed="yes" rot="R270">
 <attribute name="VALUE" x="109.22" y="129.54" size="1.778" layer="96"/>
@@ -24518,6 +24532,7 @@ SV204: GPIOs</text>
 <attribute name="NAME" x="35.56" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="35.56" y="106.68" size="1.778" layer="96" align="top-left"/>
 <attribute name="MOUSER" x="45.72" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_SOCKET" x="45.72" y="142.24" size="1.778" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="GND201" gate="1" x="30.48" y="106.68" smashed="yes">
 <attribute name="VALUE" x="27.94" y="104.14" size="1.778" layer="96"/>
