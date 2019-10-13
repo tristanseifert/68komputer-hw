@@ -1,0 +1,32 @@
+GAL22V10
+ADDRDECO
+
+Clock FC2	FC1	FC0	RW	/AS	A15	A16		A17	A18		A19	GND
+NC	/UARTCS	/RTCCS	/RAMCS	/ROMCS	/OE	/IACK	/NEEDDTAK	NC	/BERRTCLR	/BUSCS	VCC
+
+; ROM is at $00000 - $1FFFF
+ROMCS = AS * /A19 * /A18 * /A17
+; RAM is at $80000 - $FFFFF
+RAMCS = AS * A19
+; DUART/68681 is at $20000 - $27FFF
+UARTCS = AS * /A19 * /A18 * A17 * /A16 * /A15
+; RTC is at $28000 - $2FFFF
+RTCCS = AS * /A19 * /A18 * A17 * /A16 * A15
+; bus is at $30000 - $7FFFF (rn start at $40000!)
+;BUSCS = AS * /A19 * ((/A18 * A17 * A16) + A18)
+BUSCS = AS * /A19 * A18
+
+; whether DTACK should be generated: this is yes for all but the bus and DUART
+NEEDDTAK = AS * /UARTCS
+
+; signal an interrupt acknowledge cycle
+IACK = FC2 * FC1 * FC0 * A19 * A18 * A17 * A16
+
+; OE is just inverted RW but gate it to address valid
+OE = AS * /RW
+
+; reset the bus error timer when the address strobe goes high
+BERRTCLR = /AS
+
+DESCRIPTION
+Basic address decoding for the system.
