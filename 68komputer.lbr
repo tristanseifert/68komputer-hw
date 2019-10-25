@@ -8976,7 +8976,9 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:26839/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="GAL22V10D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
