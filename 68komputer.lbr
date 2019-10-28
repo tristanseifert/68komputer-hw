@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -5378,6 +5378,61 @@ square</description>
 <text x="-15.494" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-9.398" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="DIL24" urn="urn:adsk.eagle:footprint:19817/1">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="-15.24" y1="6.731" x2="-15.24" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-6.731" x2="-15.24" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="1.016" x2="-15.24" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-15.24" y1="-6.731" x2="15.24" y2="-6.731" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="6.731" x2="15.24" y2="-6.731" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="6.731" x2="-15.24" y2="6.731" width="0.1524" layer="21"/>
+<pad name="1" x="-13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="-1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="-3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="-6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="-8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="-11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="-13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<text x="-15.494" y="-6.731" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-11.303" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="DIL8" urn="urn:adsk.eagle:footprint:20613/1">
+<description>&lt;B&gt;Dual In Line&lt;/B&gt;&lt;p&gt;
+package type P</description>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21" curve="180"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90" first="yes"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-5.2578" y="-2.54" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="7.239" y="-2.54" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC8" urn="urn:adsk.eagle:package:16475/2" type="model">
@@ -5530,6 +5585,19 @@ square</description>
 <description>Dual In Line Package Small</description>
 <packageinstances>
 <packageinstance name="DIL24S"/>
+</packageinstances>
+</package3d>
+<package3d name="DIL24" urn="urn:adsk.eagle:package:19955/2" type="model">
+<description>Dual In Line Package</description>
+<packageinstances>
+<packageinstance name="DIL24"/>
+</packageinstances>
+</package3d>
+<package3d name="DIL8" urn="urn:adsk.eagle:package:20796/2" type="model">
+<description>Dual In Line
+package type P</description>
+<packageinstances>
+<packageinstance name="DIL8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6866,6 +6934,96 @@ square</description>
 <pin name="IO21" x="27.94" y="-20.32" length="middle" rot="R180"/>
 <pin name="IO22" x="27.94" y="-22.86" length="middle" rot="R180"/>
 <pin name="IO23" x="27.94" y="-25.4" length="middle" rot="R180"/>
+</symbol>
+<symbol name="YM3812">
+<wire x1="0" y1="0" x2="0" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="0" y1="-38.1" x2="17.78" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-38.1" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-38.1" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="D0" x="-5.08" y="-2.54" length="middle"/>
+<pin name="D1" x="-5.08" y="-5.08" length="middle"/>
+<pin name="D2" x="-5.08" y="-7.62" length="middle"/>
+<pin name="D3" x="-5.08" y="-10.16" length="middle"/>
+<pin name="D4" x="-5.08" y="-12.7" length="middle"/>
+<pin name="D5" x="-5.08" y="-15.24" length="middle"/>
+<pin name="D6" x="-5.08" y="-17.78" length="middle"/>
+<pin name="D7" x="-5.08" y="-20.32" length="middle"/>
+<pin name="A0" x="-5.08" y="-25.4" length="middle" direction="in"/>
+<pin name="!CS" x="-5.08" y="-30.48" length="middle" direction="in" function="dot"/>
+<pin name="!WR" x="-5.08" y="-33.02" length="middle" direction="in" function="dot"/>
+<pin name="!RD" x="-5.08" y="-35.56" length="middle" direction="in" function="dot"/>
+<pin name="CLK" x="22.86" y="-2.54" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="DACCLK" x="22.86" y="-10.16" length="middle" direction="out" function="clk" rot="R180"/>
+<pin name="DACSY" x="22.86" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="DACMO" x="22.86" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="!IRQ" x="22.86" y="-20.32" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="!RESET" x="22.86" y="-5.08" length="middle" direction="in" function="dot" rot="R180"/>
+<pin name="GND" x="22.86" y="-35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="22.86" y="-33.02" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="YM3014">
+<wire x1="0" y1="0" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-17.78" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="0" y="0" size="1.778" layer="96">&gt;NAME</text>
+<pin name="GND" x="-5.08" y="-15.24" length="middle" direction="pwr"/>
+<pin name="VDD" x="-5.08" y="-12.7" length="middle" direction="pwr"/>
+<pin name="DATA" x="-5.08" y="-5.08" length="middle" direction="in"/>
+<pin name="SYNC" x="-5.08" y="-7.62" length="middle" direction="in"/>
+<pin name="CLK" x="-5.08" y="-2.54" length="middle" direction="in" function="clk"/>
+<pin name="BUFF" x="22.86" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="RB" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="MP" x="22.86" y="-7.62" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="AY-3-8910">
+<wire x1="0" y1="0" x2="0" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="0" y1="-63.5" x2="22.86" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-63.5" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-63.5" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
+<pin name="DA0" x="-5.08" y="-10.16" length="middle"/>
+<pin name="DA1" x="-5.08" y="-12.7" length="middle"/>
+<pin name="DA2" x="-5.08" y="-15.24" length="middle"/>
+<pin name="DA3" x="-5.08" y="-17.78" length="middle"/>
+<pin name="DA4" x="-5.08" y="-20.32" length="middle"/>
+<pin name="DA5" x="-5.08" y="-22.86" length="middle"/>
+<pin name="DA6" x="-5.08" y="-25.4" length="middle"/>
+<pin name="DA7" x="-5.08" y="-27.94" length="middle"/>
+<pin name="CLK" x="-5.08" y="-2.54" length="middle" direction="in" function="clk"/>
+<pin name="!RESET" x="-5.08" y="-5.08" length="middle" direction="in" function="dot"/>
+<pin name="BC1" x="-5.08" y="-33.02" length="middle" direction="in"/>
+<pin name="BC2" x="-5.08" y="-35.56" length="middle" direction="in"/>
+<pin name="BDIR" x="-5.08" y="-38.1" length="middle" direction="in"/>
+<pin name="A8" x="-5.08" y="-43.18" length="middle" direction="in"/>
+<pin name="!A9" x="-5.08" y="-45.72" length="middle" direction="in" function="dot"/>
+<pin name="TEST1" x="-5.08" y="-50.8" length="middle" direction="pas"/>
+<pin name="TEST2" x="-5.08" y="-53.34" length="middle" direction="pas"/>
+<pin name="VCC" x="-5.08" y="-58.42" length="middle" direction="pwr"/>
+<pin name="GND" x="-5.08" y="-60.96" length="middle" direction="pwr"/>
+<pin name="OUTA" x="27.94" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="OUTB" x="27.94" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="OUTC" x="27.94" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="IOA0" x="27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="IOA1" x="27.94" y="-15.24" length="middle" rot="R180"/>
+<pin name="IOA2" x="27.94" y="-17.78" length="middle" rot="R180"/>
+<pin name="IOA3" x="27.94" y="-20.32" length="middle" rot="R180"/>
+<pin name="IOA4" x="27.94" y="-22.86" length="middle" rot="R180"/>
+<pin name="IOA5" x="27.94" y="-25.4" length="middle" rot="R180"/>
+<pin name="IOA6" x="27.94" y="-27.94" length="middle" rot="R180"/>
+<pin name="IOA7" x="27.94" y="-30.48" length="middle" rot="R180"/>
+<pin name="IOB0" x="27.94" y="-35.56" length="middle" rot="R180"/>
+<pin name="IOB1" x="27.94" y="-38.1" length="middle" rot="R180"/>
+<pin name="IOB2" x="27.94" y="-40.64" length="middle" rot="R180"/>
+<pin name="IOB3" x="27.94" y="-43.18" length="middle" rot="R180"/>
+<pin name="IOB4" x="27.94" y="-45.72" length="middle" rot="R180"/>
+<pin name="IOB5" x="27.94" y="-48.26" length="middle" rot="R180"/>
+<pin name="IOB6" x="27.94" y="-50.8" length="middle" rot="R180"/>
+<pin name="IOB7" x="27.94" y="-53.34" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8978,6 +9136,135 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="GAL22V10D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="YM3812" prefix="IC">
+<description>&lt;h1&gt;YM3812 – FM Operator Type-L Ⅱ (OPL2)&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.symphoniae.com/Yamaha/YSC/YM3812.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="YM3812" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIL24" package="DIL24">
+<connects>
+<connect gate="G$1" pin="!CS" pad="7"/>
+<connect gate="G$1" pin="!IRQ" pad="2"/>
+<connect gate="G$1" pin="!RD" pad="6"/>
+<connect gate="G$1" pin="!RESET" pad="3"/>
+<connect gate="G$1" pin="!WR" pad="5"/>
+<connect gate="G$1" pin="A0" pad="4"/>
+<connect gate="G$1" pin="CLK" pad="24"/>
+<connect gate="G$1" pin="D0" pad="10"/>
+<connect gate="G$1" pin="D1" pad="11"/>
+<connect gate="G$1" pin="D2" pad="13"/>
+<connect gate="G$1" pin="D3" pad="14"/>
+<connect gate="G$1" pin="D4" pad="15"/>
+<connect gate="G$1" pin="D5" pad="16"/>
+<connect gate="G$1" pin="D6" pad="17"/>
+<connect gate="G$1" pin="D7" pad="18"/>
+<connect gate="G$1" pin="DACCLK" pad="23"/>
+<connect gate="G$1" pin="DACMO" pad="21"/>
+<connect gate="G$1" pin="DACSY" pad="20"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19955/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="YM3812" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="YM3014B" prefix="IC">
+<description>&lt;h1&gt;YM3014 – Floating D/A Converter (for YM3812)&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.atkinsoft.com/datasheets/YM3014B.PDF"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="YM3014" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIL8" package="DIL8">
+<connects>
+<connect gate="G$1" pin="BUFF" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="DATA" pad="4"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MP" pad="8"/>
+<connect gate="G$1" pin="RB" pad="7"/>
+<connect gate="G$1" pin="SYNC" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20796/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="YM3014B" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AY-3-8910" prefix="IC">
+<description>&lt;h1&gt;AY-3-8910 – Programmable Sound Generator&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.ym2149.com/ay8910.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="AY-3-8910" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL40">
+<connects>
+<connect gate="G$1" pin="!A9" pad="24"/>
+<connect gate="G$1" pin="!RESET" pad="23"/>
+<connect gate="G$1" pin="A8" pad="25"/>
+<connect gate="G$1" pin="BC1" pad="29"/>
+<connect gate="G$1" pin="BC2" pad="28"/>
+<connect gate="G$1" pin="BDIR" pad="27"/>
+<connect gate="G$1" pin="CLK" pad="22"/>
+<connect gate="G$1" pin="DA0" pad="37"/>
+<connect gate="G$1" pin="DA1" pad="36"/>
+<connect gate="G$1" pin="DA2" pad="35"/>
+<connect gate="G$1" pin="DA3" pad="34"/>
+<connect gate="G$1" pin="DA4" pad="33"/>
+<connect gate="G$1" pin="DA5" pad="32"/>
+<connect gate="G$1" pin="DA6" pad="31"/>
+<connect gate="G$1" pin="DA7" pad="30"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IOA0" pad="21"/>
+<connect gate="G$1" pin="IOA1" pad="20"/>
+<connect gate="G$1" pin="IOA2" pad="19"/>
+<connect gate="G$1" pin="IOA3" pad="18"/>
+<connect gate="G$1" pin="IOA4" pad="17"/>
+<connect gate="G$1" pin="IOA5" pad="16"/>
+<connect gate="G$1" pin="IOA6" pad="15"/>
+<connect gate="G$1" pin="IOA7" pad="14"/>
+<connect gate="G$1" pin="IOB0" pad="13"/>
+<connect gate="G$1" pin="IOB1" pad="12"/>
+<connect gate="G$1" pin="IOB2" pad="11"/>
+<connect gate="G$1" pin="IOB3" pad="10"/>
+<connect gate="G$1" pin="IOB4" pad="9"/>
+<connect gate="G$1" pin="IOB5" pad="8"/>
+<connect gate="G$1" pin="IOB6" pad="7"/>
+<connect gate="G$1" pin="IOB7" pad="6"/>
+<connect gate="G$1" pin="OUTA" pad="4"/>
+<connect gate="G$1" pin="OUTB" pad="3"/>
+<connect gate="G$1" pin="OUTC" pad="38"/>
+<connect gate="G$1" pin="TEST1" pad="39"/>
+<connect gate="G$1" pin="TEST2" pad="26"/>
+<connect gate="G$1" pin="VCC" pad="40"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19651/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="AY-3-8910" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -23158,7 +23158,7 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MOUSER" value="652-CR0805FX-18R2ELF"/>
+<attribute name="MOUSER" value="652-CR0805FX-1004ELF"/>
 </part>
 <part name="C303" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
@@ -23185,7 +23185,7 @@ Based on the following sources:
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MOUSER" value="652-CR0805FX-18R2ELF"/>
+<attribute name="MOUSER" value="652-CR0805FX-1004ELF"/>
 </part>
 <part name="C304" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207078"/>
@@ -23325,7 +23325,9 @@ Based on the following sources:
 <part name="GND302" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND301" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND303" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC303" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*175" device="D" package3d_urn="urn:adsk.eagle:package:2010/1" technology="HC"/>
+<part name="IC303" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*175" device="D" package3d_urn="urn:adsk.eagle:package:2010/1" technology="HC">
+<attribute name="MOUSER" value="595-CD74HCT175M"/>
+</part>
 <part name="P+305" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND307" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C302" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -25810,6 +25812,7 @@ C307 shared for IC301/IC302</text>
 <instance part="IC303" gate="A" x="76.2" y="27.94" smashed="yes">
 <attribute name="NAME" x="68.58" y="43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.58" y="10.16" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="76.2" y="27.94" size="1.778" layer="96" align="top-left" display="off"/>
 </instance>
 <instance part="IC303" gate="P" x="162.56" y="137.16" smashed="yes">
 <attribute name="NAME" x="161.925" y="136.525" size="1.778" layer="95"/>
