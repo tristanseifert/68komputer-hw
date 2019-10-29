@@ -22743,7 +22743,7 @@ Select wait states for YM3812/AY-3-8910 with SV104/105</text>
 <label x="91.44" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="!YM_RD" class="0">
+<net name="!RD" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="IO20"/>
 <wire x1="91.44" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
@@ -22762,13 +22762,6 @@ Select wait states for YM3812/AY-3-8910 with SV104/105</text>
 <pinref part="IC101" gate="G$1" pin="IO17"/>
 <wire x1="91.44" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
 <label x="91.44" y="40.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!YM_WR" class="0">
-<segment>
-<pinref part="IC101" gate="G$1" pin="IO19"/>
-<wire x1="91.44" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
-<label x="91.44" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AY_BDIR" class="0">
@@ -22916,7 +22909,7 @@ CLK_C: 0.89488625 MHz</text>
 <label x="205.74" y="152.4" size="1.778" layer="95" rot="R270"/>
 </segment>
 </bus>
-<bus name="SLOT_A[0],SLOT_D[0..7],!YM_CS,!YM_RD">
+<bus name="!RD,SLOT_A[0],SLOT_D[0..7],SLOT_R/!W!,!YM_CS">
 <segment>
 <wire x1="30.48" y1="167.64" x2="30.48" y2="127" width="0.762" layer="92"/>
 <label x="27.94" y="129.54" size="1.778" layer="95" rot="R90"/>
@@ -23401,14 +23394,14 @@ CLK_C: 0.89488625 MHz</text>
 <wire x1="33.02" y1="137.16" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!YM_WR" class="0">
+<net name="SLOT_R/!W!" class="0">
 <segment>
 <pinref part="IC202" gate="G$1" pin="!WR"/>
 <wire x1="38.1" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="134.62" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!YM_RD" class="0">
+<net name="!RD" class="0">
 <segment>
 <pinref part="IC202" gate="G$1" pin="!RD"/>
 <wire x1="38.1" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
