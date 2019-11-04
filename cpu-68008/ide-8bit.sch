@@ -20949,6 +20949,11 @@ Based on the following sources:
 <wire x1="30.48" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 <label x="25.4" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC101" gate="G$1" pin="IN6"/>
+<wire x1="53.34" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
+<label x="48.26" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SLOT_A2" class="0">
 <segment>
