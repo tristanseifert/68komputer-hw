@@ -1,0 +1,61 @@
+Name     68komputer-008-IC302;
+PartNo   00;
+Date     10/29/2019;
+Revision 01;
+Designer Engineer;
+Company  None;
+Assembly None;
+Location None;
+Device   g22v10;
+
+/* *************** INPUT PINS *********************/
+PIN 1  = clock;
+
+/* external bus interface */
+PIN 4  = !BUS_DTACK;
+PIN 5  = !BUS_IRQ;
+
+/* from main PLD */
+PIN 6  = !REQUIRE_DTACK;
+PIN 7  = !IACK;
+
+/* reset circuitry */
+PIN 9  = RESET_IN; /* this is active HIGH */
+
+/* DUART connections */
+PIN 10 = !DUART_IACK;
+PIN 11 = !DUART_DTACK;
+PIN 13 = !DUART_IRQ;
+
+/* *************** OUTPUT PINS *********************/
+PIN 17 = !BERR;
+
+/* interrupts */
+PIN 18 = !IPL1;
+PIN 19 = !IPL02;
+
+/* bus control */
+PIN 20 = !DTACK;
+PIN 23 = !VPA;
+
+/* reset handling */
+PIN 21 = !HALT;
+PIN 22 = !RESET;
+
+
+/************ Reset ************/
+HALT = RESET_IN;
+HALT.OE = RESET_IN;
+
+RESET = RESET_IN;
+RESET.OE = RESET_IN;
+
+/************ Bus Control ************/
+/* interrupt acknowledge (autovectoring) for all IRQs */
+VPA = IACK;
+
+/* generate DTACK automagically if required */
+DTACK = (REQUIRE_DTACK) # (BUS_DTACK) # (DUART_DTACK);
+
+/* assert interrupts for DUART */
+IPL1 = DUART_IRQ;
