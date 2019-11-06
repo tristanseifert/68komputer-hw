@@ -7277,6 +7277,54 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 <pin name="MPO" x="27.94" y="-27.94" length="middle" direction="out" rot="R180"/>
 <pin name="RESET" x="27.94" y="-2.54" length="middle" direction="in" rot="R180"/>
 </symbol>
+<symbol name="TMSS9918">
+<wire x1="0" y1="0" x2="0" y2="-73.66" width="0.254" layer="94"/>
+<wire x1="0" y1="-73.66" x2="20.32" y2="-73.66" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-73.66" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-73.66" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
+<pin name="GND" x="-5.08" y="-71.12" length="middle" direction="pwr"/>
+<pin name="VCC" x="-5.08" y="-68.58" length="middle" direction="pwr"/>
+<pin name="CD0" x="-5.08" y="-20.32" length="middle"/>
+<pin name="CD1" x="-5.08" y="-22.86" length="middle"/>
+<pin name="CD2" x="-5.08" y="-25.4" length="middle"/>
+<pin name="CD3" x="-5.08" y="-27.94" length="middle"/>
+<pin name="CD4" x="-5.08" y="-30.48" length="middle"/>
+<pin name="CD5" x="-5.08" y="-33.02" length="middle"/>
+<pin name="CD6" x="-5.08" y="-35.56" length="middle"/>
+<pin name="CD7" x="-5.08" y="-38.1" length="middle"/>
+<pin name="!INT" x="-5.08" y="-15.24" length="middle" direction="out" function="dot"/>
+<pin name="!CSR" x="-5.08" y="-48.26" length="middle" direction="in" function="dot"/>
+<pin name="!CSW" x="-5.08" y="-50.8" length="middle" direction="in" function="dot"/>
+<pin name="MODE/A0" x="-5.08" y="-43.18" length="middle" direction="in"/>
+<pin name="XTAL1" x="-5.08" y="-2.54" length="middle" direction="pas" function="clk"/>
+<pin name="XTAL2" x="-5.08" y="-5.08" length="middle" direction="pas"/>
+<pin name="CLK/3" x="-5.08" y="-55.88" length="middle" direction="out"/>
+<pin name="CLK/24" x="-5.08" y="-58.42" length="middle" direction="out"/>
+<pin name="COMVID" x="25.4" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="EXTVID" x="25.4" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="!RESET" x="-5.08" y="-10.16" length="middle" direction="in" function="dot"/>
+<pin name="RD0" x="25.4" y="-22.86" length="middle" direction="in" rot="R180"/>
+<pin name="RD1" x="25.4" y="-25.4" length="middle" direction="in" rot="R180"/>
+<pin name="RD2" x="25.4" y="-27.94" length="middle" direction="in" rot="R180"/>
+<pin name="RD3" x="25.4" y="-30.48" length="middle" direction="in" rot="R180"/>
+<pin name="RD4" x="25.4" y="-33.02" length="middle" direction="in" rot="R180"/>
+<pin name="RD5" x="25.4" y="-35.56" length="middle" direction="in" rot="R180"/>
+<pin name="RD6" x="25.4" y="-38.1" length="middle" direction="in" rot="R180"/>
+<pin name="RD7" x="25.4" y="-40.64" length="middle" direction="in" rot="R180"/>
+<pin name="R/!W!" x="25.4" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="AD0" x="25.4" y="-45.72" length="middle" direction="in" rot="R180"/>
+<pin name="AD1" x="25.4" y="-48.26" length="middle" direction="in" rot="R180"/>
+<pin name="AD2" x="25.4" y="-50.8" length="middle" direction="in" rot="R180"/>
+<pin name="AD3" x="25.4" y="-53.34" length="middle" direction="in" rot="R180"/>
+<pin name="AD4" x="25.4" y="-55.88" length="middle" direction="in" rot="R180"/>
+<pin name="AD5" x="25.4" y="-58.42" length="middle" direction="in" rot="R180"/>
+<pin name="AD6" x="25.4" y="-60.96" length="middle" direction="in" rot="R180"/>
+<pin name="AD7" x="25.4" y="-63.5" length="middle" direction="in" rot="R180"/>
+<pin name="!RAS" x="25.4" y="-15.24" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="!CAS" x="25.4" y="-17.78" length="middle" direction="out" function="dot" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="5M160ZE64" prefix="IC">
@@ -9686,6 +9734,68 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <technology name="">
 <attribute name="MOUSER" value="913-AS6C62256-55PCN"/>
 <attribute name="VALUE" value="AS6C62256" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMS9918" prefix="IC">
+<description>&lt;h1&gt;TMSS9918 – Video Display Processor&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.bitsavers.org/components/ti/TMS9900/TMS9918A_TMS9928A_TMS9929A_Video_Display_Processors_Data_Manual_Nov82.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TMSS9918" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL40">
+<connects>
+<connect gate="G$1" pin="!CAS" pad="2"/>
+<connect gate="G$1" pin="!CSR" pad="15"/>
+<connect gate="G$1" pin="!CSW" pad="14"/>
+<connect gate="G$1" pin="!INT" pad="16"/>
+<connect gate="G$1" pin="!RAS" pad="1"/>
+<connect gate="G$1" pin="!RESET" pad="34"/>
+<connect gate="G$1" pin="AD0" pad="10"/>
+<connect gate="G$1" pin="AD1" pad="9"/>
+<connect gate="G$1" pin="AD2" pad="8"/>
+<connect gate="G$1" pin="AD3" pad="7"/>
+<connect gate="G$1" pin="AD4" pad="6"/>
+<connect gate="G$1" pin="AD5" pad="5"/>
+<connect gate="G$1" pin="AD6" pad="4"/>
+<connect gate="G$1" pin="AD7" pad="3"/>
+<connect gate="G$1" pin="CD0" pad="24"/>
+<connect gate="G$1" pin="CD1" pad="23"/>
+<connect gate="G$1" pin="CD2" pad="22"/>
+<connect gate="G$1" pin="CD3" pad="21"/>
+<connect gate="G$1" pin="CD4" pad="20"/>
+<connect gate="G$1" pin="CD5" pad="19"/>
+<connect gate="G$1" pin="CD6" pad="18"/>
+<connect gate="G$1" pin="CD7" pad="17"/>
+<connect gate="G$1" pin="CLK/24" pad="37"/>
+<connect gate="G$1" pin="CLK/3" pad="38"/>
+<connect gate="G$1" pin="COMVID" pad="36"/>
+<connect gate="G$1" pin="EXTVID" pad="35"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="MODE/A0" pad="13"/>
+<connect gate="G$1" pin="R/!W!" pad="11"/>
+<connect gate="G$1" pin="RD0" pad="32"/>
+<connect gate="G$1" pin="RD1" pad="31"/>
+<connect gate="G$1" pin="RD2" pad="30"/>
+<connect gate="G$1" pin="RD3" pad="29"/>
+<connect gate="G$1" pin="RD4" pad="28"/>
+<connect gate="G$1" pin="RD5" pad="27"/>
+<connect gate="G$1" pin="RD6" pad="26"/>
+<connect gate="G$1" pin="RD7" pad="25"/>
+<connect gate="G$1" pin="VCC" pad="33"/>
+<connect gate="G$1" pin="XTAL1" pad="40"/>
+<connect gate="G$1" pin="XTAL2" pad="39"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19651/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER_SOCKET" value="437-1108764041001101" constant="no"/>
+<attribute name="VALUE" value="TMS9918" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -26382,7 +26382,7 @@ Source: www.kingbright.com</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MOUSER" value="710-860020273009"/>
+<attribute name="MOUSER" value="710-860020373010"/>
 </part>
 <part name="R309" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="4k7">
 <spice>

@@ -3589,7 +3589,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <attribute name="SPICEPREFIX" value="J" x="24.765" y="83.82" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C303" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="220µF" x="13.97" y="91.44" smashed="yes" rot="R90">
-<attribute name="MOUSER" value="710-860020273009" x="13.97" y="91.44" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="710-860020373010" x="13.97" y="91.44" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.97" y="87.884" size="1.27" layer="25" ratio="10" align="top-center"/>
 <attribute name="POPULARITY" value="26" x="13.97" y="91.44" size="1.6764" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="13.97" y="91.44" size="1.6764" layer="27" rot="R90" display="off"/>
