@@ -26160,11 +26160,11 @@ Source: www.kingbright.com</description>
 <part name="GND203" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND202" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND206" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+203" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+206" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+204" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+207" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+202" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND205" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+205" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+206" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C205" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="10µF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -26177,7 +26177,7 @@ Source: www.kingbright.com</description>
 <part name="C201" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
-<part name="P+204" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+205" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND204" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C202" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
@@ -26405,8 +26405,12 @@ Source: www.kingbright.com</description>
 <part name="GND309" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+303" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="FRAME401" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="J401" library="SparkFun-Connectors" deviceset="DIN5" device=""/>
-<part name="J402" library="SparkFun-Connectors" deviceset="DIN5" device=""/>
+<part name="J401" library="SparkFun-Connectors" deviceset="DIN5" device="">
+<attribute name="MOUSER" value="806-KCDX-5S-N"/>
+</part>
+<part name="J402" library="SparkFun-Connectors" deviceset="DIN5" device="">
+<attribute name="MOUSER" value="806-KCDX-5S-N"/>
+</part>
 <part name="C401" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
@@ -26433,7 +26437,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="P+403" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND403" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R405" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="220R">
+<part name="R406" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="220R">
 <attribute name="MOUSER" value="652-CR0805FX-2200ELF"/>
 </part>
 <part name="P+406" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -26459,7 +26463,7 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER_SOCKET" value="575-11044324"/>
 </part>
 <part name="P+408" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R406" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="4k7">
+<part name="R407" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="4k7">
 <attribute name="MOUSER" value="652-CR0805FX-4701ELF"/>
 </part>
 <part name="P+407" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -26487,6 +26491,19 @@ Source: www.kingbright.com</description>
 </part>
 <part name="R404" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="3k">
 <attribute name="MOUSER" value="652-CR0805JW-302ELF"/>
+</part>
+<part name="R201" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="3k">
+<attribute name="MOUSER" value="652-CR0805JW-302ELF"/>
+</part>
+<part name="LED201" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2">
+<attribute name="MOUSER" value="710-156120VS75300"/>
+</part>
+<part name="P+203" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R405" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="3k">
+<attribute name="MOUSER" value="652-CR0805JW-302ELF"/>
+</part>
+<part name="LED403" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2">
+<attribute name="MOUSER" value="710-156120VS75300"/>
 </part>
 </parts>
 <sheets>
@@ -27462,10 +27479,10 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 <instance part="GND206" gate="1" x="162.56" y="104.14" smashed="yes">
 <attribute name="VALUE" x="160.02" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="P+203" gate="1" x="68.58" y="134.62" smashed="yes" rot="R270">
+<instance part="P+204" gate="1" x="68.58" y="134.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="63.5" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="P+206" gate="1" x="160.02" y="109.22" smashed="yes" rot="R90">
+<instance part="P+207" gate="1" x="160.02" y="109.22" smashed="yes" rot="R90">
 <attribute name="VALUE" x="157.48" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+202" gate="1" x="35.56" y="109.22" smashed="yes" rot="R90">
@@ -27474,7 +27491,7 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 <instance part="GND205" gate="1" x="160.02" y="121.92" smashed="yes" rot="R270">
 <attribute name="VALUE" x="157.48" y="124.46" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+205" gate="1" x="160.02" y="124.46" smashed="yes" rot="R90">
+<instance part="P+206" gate="1" x="160.02" y="124.46" smashed="yes" rot="R90">
 <attribute name="VALUE" x="157.48" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C205" gate="G$1" x="213.36" y="53.34" smashed="yes">
@@ -27487,7 +27504,7 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 <attribute name="NAME" x="151.384" y="53.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.384" y="48.641" size="1.778" layer="96"/>
 </instance>
-<instance part="P+204" gate="1" x="149.86" y="58.42" smashed="yes">
+<instance part="P+205" gate="1" x="149.86" y="58.42" smashed="yes">
 <attribute name="VALUE" x="149.86" y="60.96" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND204" gate="1" x="149.86" y="45.72" smashed="yes">
@@ -27507,6 +27524,19 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 <attribute name="MOUSER" x="190.5" y="53.34" size="1.27" layer="96" align="top-center" display="off"/>
 <attribute name="NAME" x="192.024" y="53.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="48.641" size="1.778" layer="96"/>
+</instance>
+<instance part="R201" gate="G$1" x="55.88" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.69" y="92.4814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="59.69" y="97.282" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="55.88" y="93.98" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="LED201" gate="G$1" x="48.26" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.688" y="90.424" size="1.778" layer="95"/>
+<attribute name="VALUE" x="43.688" y="88.265" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="48.26" y="93.98" size="1.778" layer="96" rot="R270" align="top-left" display="off"/>
+</instance>
+<instance part="P+203" gate="1" x="63.5" y="93.98" smashed="yes" rot="R270">
+<attribute name="VALUE" x="63.5" y="96.52" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -27537,11 +27567,11 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 </segment>
 <segment>
 <pinref part="IC201" gate="G$1" pin="VCC"/>
-<pinref part="P+203" gate="1" pin="+5V"/>
+<pinref part="P+204" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="IC203" gate="G$1" pin="VCC"/>
-<pinref part="P+206" gate="1" pin="+5V"/>
+<pinref part="P+207" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="IC202" gate="G$1" pin="VDD"/>
@@ -27549,11 +27579,11 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 </segment>
 <segment>
 <pinref part="IC203" gate="G$1" pin="A8"/>
-<pinref part="P+205" gate="1" pin="+5V"/>
+<pinref part="P+206" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="C201" gate="G$1" pin="1"/>
-<pinref part="P+204" gate="1" pin="+5V"/>
+<pinref part="P+205" gate="1" pin="+5V"/>
 <pinref part="C205" gate="G$1" pin="+"/>
 <junction x="149.86" y="55.88"/>
 <wire x1="149.86" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
@@ -27566,6 +27596,10 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 <pinref part="C204" gate="G$1" pin="1"/>
 <junction x="190.5" y="55.88"/>
 <wire x1="190.5" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R201" gate="G$1" pin="1"/>
+<pinref part="P+203" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -27628,6 +27662,11 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 <pinref part="IC201" gate="G$1" pin="!IRQ"/>
 <wire x1="66.04" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
 <label x="71.12" y="147.32" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LED201" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="38.1" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IOA0" class="0">
@@ -27975,6 +28014,12 @@ CLK_B: 2.0 MHz (AY, MIDI)</text>
 <pinref part="IC203" gate="G$1" pin="!RESET"/>
 <wire x1="162.56" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
 <label x="157.48" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R201" gate="G$1" pin="2"/>
+<pinref part="LED201" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
@@ -28416,10 +28461,12 @@ CN402: MIDI Out</text>
 <instance part="J401" gate="G$1" x="43.18" y="170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.18" y="175.768" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="43.18" y="178.054" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="MOUSER" x="43.18" y="170.18" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
 </instance>
 <instance part="J402" gate="G$1" x="172.72" y="170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="172.72" y="175.768" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="172.72" y="178.054" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="MOUSER" x="172.72" y="170.18" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
 </instance>
 <instance part="C401" gate="G$1" x="10.16" y="12.7" smashed="yes">
 <attribute name="MOUSER" x="10.16" y="12.7" size="1.27" layer="96" align="top-center" display="off"/>
@@ -28459,7 +28506,7 @@ CN402: MIDI Out</text>
 <instance part="GND403" gate="1" x="53.34" y="139.7" smashed="yes">
 <attribute name="VALUE" x="50.8" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="R405" gate="G$1" x="154.94" y="165.1" smashed="yes" rot="R180">
+<instance part="R406" gate="G$1" x="154.94" y="165.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="158.75" y="163.6014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="158.75" y="168.402" size="1.778" layer="96" rot="R180"/>
 <attribute name="MOUSER" x="154.94" y="165.1" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
@@ -28534,7 +28581,7 @@ CN402: MIDI Out</text>
 <instance part="P+408" gate="1" x="185.42" y="43.18" smashed="yes" rot="R90">
 <attribute name="VALUE" x="182.88" y="43.18" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R406" gate="G$1" x="193.04" y="43.18" smashed="yes" rot="R180">
+<instance part="R407" gate="G$1" x="193.04" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="196.85" y="41.6814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="196.85" y="46.482" size="1.778" layer="96" rot="R180"/>
 <attribute name="MOUSER" x="193.04" y="43.18" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
@@ -28588,6 +28635,16 @@ CN402: MIDI Out</text>
 <attribute name="NAME" x="107.95" y="62.0014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="107.95" y="66.802" size="1.778" layer="96" rot="R180"/>
 <attribute name="MOUSER" x="104.14" y="63.5" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R405" gate="G$1" x="104.14" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="107.95" y="51.8414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="56.642" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="104.14" y="53.34" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="LED403" gate="G$1" x="96.52" y="53.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="91.948" y="49.784" size="1.778" layer="95"/>
+<attribute name="VALUE" x="91.948" y="47.625" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="96.52" y="53.34" size="1.778" layer="96" rot="R270" align="top-left" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -28672,7 +28729,7 @@ CN402: MIDI Out</text>
 <pinref part="P+403" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R405" gate="G$1" pin="2"/>
+<pinref part="R406" gate="G$1" pin="2"/>
 <pinref part="P+406" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -28685,7 +28742,7 @@ CN402: MIDI Out</text>
 </segment>
 <segment>
 <pinref part="P+408" gate="1" pin="+5V"/>
-<pinref part="R406" gate="G$1" pin="2"/>
+<pinref part="R407" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC402" gate="G$1" pin="VCC"/>
@@ -28697,6 +28754,9 @@ CN402: MIDI Out</text>
 <pinref part="R404" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="63.5" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
 <junction x="109.22" y="71.12"/>
+<pinref part="R405" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="63.5" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<junction x="109.22" y="63.5"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -28788,7 +28848,7 @@ CN402: MIDI Out</text>
 <segment>
 <pinref part="J402" gate="G$1" pin="4"/>
 <wire x1="165.1" y1="165.1" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R405" gate="G$1" pin="1"/>
+<pinref part="R406" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MIDI_TX_-" class="0">
@@ -28831,7 +28891,12 @@ CN402: MIDI Out</text>
 <segment>
 <wire x1="198.12" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
 <label x="203.2" y="43.18" size="1.778" layer="95" xref="yes"/>
-<pinref part="R406" gate="G$1" pin="1"/>
+<pinref part="R407" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="LED403" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<label x="86.36" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!MIDI_UART_CS" class="0">
@@ -28972,6 +29037,12 @@ CN402: MIDI Out</text>
 <segment>
 <pinref part="LED402" gate="G$1" pin="A"/>
 <pinref part="R404" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R405" gate="G$1" pin="2"/>
+<pinref part="LED403" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
