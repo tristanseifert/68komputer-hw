@@ -7325,6 +7325,18 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 <pin name="!RAS" x="25.4" y="-15.24" length="middle" direction="out" function="dot" rot="R180"/>
 <pin name="!CAS" x="25.4" y="-17.78" length="middle" direction="out" function="dot" rot="R180"/>
 </symbol>
+<symbol name="LM3724">
+<wire x1="0" y1="0" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="GND" x="-5.08" y="-15.24" length="middle" direction="pwr"/>
+<pin name="VCC" x="-5.08" y="-12.7" length="middle" direction="pwr"/>
+<pin name="!RESET" x="-5.08" y="-7.62" length="middle" direction="out"/>
+<pin name="!MR" x="-5.08" y="-2.54" length="middle" direction="in"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="5M160ZE64" prefix="IC">
@@ -9796,6 +9808,32 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <technology name="">
 <attribute name="MOUSER_SOCKET" value="437-1108764041001101" constant="no"/>
 <attribute name="VALUE" value="TMS9918" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM3724" prefix="IC">
+<description>&lt;h1&gt;Low Power Reset IC / Voltage Supervisor with manual reset&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm3724.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM3724" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="!MR" pad="4"/>
+<connect gate="G$1" pin="!RESET" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1 2"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16456/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="926-LM3724IM5463NOPB" constant="no"/>
+<attribute name="VALUE" value="LM3724" constant="no"/>
 </technology>
 </technologies>
 </device>
