@@ -26180,6 +26180,155 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </deviceset>
 </devicesets>
 </library>
+<library name="switch-dil" urn="urn:adsk.eagle:library:375">
+<description>&lt;b&gt;DIL Switches and Code Switches&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DIP04S" urn="urn:adsk.eagle:footprint:27165/1" library_version="2">
+<description>&lt;b&gt;DIL/CODE SWITCH&lt;/b&gt;&lt;p&gt;
+small</description>
+<wire x1="-4.445" y1="-1.27" x2="-3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-3.175" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-4.445" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-0.635" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.905" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="0.635" y2="1.27" width="0.254" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-0.9398" x2="-3.175" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-0.9398" x2="-4.445" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-0.9398" x2="-3.175" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-0.635" x2="-3.175" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-0.635" x2="-4.445" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-0.635" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-0.9398" x2="-0.635" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-0.9398" x2="-1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-0.9398" x2="-0.635" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-0.635" x2="-0.635" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-0.635" x2="-0.635" y2="1.27" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-0.9398" x2="1.905" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-0.9398" x2="0.635" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-0.9398" x2="1.905" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="0.635" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-0.635" x2="1.905" y2="1.27" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="4.445" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="4.445" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.175" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-0.9398" x2="4.445" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-0.9398" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="4.445" y1="-0.9398" x2="4.445" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-0.635" x2="4.445" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-0.635" x2="3.175" y2="-0.9398" width="0.254" layer="21"/>
+<wire x1="4.445" y1="-0.635" x2="4.445" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-2.794" y1="-3.81" x2="-4.826" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="-4.826" y1="3.81" x2="-2.794" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="-4.826" y1="3.81" x2="-5.08" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="-3.81" x2="-5.08" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-3.81" x2="5.08" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="3.81" x2="5.08" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="3.81" x2="-2.286" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="3.81" x2="-0.254" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="3.81" x2="2.286" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="3.81" x2="4.826" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="3.81" x2="0.254" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="3.81" x2="2.794" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-3.81" x2="-2.286" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-3.81" x2="0.254" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-3.81" x2="2.794" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-3.81" x2="-0.254" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="0.254" y1="-3.81" x2="2.286" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="-3.81" x2="4.826" y2="-3.81" width="0.1524" layer="51"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-4.445" y="1.778" size="0.9906" layer="21" ratio="12">1</text>
+<text x="-1.905" y="1.778" size="0.9906" layer="21" ratio="12">2</text>
+<text x="0.635" y="1.778" size="0.9906" layer="21" ratio="12">3</text>
+<text x="3.175" y="1.778" size="0.9906" layer="21" ratio="12">4</text>
+<text x="-5.08" y="4.826" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.508" y="4.826" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.572" y="-2.7432" size="0.9906" layer="21" ratio="12">OFF</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIP04S" urn="urn:adsk.eagle:package:27250/2" type="model" library_version="2">
+<description>DIL/CODE SWITCH
+small</description>
+<packageinstances>
+<packageinstance name="DIP04S"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="S" urn="urn:adsk.eagle:symbol:27121/1" library_version="2">
+<wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="1.905" x2="0" y2="3.175" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="S+V" urn="urn:adsk.eagle:symbol:27120/1" library_version="2">
+<wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="1.905" x2="0" y2="3.175" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIP04S" urn="urn:adsk.eagle:component:27361/2" prefix="S" uservalue="yes" library_version="2">
+<description>&lt;b&gt;DIL/CODE SWITCH&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="S" x="0" y="0" addlevel="always"/>
+<gate name="-2" symbol="S" x="5.08" y="0" addlevel="always"/>
+<gate name="-3" symbol="S" x="10.16" y="0" addlevel="always"/>
+<gate name="-4" symbol="S+V" x="15.24" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="DIP04S">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-1" pin="2" pad="8"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-2" pin="2" pad="7"/>
+<connect gate="-3" pin="1" pad="3"/>
+<connect gate="-3" pin="2" pad="6"/>
+<connect gate="-4" pin="1" pad="4"/>
+<connect gate="-4" pin="2" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27250/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -26306,15 +26455,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </part>
 <part name="GND301" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+301" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R301" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
-</part>
 <part name="P+302" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND405" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C401" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -26428,15 +26568,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
 <part name="GND107" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C106" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="10µF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="+" pinorder="1"/>
-<pinmap gate="G$1" pin="-" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MOUSER" value="581-TAJB106K020RNJV"/>
-</part>
 <part name="P+105" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
@@ -26542,6 +26673,145 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2">
 <attribute name="MOUSER" value="710-156120VS75300"/>
 </part>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R402" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="S402" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1">
+<attribute name="MOUSER" value="653-B3F-3150"/>
+<attribute name="SPICEPREFIX" value="S"/>
+</part>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="S301" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP04S" device="" package3d_urn="urn:adsk.eagle:package:27250/2">
+<attribute name="MOUSER" value="653-A6FR-4104"/>
+</part>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26570,11 +26840,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </instance>
 <instance part="GND107" gate="1" x="180.34" y="170.18" smashed="yes">
 <attribute name="VALUE" x="177.8" y="167.64" size="1.778" layer="96"/>
-</instance>
-<instance part="C106" gate="G$1" x="241.3" y="177.8" smashed="yes">
-<attribute name="MOUSER" x="241.3" y="177.8" size="1.27" layer="96" display="off"/>
-<attribute name="NAME" x="242.443" y="178.2826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.443" y="173.2026" size="1.778" layer="96"/>
 </instance>
 <instance part="P+105" gate="1" x="177.8" y="180.34" smashed="yes" rot="R90">
 <attribute name="VALUE" x="175.26" y="180.34" size="1.778" layer="96" rot="R180"/>
@@ -26655,6 +26920,57 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <instance part="GND105" gate="1" x="116.84" y="170.18" smashed="yes" rot="R90">
 <attribute name="VALUE" x="119.38" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="P+3" gate="1" x="177.8" y="162.56" smashed="yes" rot="R90">
+<attribute name="VALUE" x="177.8" y="160.02" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R2" gate="G$1" x="185.42" y="162.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="189.23" y="161.0614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="189.23" y="165.862" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="185.42" y="162.56" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="190.5" y="152.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="150.9014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="155.702" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="152.4" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="190.5" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="143.2814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="148.082" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="144.78" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="190.5" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="135.6614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="140.462" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="137.16" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="190.5" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="128.0414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="132.842" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="129.54" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="190.5" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="120.4214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="125.222" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="121.92" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="190.5" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="112.8014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="117.602" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="114.3" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="190.5" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="105.1814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="109.982" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="106.68" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="190.5" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="194.31" y="97.5614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="194.31" y="102.362" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="190.5" y="99.06" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="GND2" gate="1" x="195.58" y="96.52" smashed="yes">
+<attribute name="VALUE" x="193.04" y="93.98" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="A[1..23],!AS,!BERR,!BG,!BGACK,!BR,CLK,D[0..15],!DTACK,E,FC[0..2],!HALT,!IPL[0..2],!LDS,!RESET,R/!W!,!UDS,!VMA,!VPA">
@@ -26663,6 +26979,16 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="15.24" y1="182.88" x2="63.5" y2="182.88" width="0.762" layer="92"/>
 <wire x1="63.5" y1="182.88" x2="63.5" y2="76.2" width="0.762" layer="92"/>
 <label x="66.04" y="182.88" size="1.778" layer="95" rot="R270"/>
+<wire x1="63.5" y1="182.88" x2="91.44" y2="182.88" width="0.762" layer="92"/>
+<wire x1="91.44" y1="182.88" x2="121.92" y2="182.88" width="0.762" layer="92"/>
+<wire x1="121.92" y1="182.88" x2="121.92" y2="88.9" width="0.762" layer="92"/>
+<wire x1="91.44" y1="182.88" x2="91.44" y2="91.44" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="D[0..15]">
+<segment>
+<wire x1="177.8" y1="154.94" x2="177.8" y2="88.9" width="0.762" layer="92"/>
+<label x="175.26" y="142.24" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
 </busses>
@@ -26671,8 +26997,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <segment>
 <pinref part="C101" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="180.34" x2="190.5" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C106" gate="G$1" pin="+"/>
-<junction x="241.3" y="180.34"/>
 <pinref part="P+105" gate="1" pin="+5V"/>
 <junction x="180.34" y="180.34"/>
 <pinref part="C102" gate="G$1" pin="1"/>
@@ -26685,8 +27009,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <junction x="210.82" y="180.34"/>
 <pinref part="C105" gate="G$1" pin="+"/>
 <wire x1="210.82" y1="180.34" x2="233.68" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="180.34" x2="241.3" y2="180.34" width="0.1524" layer="91"/>
-<junction x="233.68" y="180.34"/>
 </segment>
 <segment>
 <pinref part="IC101" gate="P" pin="VCC@1"/>
@@ -26707,15 +27029,16 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="SV101" gate="1" pin="1"/>
 <pinref part="P+104" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C101" gate="G$1" pin="2"/>
 <pinref part="GND107" gate="1" pin="GND"/>
 <junction x="180.34" y="172.72"/>
-<wire x1="241.3" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="C106" gate="G$1" pin="-"/>
-<junction x="241.3" y="172.72"/>
 <pinref part="C102" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="172.72" x2="210.82" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
@@ -26727,7 +27050,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="C104" gate="G$1" pin="2"/>
 <junction x="210.82" y="172.72"/>
 <pinref part="C105" gate="G$1" pin="-"/>
-<junction x="233.68" y="172.72"/>
 </segment>
 <segment>
 <pinref part="IC101" gate="P" pin="GND@4"/>
@@ -26761,6 +27083,31 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <segment>
 <pinref part="SV101" gate="1" pin="63"/>
 <pinref part="GND105" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="99.06" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="106.68" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="114.3" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="121.92" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="129.54" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="137.16" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="144.78" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<junction x="195.58" y="144.78"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<junction x="195.58" y="137.16"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<junction x="195.58" y="129.54"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<junction x="195.58" y="121.92"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<junction x="195.58" y="114.3"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<junction x="195.58" y="106.68"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<junction x="195.58" y="99.06"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -26872,6 +27219,11 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="22.86" y1="147.32" x2="17.78" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="147.32" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
+<label x="195.58" y="162.56" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="!BGACK" class="0">
 <segment>
@@ -26921,12 +27273,22 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="22.86" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="119.38" x2="15.24" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="152.4" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D1" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="D1"/>
 <wire x1="22.86" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="116.84" x2="15.24" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="144.78" x2="180.34" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="144.78" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -26935,12 +27297,22 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="22.86" y1="114.3" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="114.3" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="137.16" x2="180.34" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="137.16" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D3" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="D3"/>
 <wire x1="22.86" y1="111.76" x2="17.78" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="111.76" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="129.54" x2="180.34" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="129.54" x2="177.8" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -26949,12 +27321,22 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="22.86" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="109.22" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="121.92" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D5" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="D5"/>
 <wire x1="22.86" y1="106.68" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="106.68" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="114.3" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="114.3" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -26963,12 +27345,22 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="22.86" y1="104.14" x2="17.78" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="104.14" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="106.68" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D7" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="D7"/>
 <wire x1="22.86" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="101.6" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="99.06" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -28229,13 +28621,8 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <instance part="P+301" gate="1" x="27.94" y="111.76" smashed="yes" rot="R90">
 <attribute name="VALUE" x="27.94" y="111.76" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R301" gate="G$1" x="40.64" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="44.45" y="92.4814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="44.45" y="97.282" size="1.778" layer="96" rot="R180"/>
-<attribute name="MOUSER" x="40.64" y="93.98" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
-</instance>
-<instance part="P+302" gate="1" x="33.02" y="93.98" smashed="yes" rot="R90">
-<attribute name="VALUE" x="33.02" y="91.44" size="1.778" layer="96" rot="R180"/>
+<instance part="P+302" gate="1" x="33.02" y="86.36" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="83.82" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C308" gate="G$1" x="185.42" y="177.8" smashed="yes">
 <attribute name="MOUSER" x="185.42" y="177.8" size="1.27" layer="96" align="top-center" display="off"/>
@@ -28364,9 +28751,49 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <attribute name="VALUE" x="238.252" y="69.215" size="1.778" layer="96" rot="R180"/>
 <attribute name="MOUSER" x="233.68" y="63.5" size="1.778" layer="96" rot="R90" align="top-left" display="off"/>
 </instance>
+<instance part="S301" gate="-1" x="193.04" y="144.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="189.23" y="142.24" size="1.778" layer="95"/>
+</instance>
+<instance part="S301" gate="-2" x="193.04" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="189.23" y="137.16" size="1.778" layer="95"/>
+</instance>
+<instance part="S301" gate="-3" x="193.04" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="189.23" y="132.08" size="1.778" layer="95"/>
+</instance>
+<instance part="S301" gate="-4" x="193.04" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="189.23" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.23" y="124.46" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="193.04" y="129.54" size="1.778" layer="96" rot="R270" align="top-left" display="off"/>
+</instance>
+<instance part="P+4" gate="1" x="200.66" y="144.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="203.2" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="R11" gate="G$1" x="193.04" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="196.85" y="117.8814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="196.85" y="122.682" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="193.04" y="119.38" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="193.04" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="196.85" y="110.2614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="196.85" y="115.062" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="193.04" y="111.76" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R13" gate="G$1" x="193.04" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="196.85" y="102.6414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="196.85" y="107.442" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="193.04" y="104.14" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="193.04" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="196.85" y="95.0214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="196.85" y="99.822" size="1.778" layer="96" rot="R180"/>
+<attribute name="MOUSER" x="193.04" y="96.52" size="1.778" layer="96" rot="R180" align="top-left" display="off"/>
+</instance>
+<instance part="GND3" gate="1" x="198.12" y="93.98" smashed="yes">
+<attribute name="VALUE" x="195.58" y="91.44" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
-<bus name="!68681_CS,!68681_IRQ,68681_X[1..2],A[1..23],!A_CTS,!A_RTS,A_RX,A_TX,!B_CTS,!B_RTS,B_RX,B_TX,D[0..15],!DTACK,!LOE,!LWE,REMAP,!RESET,!RTC_CS,R/!W!,STATUS[0..2]">
+<bus name="!68681_CS,!68681_IRQ,68681_X[1..2],A[1..23],!A_CTS,!A_RTS,A_RX,A_TX,!B_CTS,!B_RTS,B_RX,B_TX,CONF[0..3],D[0..15],!DTACK,!LOE,!LWE,REMAP,!RESET,!RTC_CS,STATUS[0..2]">
 <segment>
 <wire x1="22.86" y1="177.8" x2="68.58" y2="177.8" width="0.762" layer="92"/>
 <wire x1="68.58" y1="177.8" x2="71.12" y2="177.8" width="0.762" layer="92"/>
@@ -28375,7 +28802,13 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="119.38" y1="177.8" x2="119.38" y2="119.38" width="0.762" layer="92"/>
 <wire x1="68.58" y1="177.8" x2="68.58" y2="106.68" width="0.762" layer="92"/>
 <label x="25.4" y="180.34" size="1.27" layer="95"/>
-<wire x1="22.86" y1="177.8" x2="22.86" y2="114.3" width="0.762" layer="92"/>
+<wire x1="22.86" y1="177.8" x2="22.86" y2="111.76" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="CONF[0..3]">
+<segment>
+<wire x1="180.34" y1="88.9" x2="180.34" y2="147.32" width="0.762" layer="92"/>
+<label x="177.8" y="147.32" size="1.778" layer="95" rot="R270"/>
 </segment>
 </bus>
 </busses>
@@ -28515,11 +28948,8 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="P+301" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R301" gate="G$1" pin="2"/>
 <pinref part="P+302" gate="1" pin="+5V"/>
 <pinref part="R302" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="86.36" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
-<junction x="35.56" y="93.98"/>
 </segment>
 <segment>
 <pinref part="SV301" gate="1" pin="3"/>
@@ -28532,6 +28962,19 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <segment>
 <pinref part="IC301" gate="G$1" pin="!IACK"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="S301" gate="-1" pin="2"/>
+<pinref part="S301" gate="-4" pin="2"/>
+<wire x1="198.12" y1="144.78" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="S301" gate="-2" pin="2"/>
+<wire x1="198.12" y1="139.7" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
+<junction x="198.12" y="139.7"/>
+<pinref part="S301" gate="-3" pin="2"/>
+<wire x1="198.12" y1="134.62" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
+<junction x="198.12" y="134.62"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<junction x="198.12" y="144.78"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -28601,6 +29044,19 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="X301" gate="G$1" pin="5"/>
 <pinref part="GND307" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="96.52" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="104.14" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="111.76" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<junction x="198.12" y="111.76"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<junction x="198.12" y="104.14"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<junction x="198.12" y="96.52"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -28636,13 +29092,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="IC301" gate="G$1" pin="OP7"/>
 <wire x1="60.96" y1="134.62" x2="66.04" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="134.62" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!68681_DTACK" class="0">
-<segment>
-<pinref part="R301" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<label x="50.8" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!68681_IRQ" class="0">
@@ -28713,6 +29162,11 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="IC302" gate="G$1" pin="!WE"/>
 <wire x1="78.74" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="165.1" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC301" gate="G$1" pin="R/!W"/>
+<wire x1="30.48" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="149.86" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -28845,13 +29299,6 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="IC301" gate="G$1" pin="!CS"/>
 <wire x1="30.48" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="152.4" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="R/!W!" class="0">
-<segment>
-<pinref part="IC301" gate="G$1" pin="R/!W"/>
-<wire x1="30.48" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="149.86" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -29083,6 +29530,74 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
+<net name="CONF0" class="0">
+<segment>
+<pinref part="S301" gate="-1" pin="1"/>
+<wire x1="187.96" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
+<label x="182.88" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC301" gate="G$1" pin="IP2"/>
+<wire x1="30.48" y1="124.46" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="124.46" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="119.38" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CONF1" class="0">
+<segment>
+<pinref part="S301" gate="-2" pin="1"/>
+<wire x1="187.96" y1="139.7" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
+<label x="182.88" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC301" gate="G$1" pin="IP4"/>
+<wire x1="30.48" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="119.38" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="111.76" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CONF2" class="0">
+<segment>
+<pinref part="S301" gate="-3" pin="1"/>
+<wire x1="187.96" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+<label x="182.88" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC301" gate="G$1" pin="IP5"/>
+<wire x1="30.48" y1="116.84" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="116.84" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="104.14" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CONF3" class="0">
+<segment>
+<pinref part="S301" gate="-4" pin="1"/>
+<wire x1="187.96" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
+<label x="182.88" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC301" gate="G$1" pin="IP3"/>
+<wire x1="30.48" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="121.92" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="96.52" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -29092,6 +29607,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <text x="165.1" y="43.18" size="1.778" layer="97">!RESET! generator</text>
 <text x="160.02" y="165.1" size="1.778" layer="97" align="top-left">1x 100nF per IC
 C307 shared for IC301/IC302</text>
+<text x="149.86" y="33.02" size="1.778" layer="97" align="top-left">If FC=7, assert /VPA for avec, it's a hack but 68k has only int ack CPU space cycle</text>
 </plain>
 <instances>
 <instance part="FRAME401" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -29111,8 +29627,8 @@ C307 shared for IC301/IC302</text>
 <instance part="P+403" gate="1" x="160.02" y="180.34" smashed="yes" rot="R90">
 <attribute name="VALUE" x="157.48" y="180.34" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND405" gate="1" x="167.64" y="53.34" smashed="yes">
-<attribute name="VALUE" x="165.1" y="50.8" size="1.778" layer="96"/>
+<instance part="GND405" gate="1" x="205.74" y="83.82" smashed="yes">
+<attribute name="VALUE" x="203.2" y="81.28" size="1.778" layer="96"/>
 </instance>
 <instance part="C401" gate="G$1" x="162.56" y="177.8" smashed="yes">
 <attribute name="MOUSER" x="162.56" y="177.8" size="1.27" layer="96" align="top-center" display="off"/>
@@ -29173,13 +29689,13 @@ C307 shared for IC301/IC302</text>
 <instance part="P+407" gate="1" x="198.12" y="139.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="195.58" y="139.7" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R401" gate="G$1" x="185.42" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="186.9186" y="64.77" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="182.118" y="64.77" size="1.778" layer="96" rot="R270"/>
-<attribute name="MOUSER" x="185.42" y="60.96" size="1.778" layer="96" rot="R270" align="top-left" display="off"/>
+<instance part="R401" gate="G$1" x="223.52" y="91.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="225.0186" y="95.25" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="220.218" y="95.25" size="1.778" layer="96" rot="R270"/>
+<attribute name="MOUSER" x="223.52" y="91.44" size="1.778" layer="96" rot="R270" align="top-left" display="off"/>
 </instance>
-<instance part="P+406" gate="1" x="185.42" y="68.58" smashed="yes">
-<attribute name="VALUE" x="185.42" y="71.12" size="1.778" layer="96" rot="R180"/>
+<instance part="P+406" gate="1" x="223.52" y="99.06" smashed="yes">
+<attribute name="VALUE" x="223.52" y="101.6" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC403" gate="G$1" x="170.18" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="170.18" y="101.6" size="1.778" layer="95" rot="MR0"/>
@@ -29191,10 +29707,26 @@ C307 shared for IC301/IC302</text>
 <instance part="P+405" gate="1" x="177.8" y="88.9" smashed="yes" rot="R270">
 <attribute name="VALUE" x="177.8" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="S401" gate="1" x="172.72" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="170.815" y="64.77" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.895" y="62.23" size="1.778" layer="96"/>
-<attribute name="MOUSER" x="172.72" y="58.42" size="1.778" layer="96" rot="R270" align="bottom-center" display="off"/>
+<instance part="S401" gate="1" x="210.82" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="208.915" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.995" y="92.71" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="210.82" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center" display="off"/>
+</instance>
+<instance part="GND1" gate="1" x="205.74" y="60.96" smashed="yes">
+<attribute name="VALUE" x="203.2" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="R402" gate="G$1" x="223.52" y="68.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="225.0186" y="72.39" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="220.218" y="72.39" size="1.778" layer="96" rot="R270"/>
+<attribute name="MOUSER" x="223.52" y="68.58" size="1.778" layer="96" rot="R270" align="top-left" display="off"/>
+</instance>
+<instance part="P+2" gate="1" x="223.52" y="76.2" smashed="yes">
+<attribute name="VALUE" x="223.52" y="78.74" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="S402" gate="1" x="210.82" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="208.915" y="72.39" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.995" y="69.85" size="1.778" layer="96"/>
+<attribute name="MOUSER" x="210.82" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -29242,6 +29774,10 @@ C307 shared for IC301/IC302</text>
 <pinref part="IC403" gate="G$1" pin="VCC"/>
 <pinref part="P+405" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="R402" gate="G$1" pin="1"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -29262,7 +29798,7 @@ C307 shared for IC301/IC302</text>
 <junction x="172.72" y="172.72"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="58.42" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="88.9" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND405" gate="1" pin="GND"/>
 <pinref part="S401" gate="1" pin="P"/>
 </segment>
@@ -29282,15 +29818,20 @@ C307 shared for IC301/IC302</text>
 <pinref part="IC403" gate="G$1" pin="GND"/>
 <pinref part="GND406" gate="1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="205.74" y1="66.04" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="S402" gate="1" pin="P"/>
+</segment>
 </net>
 <net name="!MR" class="0">
 <segment>
-<wire x1="177.8" y1="58.42" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="88.9" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R401" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
-<junction x="185.42" y="55.88"/>
-<label x="193.04" y="55.88" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
+<junction x="223.52" y="86.36"/>
+<label x="231.14" y="86.36" size="1.778" layer="95" xref="yes"/>
 <pinref part="S401" gate="1" pin="S"/>
 </segment>
 <segment>
@@ -29325,9 +29866,9 @@ C307 shared for IC301/IC302</text>
 <label x="195.58" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC401" gate="G$1" pin="IO15"/>
-<wire x1="73.66" y1="172.72" x2="78.74" y2="172.72" width="0.1524" layer="91"/>
-<label x="78.74" y="172.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC402" gate="G$1" pin="IO14"/>
+<wire x1="73.66" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="78.74" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="E" class="0">
@@ -29382,34 +29923,6 @@ C307 shared for IC301/IC302</text>
 <label x="35.56" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!RTC_CS" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IO23"/>
-<wire x1="73.66" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
-<label x="78.74" y="152.4" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!68681_CS" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IO22"/>
-<wire x1="73.66" y1="154.94" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
-<label x="78.74" y="154.94" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!RAM_CS" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IO21"/>
-<wire x1="73.66" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
-<label x="78.74" y="157.48" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!ROM_CS" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IO20"/>
-<wire x1="73.66" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
-<label x="78.74" y="160.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="REMAP" class="0">
 <segment>
 <pinref part="IC401" gate="G$1" pin="IN2"/>
@@ -29417,121 +29930,58 @@ C307 shared for IC301/IC302</text>
 <label x="35.56" y="170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="A23" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN3"/>
-<wire x1="40.64" y1="167.64" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
-<label x="35.56" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="A22" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN4"/>
-<wire x1="40.64" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
-<label x="35.56" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A21" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN5"/>
-<wire x1="40.64" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
-<label x="35.56" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A20" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN6"/>
-<wire x1="40.64" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
-<label x="35.56" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A19" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN7"/>
-<wire x1="40.64" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
-<label x="35.56" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="!AS" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN13"/>
-<wire x1="40.64" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
-<label x="35.56" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC402" gate="G$1" pin="IN10"/>
-<wire x1="40.64" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
-<label x="35.56" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="R/!W!" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN9"/>
-<wire x1="40.64" y1="152.4" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
-<label x="35.56" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="!UDS" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IN10"/>
-<wire x1="40.64" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<label x="35.56" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="!LDS" class="0">
 <segment>
 <pinref part="IC401" gate="G$1" pin="IN11"/>
 <wire x1="40.64" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <label x="35.56" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!UOE" class="0">
+<net name="A20" class="0">
 <segment>
-<pinref part="IC401" gate="G$1" pin="IO19"/>
-<wire x1="73.66" y1="162.56" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
-<label x="78.74" y="162.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC401" gate="G$1" pin="IN7"/>
+<wire x1="40.64" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
+<label x="35.56" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!LOE" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IO18"/>
-<wire x1="73.66" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
-<label x="78.74" y="165.1" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!LWE" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IO17"/>
-<wire x1="73.66" y1="167.64" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
-<label x="78.74" y="167.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!UWE" class="0">
-<segment>
-<pinref part="IC401" gate="G$1" pin="IO16"/>
-<wire x1="73.66" y1="170.18" x2="78.74" y2="170.18" width="0.1524" layer="91"/>
-<label x="78.74" y="170.18" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A18" class="0">
+<net name="A19" class="0">
 <segment>
 <pinref part="IC401" gate="G$1" pin="IN8"/>
 <wire x1="40.64" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
 <label x="35.56" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="!AS" class="0">
+<segment>
+<pinref part="IC402" gate="G$1" pin="IN10"/>
+<wire x1="40.64" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
+<label x="35.56" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC401" gate="G$1" pin="IN6"/>
+<wire x1="40.64" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
+<label x="35.56" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!LDS" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IN4"/>
+<wire x1="40.64" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
+<label x="35.56" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 <net name="!RESET" class="0">
 <segment>
-<pinref part="IC402" gate="G$1" pin="IO14"/>
-<wire x1="73.66" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<label x="78.74" y="109.22" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC402" gate="G$1" pin="IO23"/>
+<wire x1="73.66" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<label x="78.74" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!HALT" class="0">
 <segment>
-<pinref part="IC402" gate="G$1" pin="IO15"/>
-<wire x1="73.66" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
-<label x="78.74" y="106.68" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC402" gate="G$1" pin="IO22"/>
+<wire x1="78.74" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
+<label x="78.74" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FC0" class="0">
@@ -29555,30 +30005,18 @@ C307 shared for IC301/IC302</text>
 <label x="35.56" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!IACK" class="0">
-<segment>
-<pinref part="IC402" gate="G$1" pin="IO16"/>
-<wire x1="73.66" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
-<label x="78.74" y="104.14" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC402" gate="G$1" pin="IN9"/>
-<wire x1="35.56" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
-<label x="35.56" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="!IPL0" class="0">
-<segment>
-<pinref part="IC402" gate="G$1" pin="IO17"/>
-<wire x1="73.66" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-<label x="78.74" y="101.6" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="!IPL1" class="0">
 <segment>
 <pinref part="IC402" gate="G$1" pin="IO18"/>
 <wire x1="78.74" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <label x="78.74" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!IPL1" class="0">
+<segment>
+<pinref part="IC402" gate="G$1" pin="IO20"/>
+<wire x1="73.66" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
+<label x="78.74" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!IPL2" class="0">
@@ -29590,27 +30028,9 @@ C307 shared for IC301/IC302</text>
 </net>
 <net name="!VPA" class="0">
 <segment>
-<pinref part="IC402" gate="G$1" pin="IO20"/>
-<wire x1="78.74" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
-<label x="78.74" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
 <pinref part="IC402" gate="G$1" pin="IO21"/>
 <wire x1="73.66" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="IC402" gate="G$1" pin="IO22"/>
-<wire x1="78.74" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="IC402" gate="G$1" pin="IO23"/>
-<wire x1="73.66" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<label x="78.74" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!68681_IRQ" class="0">
@@ -29620,7 +30040,7 @@ C307 shared for IC301/IC302</text>
 <label x="35.56" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!EXTIRQ" class="0">
+<net name="!EXTI_A" class="0">
 <segment>
 <pinref part="IC402" gate="G$1" pin="IN8"/>
 <wire x1="40.64" y1="88.9" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
@@ -29639,18 +30059,125 @@ C307 shared for IC301/IC302</text>
 <wire x1="35.56" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="!NMI" class="0">
+<segment>
+<pinref part="IC402" gate="G$1" pin="IN6"/>
+<wire x1="40.64" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
+<label x="35.56" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="215.9" y1="66.04" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R402" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
+<junction x="223.52" y="63.5"/>
+<label x="231.14" y="63.5" size="1.778" layer="95" xref="yes"/>
+<pinref part="S402" gate="1" pin="S"/>
+</segment>
+</net>
+<net name="!EXTI_B" class="0">
+<segment>
+<pinref part="IC402" gate="G$1" pin="IN9"/>
+<wire x1="35.56" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
+<label x="35.56" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!RTC_CS" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IO23"/>
+<wire x1="73.66" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
+<label x="78.74" y="152.4" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
 <net name="!DTACK" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IO21"/>
+<wire x1="73.66" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
+<label x="78.74" y="157.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!RAM_CS" class="0">
 <segment>
 <pinref part="IC401" gate="G$1" pin="IO14"/>
 <wire x1="73.66" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
 <label x="78.74" y="175.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="!NMI" class="0">
+<net name="!LOE" class="0">
 <segment>
-<pinref part="IC402" gate="G$1" pin="IN6"/>
-<wire x1="40.64" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
-<label x="35.56" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC401" gate="G$1" pin="IO15"/>
+<wire x1="73.66" y1="172.72" x2="78.74" y2="172.72" width="0.1524" layer="91"/>
+<label x="78.74" y="172.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!LWE" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IO16"/>
+<wire x1="73.66" y1="170.18" x2="78.74" y2="170.18" width="0.1524" layer="91"/>
+<label x="78.74" y="170.18" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!UWE" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IO17"/>
+<wire x1="73.66" y1="167.64" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
+<label x="78.74" y="167.64" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!UOE" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IO18"/>
+<wire x1="73.66" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
+<label x="78.74" y="165.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!ROM_CS" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IO19"/>
+<wire x1="73.66" y1="162.56" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
+<label x="78.74" y="162.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A23" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IN10"/>
+<wire x1="40.64" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<label x="35.56" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="A21" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IN9"/>
+<wire x1="40.64" y1="152.4" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
+<label x="35.56" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="A15" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IN13"/>
+<wire x1="40.64" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
+<label x="35.56" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!UDS" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IN5"/>
+<wire x1="40.64" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
+<label x="35.56" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="R/!W!" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IN3"/>
+<wire x1="40.64" y1="167.64" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
+<label x="35.56" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!68681_CS" class="0">
+<segment>
+<pinref part="IC401" gate="G$1" pin="IO22"/>
+<wire x1="73.66" y1="154.94" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
+<label x="78.74" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
