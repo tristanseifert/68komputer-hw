@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -5696,6 +5696,136 @@ package type P</description>
 <text x="-11.8618" y="-2.54" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-10.16" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SO32W" urn="urn:adsk.eagle:footprint:8084989/1">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+wide body 7.5 mm/JEDEC MO-119AB</description>
+<wire x1="-10.895" y1="5.9" x2="10.895" y2="5.9" width="0.1998" layer="39"/>
+<wire x1="10.895" y1="-5.9" x2="-10.895" y2="-5.9" width="0.1998" layer="39"/>
+<wire x1="-10.895" y1="-5.9" x2="-10.895" y2="5.9" width="0.1998" layer="39"/>
+<wire x1="10.32" y1="-3.7" x2="-10.32" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="-10.32" y1="-3.7" x2="-10.32" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-10.32" y1="-3.2" x2="-10.32" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="-10.32" y1="3.7" x2="10.32" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="10.32" y1="-3.2" x2="-10.32" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="10.32" y1="3.7" x2="10.32" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="10.32" y1="-3.2" x2="10.32" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="10.895" y1="5.9" x2="10.895" y2="-5.9" width="0.1998" layer="39"/>
+<smd name="2" x="-8.255" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-9.525" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="8.255" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="9.525" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="9.525" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="8.255" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="25" x="-0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="26" x="-1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="27" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="28" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="29" x="-5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="30" x="-6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="31" x="-8.255" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="32" x="-9.525" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-9.525" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9.525" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-9.7701" y1="-5.32" x2="-9.2799" y2="-3.8001" layer="51"/>
+<rectangle x1="-8.5001" y1="-5.32" x2="-8.0099" y2="-3.8001" layer="51"/>
+<rectangle x1="-7.2301" y1="-5.32" x2="-6.7399" y2="-3.8001" layer="51"/>
+<rectangle x1="-5.9601" y1="-5.32" x2="-5.4699" y2="-3.8001" layer="51"/>
+<rectangle x1="-4.6901" y1="-5.32" x2="-4.1999" y2="-3.8001" layer="51"/>
+<rectangle x1="-3.4201" y1="-5.32" x2="-2.9299" y2="-3.8001" layer="51"/>
+<rectangle x1="-2.1501" y1="-5.32" x2="-1.6599" y2="-3.8001" layer="51"/>
+<rectangle x1="-0.8801" y1="-5.32" x2="-0.3899" y2="-3.8001" layer="51"/>
+<rectangle x1="0.3899" y1="-5.32" x2="0.8801" y2="-3.8001" layer="51"/>
+<rectangle x1="1.6599" y1="-5.32" x2="2.1501" y2="-3.8001" layer="51"/>
+<rectangle x1="2.9299" y1="-5.32" x2="3.4201" y2="-3.8001" layer="51"/>
+<rectangle x1="4.1999" y1="-5.32" x2="4.6901" y2="-3.8001" layer="51"/>
+<rectangle x1="5.4699" y1="-5.32" x2="5.9601" y2="-3.8001" layer="51"/>
+<rectangle x1="6.7399" y1="-5.32" x2="7.2301" y2="-3.8001" layer="51"/>
+<rectangle x1="8.0099" y1="-5.32" x2="8.5001" y2="-3.8001" layer="51"/>
+<rectangle x1="9.2799" y1="-5.32" x2="9.7701" y2="-3.8001" layer="51"/>
+<rectangle x1="9.2799" y1="3.8001" x2="9.7701" y2="5.32" layer="51"/>
+<rectangle x1="8.0099" y1="3.8001" x2="8.5001" y2="5.32" layer="51"/>
+<rectangle x1="6.7399" y1="3.8001" x2="7.2301" y2="5.32" layer="51"/>
+<rectangle x1="5.4699" y1="3.8001" x2="5.9601" y2="5.32" layer="51"/>
+<rectangle x1="4.1999" y1="3.8001" x2="4.6901" y2="5.32" layer="51"/>
+<rectangle x1="2.9299" y1="3.8001" x2="3.4201" y2="5.32" layer="51"/>
+<rectangle x1="1.6599" y1="3.8001" x2="2.1501" y2="5.32" layer="51"/>
+<rectangle x1="0.3899" y1="3.8001" x2="0.8801" y2="5.32" layer="51"/>
+<rectangle x1="-0.8801" y1="3.8001" x2="-0.3899" y2="5.32" layer="51"/>
+<rectangle x1="-2.1501" y1="3.8001" x2="-1.6599" y2="5.32" layer="51"/>
+<rectangle x1="-3.4201" y1="3.8001" x2="-2.9299" y2="5.32" layer="51"/>
+<rectangle x1="-4.6901" y1="3.8001" x2="-4.1999" y2="5.32" layer="51"/>
+<rectangle x1="-5.9601" y1="3.8001" x2="-5.4699" y2="5.32" layer="51"/>
+<rectangle x1="-7.2301" y1="3.8001" x2="-6.7399" y2="5.32" layer="51"/>
+<rectangle x1="-8.5001" y1="3.8001" x2="-8.0099" y2="5.32" layer="51"/>
+<rectangle x1="-9.7701" y1="3.8001" x2="-9.2799" y2="5.32" layer="51"/>
+</package>
+<package name="SOIC127P1412X299-32N" urn="urn:adsk.eagle:footprint:15245867/1" locally_modified="yes">
+<description>32-SOIC, 1.27 mm pitch, 14.12 mm span, 20.45 X 11.30 X 3.00 mm body
+&lt;p&gt;32-pin SOIC package with 1.27 mm pitch, 14.12 mm span with body size 20.45 X 11.30 X 3.00 mm&lt;/p&gt;</description>
+<circle x="-6.6296" y="10.3313" radius="0.25" width="0" layer="21"/>
+<wire x1="-5.715" y1="10.0813" x2="-5.715" y2="10.3759" width="0.12" layer="21"/>
+<wire x1="-5.715" y1="10.3759" x2="5.715" y2="10.3759" width="0.12" layer="21"/>
+<wire x1="5.715" y1="10.3759" x2="5.715" y2="10.0813" width="0.12" layer="21"/>
+<wire x1="-5.715" y1="-10.0813" x2="-5.715" y2="-10.3759" width="0.12" layer="21"/>
+<wire x1="-5.715" y1="-10.3759" x2="5.715" y2="-10.3759" width="0.12" layer="21"/>
+<wire x1="5.715" y1="-10.3759" x2="5.715" y2="-10.0813" width="0.12" layer="21"/>
+<wire x1="5.715" y1="-10.3759" x2="-5.715" y2="-10.3759" width="0.12" layer="51"/>
+<wire x1="-5.715" y1="-10.3759" x2="-5.715" y2="10.3759" width="0.12" layer="51"/>
+<wire x1="-5.715" y1="10.3759" x2="5.715" y2="10.3759" width="0.12" layer="51"/>
+<wire x1="5.715" y1="10.3759" x2="5.715" y2="-10.3759" width="0.12" layer="51"/>
+<smd name="1" x="-6.6361" y="9.525" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="2" x="-6.6361" y="8.255" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="3" x="-6.6361" y="6.985" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="4" x="-6.6361" y="5.715" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="5" x="-6.6361" y="4.445" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="6" x="-6.6361" y="3.175" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="7" x="-6.6361" y="1.905" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="8" x="-6.6361" y="0.635" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="9" x="-6.6361" y="-0.635" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="10" x="-6.6361" y="-1.905" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="11" x="-6.6361" y="-3.175" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="12" x="-6.6361" y="-4.445" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="13" x="-6.6361" y="-5.715" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="14" x="-6.6361" y="-6.985" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="15" x="-6.6361" y="-8.255" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="16" x="-6.6361" y="-9.525" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="17" x="6.6361" y="-9.525" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="18" x="6.6361" y="-8.255" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="19" x="6.6361" y="-6.985" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="20" x="6.6361" y="-5.715" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="21" x="6.6361" y="-4.445" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="22" x="6.6361" y="-3.175" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="23" x="6.6361" y="-1.905" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="24" x="6.6361" y="-0.635" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="25" x="6.6361" y="0.635" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="26" x="6.6361" y="1.905" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="27" x="6.6361" y="3.175" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="28" x="6.6361" y="4.445" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="29" x="6.6361" y="5.715" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="30" x="6.6361" y="6.985" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="31" x="6.6361" y="8.255" dx="1.8163" dy="0.6046" layer="1"/>
+<smd name="32" x="6.6361" y="9.525" dx="1.8163" dy="0.6046" layer="1"/>
+<text x="-5.08" y="11.2163" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-11.0109" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC8" urn="urn:adsk.eagle:package:16475/2" type="model">
@@ -5888,6 +6018,20 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 package type P</description>
 <packageinstances>
 <packageinstance name="DIL18"/>
+</packageinstances>
+</package3d>
+<package3d name="SO32W" urn="urn:adsk.eagle:package:8088784/1" type="box">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+wide body 7.5 mm/JEDEC MO-119AB</description>
+<packageinstances>
+<packageinstance name="SO32W"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P1412X299-32N" urn="urn:adsk.eagle:package:15245865/1" type="model">
+<description>32-SOIC, 1.27 mm pitch, 14.12 mm span, 20.45 X 11.30 X 3.00 mm body
+&lt;p&gt;32-pin SOIC package with 1.27 mm pitch, 14.12 mm span with body size 20.45 X 11.30 X 3.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P1412X299-32N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -8898,7 +9042,7 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <gate name="G$1" symbol="CY62128B" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOIC32" package="SO32X">
+<device name="SOIC32-450" package="SOIC127P1412X299-32N">
 <connects>
 <connect gate="G$1" pin="!CE1" pad="22"/>
 <connect gate="G$1" pin="!OE" pad="24"/>
@@ -8933,7 +9077,7 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <connect gate="G$1" pin="VCC" pad="32"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4333/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15245865/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
