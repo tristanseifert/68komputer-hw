@@ -6668,6 +6668,9 @@ Please make sure your boards conform to these design rules.
 <contactref element="LED101" pad="A"/>
 <wire x1="3.5" y1="76.25" x2="3.5" y2="73.85" width="0.2032" layer="1"/>
 </signal>
+<signal name="!EXT_ID">
+<contactref element="SV101" pad="41"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

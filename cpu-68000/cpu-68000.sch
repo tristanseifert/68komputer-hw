@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -26995,7 +26995,7 @@ small</description>
 </instance>
 </instances>
 <busses>
-<bus name="A[1..23],!AS,!BERR,!BG,!BGACK,!BR,CLK,D[0..15],!DTACK,E,!EXTI_A,!EXTI_B,FC[0..2],!HALT,!IPL[0..2],!LDS,!RESET,R/!W!,!UDS,!VMA,!VPA">
+<bus name="A[1..23],!AS,!BERR,!BG,!BGACK,!BR,CLK,D[0..15],!DTACK,E,!EXTI_A,!EXTI_B,!EXT_ID,FC[0..2],!HALT,!IPL[0..2],!LDS,!RESET,R/!W!,!UDS,!VMA,!VPA">
 <segment>
 <wire x1="15.24" y1="76.2" x2="15.24" y2="182.88" width="0.762" layer="92"/>
 <wire x1="15.24" y1="182.88" x2="63.5" y2="182.88" width="0.762" layer="92"/>
@@ -27173,12 +27173,9 @@ small</description>
 <segment>
 <pinref part="SV101" gate="1" pin="45"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="SV101" gate="1" pin="41"/>
 <wire x1="114.3" y1="147.32" x2="114.3" y2="144.78" width="0.1524" layer="91"/>
 <junction x="114.3" y="147.32"/>
 <pinref part="SV101" gate="1" pin="43"/>
-<wire x1="114.3" y1="144.78" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
-<junction x="114.3" y="144.78"/>
 </segment>
 <segment>
 <pinref part="SV101" gate="1" pin="46"/>
@@ -27985,6 +27982,13 @@ small</description>
 <pinref part="SV101" gate="1" pin="15"/>
 <wire x1="114.3" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="109.22" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!EXT_ID" class="0">
+<segment>
+<pinref part="SV101" gate="1" pin="41"/>
+<wire x1="114.3" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="142.24" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -29230,7 +29234,7 @@ small</description>
 </instance>
 </instances>
 <busses>
-<bus name="!68681_CS,!68681_IRQ,68681_X[1..2],A[1..23],!A_CTS,!A_RTS,A_RX,A_TX,!B_CTS,!B_RTS,B_RX,B_TX,CONF[0..3],D[0..15],!DTACK,!LOE,!LWE,REMAP,!RESET,!RTC_CS,STATUS[0..2]">
+<bus name="!68681_CS,!68681_IRQ,68681_X[1..2],A[1..23],!A_CTS,!A_RTS,A_RX,A_TX,!B_CTS,!B_RTS,B_RX,B_TX,CONF[0..3],D[0..15],!DTACK,!EXT_ID,!LOE,!LWE,REMAP,!RESET,!RTC_CS,STATUS[0..2]">
 <segment>
 <wire x1="22.86" y1="177.8" x2="68.58" y2="177.8" width="0.762" layer="92"/>
 <wire x1="68.58" y1="177.8" x2="71.12" y2="177.8" width="0.762" layer="92"/>
@@ -30082,6 +30086,13 @@ small</description>
 <segment>
 <pinref part="LED304" gate="G$1" pin="A"/>
 <pinref part="R307" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="!EXT_ID" class="0">
+<segment>
+<pinref part="IC301" gate="G$1" pin="OP6"/>
+<wire x1="60.96" y1="137.16" x2="66.04" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="137.16" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -175,8 +175,8 @@
 <text x="92.71" y="1.27" size="1.778" layer="25" rot="R90" align="top-left">UART A (TTY)</text>
 <text x="21.59" y="98.425" size="1.778" layer="25" align="top-left">External Kush Port</text>
 <text x="24.765" y="8.255" size="1.778" layer="25" rot="R180" align="top-center">NMI</text>
-<text x="73.525" y="75.5" size="1.778" layer="25" align="bottom-center">Low</text>
-<text x="130.325" y="96.5" size="1.778" layer="25" align="bottom-center">High</text>
+<text x="73.525" y="75.5" size="1.778" layer="25" align="bottom-center">High</text>
+<text x="130.325" y="96.5" size="1.778" layer="25" align="bottom-center">Low</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -4690,7 +4690,6 @@ Please make sure your boards conform to these design rules.
 <via x="153.5" y="99" extent="1-16" drill="0.35"/>
 <contactref element="C105" pad="2"/>
 <contactref element="C1" pad="2"/>
-<contactref element="SV101" pad="41"/>
 <contactref element="SV101" pad="43"/>
 <contactref element="SV101" pad="44"/>
 </signal>
@@ -7660,6 +7659,20 @@ Please make sure your boards conform to these design rules.
 <wire x1="25.4" y1="25.4" x2="26.67" y2="25.4" width="0.2032" layer="1"/>
 <wire x1="27.305" y1="24.765" x2="27.305" y2="20.32" width="0.2032" layer="1"/>
 <wire x1="41.275" y1="18.415" x2="43.815" y2="15.875" width="0.2032" layer="1"/>
+</signal>
+<signal name="!EXT_ID">
+<contactref element="SV101" pad="41"/>
+<contactref element="IC301" pad="29"/>
+<wire x1="141.755" y1="12.7" x2="153.7" y2="12.7" width="0.2032" layer="16"/>
+<wire x1="153.7" y1="12.7" x2="154" y2="13" width="0.2032" layer="16"/>
+<via x="154" y="13" extent="1-16" drill="0.35"/>
+<wire x1="155" y1="82" x2="155" y2="14" width="0.2032" layer="1"/>
+<wire x1="154" y1="13" x2="155" y2="14" width="0.2032" layer="1"/>
+<wire x1="64.77" y1="87.63" x2="64.77" y2="86.23" width="0.2032" layer="16"/>
+<wire x1="64.77" y1="86.23" x2="65.5" y2="85.5" width="0.2032" layer="16"/>
+<wire x1="151.5" y1="85.5" x2="155" y2="82" width="0.2032" layer="16"/>
+<via x="155" y="82" extent="1-16" drill="0.35"/>
+<wire x1="151.5" y1="85.5" x2="65.5" y2="85.5" width="0.2032" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

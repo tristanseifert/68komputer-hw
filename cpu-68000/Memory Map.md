@@ -22,5 +22,12 @@ For an external peripheral at address $800000, the first 64K segment from $F0000
 
 Peripherals may elect to only occupy IO space, in which case they must stay in the range of $F60000 - $F7FFFF.
 
+### Identification ROMs
+The expansion connector contains the /EXT_ID signal on pin 41. When asserted, expansion cards with info ROMs will map their ROMs onto the bus, instead of whatever they normally would.
+
+Such a ROM must be on 32K boundaries, and contain a specific signature for the system to discover it. The ROM must be connected to the low byte (D0..D7) of the data bus, and will be shadowed to the highest area of RAM and run from there.
+
+/EXT_ID is driven by OP6 (pin 29) of the 68681.
+
 ### Interrupts
 To assert a CPU interrupt, peripherals may assert either /INTA or /INTB lines. Two IRQ lines are provided to reduce the complexity of interrupt handler routines.
