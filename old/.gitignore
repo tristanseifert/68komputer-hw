@@ -1,0 +1,7 @@
+~*.xlsx
+*.s#*
+*.l#*
+*.b#*
+
+# vim swap files
+*.swp
