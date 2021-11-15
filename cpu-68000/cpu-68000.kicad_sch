@@ -3497,6 +3497,18 @@
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/b38b3283-c41b-4e00-a71c-4943d6badfcc"
       (reference "#PWR0523") (unit 1) (value "+5VA") (footprint "")
     )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/2cafc84c-288f-4c01-b279-9ffb7d6fd691"
+      (reference "#PWR0524") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/876aab13-b865-4b75-8a1b-7fc387aab997"
+      (reference "#PWR0525") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/631ac951-88d3-4dea-afb0-827ca326b5e9"
+      (reference "#PWR0526") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/085a8814-48a4-490c-a1f4-baf2ec0eaf46"
+      (reference "#PWR0527") (unit 1) (value "GND") (footprint "")
+    )
     (path "/663fdf24-72f5-4662-98d1-8ad3c280cd08"
       (reference "C101") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -3700,6 +3712,9 @@
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/507c8aa3-bd47-40e7-b468-30a20ccc5c99"
       (reference "C525") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/2d225e56-1982-43dd-b0fb-ca22e937158f"
+      (reference "C526") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/3c815c3c-525b-4301-aebb-1b60ac0c545d"
       (reference "D201") (unit 1) (value "Grn") (footprint "68komputer-common:H100Cxx")
@@ -3931,6 +3946,9 @@
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/a1b5930d-43a6-41e4-8b9b-c474c680e9f6"
       (reference "U509") (unit 1) (value "LDL1117S50R") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/7ca3dddf-1451-4f69-aec4-7e95bcc85f1b"
+      (reference "U510") (unit 1) (value "AT24CS32-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/3f4dbd19-7bfc-4f30-b203-586f836c6356"
       (reference "X101") (unit 1) (value "10MHz") (footprint "Oscillator:Oscillator_DIP-8")
