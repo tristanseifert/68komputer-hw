@@ -751,20 +751,20 @@
     )
   )
 
+  (junction (at 161.925 138.43) (diameter 0) (color 0 0 0 0))
   (junction (at 117.475 153.67) (diameter 0) (color 0 0 0 0))
-  (junction (at 40.64 115.57) (diameter 0) (color 0 0 0 0))
-  (junction (at 134.62 156.21) (diameter 0) (color 0 0 0 0))
-  (junction (at 116.205 148.59) (diameter 0) (color 0 0 0 0))
   (junction (at 50.8 115.57) (diameter 0) (color 0 0 0 0))
+  (junction (at 193.04 150.495) (diameter 0) (color 0 0 0 0))
   (junction (at 40.64 120.65) (diameter 0) (color 0 0 0 0))
-  (junction (at 35.56 188.595) (diameter 0) (color 0 0 0 0))
+  (junction (at 134.62 156.21) (diameter 0) (color 0 0 0 0))
+  (junction (at 40.64 115.57) (diameter 0) (color 0 0 0 0))
+  (junction (at 114.935 143.51) (diameter 0) (color 0 0 0 0))
   (junction (at 50.8 120.65) (diameter 0) (color 0 0 0 0))
+  (junction (at 116.205 148.59) (diameter 0) (color 0 0 0 0))
+  (junction (at 35.56 188.595) (diameter 0) (color 0 0 0 0))
+  (junction (at 35.56 183.515) (diameter 0) (color 0 0 0 0))
   (junction (at 134.62 153.67) (diameter 0) (color 0 0 0 0))
   (junction (at 134.62 151.13) (diameter 0) (color 0 0 0 0))
-  (junction (at 35.56 183.515) (diameter 0) (color 0 0 0 0))
-  (junction (at 161.925 138.43) (diameter 0) (color 0 0 0 0))
-  (junction (at 114.935 143.51) (diameter 0) (color 0 0 0 0))
-  (junction (at 193.04 150.495) (diameter 0) (color 0 0 0 0))
 
   (wire (pts (xy 55.88 95.885) (xy 67.945 95.885))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3422,6 +3422,9 @@
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/82ab4910-6138-4b1d-8794-09b2f4313d7c"
       (reference "#PWR0509") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/b9fdda46-1dc7-49df-abcc-21780c9205b7"
+      (reference "#PWR0510") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/2cafc84c-288f-4c01-b279-9ffb7d6fd691"
       (reference "#PWR0524") (unit 1) (value "+5V") (footprint "")
     )
@@ -3785,6 +3788,12 @@
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/7f2d69d9-cf39-4426-9920-1cc9937886af"
       (reference "D502") (unit 1) (value "G/G") (footprint "68komputer-common:H201Cxx")
     )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/26ed5ec8-a716-471a-8f41-8c75ad6949c1"
+      (reference "D503") (unit 1) (value "Green") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/c6ce3617-c31c-41a7-b804-d834fb47af28"
+      (reference "D504") (unit 1) (value "Green") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/36457c79-c260-49f2-97db-5df3d931ff71"
       (reference "F201") (unit 1) (value "1.1A") (footprint "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm")
     )
@@ -3859,6 +3868,12 @@
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/37863682-2ab6-4df9-adee-a3f616ff7952"
       (reference "R511") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/a347f58c-9b44-4e97-98ed-5afd302ee5ed"
+      (reference "R512") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/ee0a1981-33e0-4864-9634-e198c0a9c795"
+      (reference "R513") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/4d453ef5-0fef-471c-8937-1c4c98c853a6/1680d328-bb0e-4eeb-90a6-9219c9386d10"
       (reference "R601") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -4009,9 +4024,6 @@
     )
     (path "/de637fe6-6976-492c-a9e4-b196304c5ff6/75c802b8-bb54-4e6c-9481-459b7f832d0e"
       (reference "U404") (unit 1) (value "IS61C5128AL-10TLI") (footprint "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm")
-    )
-    (path "/de637fe6-6976-492c-a9e4-b196304c5ff6/b77bb9b1-8068-443b-bd75-5e19873b7754"
-      (reference "U405") (unit 1) (value "SST39SF040-XX-4X-W") (footprint "Package_SO:TSOP-I-32_11.8x8mm_P0.5mm")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/a890eb84-5c12-4f07-80a9-3d56f4c563bd"
       (reference "U501") (unit 1) (value "74HC2G14") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
