@@ -6058,7 +6058,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.815 158.75 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f187b854-85b2-42c1-9b18-fbb3b32dd130)
-    (property "Reference" "R?" (id 0) (at 32.385 158.75 90))
+    (property "Reference" "R519" (id 0) (at 32.385 158.75 90))
     (property "Value" "4k7" (id 1) (at 38.1 158.75 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 43.815 158.75 0)
       (effects (font (size 1.27 1.27)) hide)

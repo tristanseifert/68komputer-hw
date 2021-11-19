@@ -1,0 +1,3 @@
+[submodule "shared/led-libs"]
+	path = shared/led-libs
+	url = git@github.com:jh1995/KiCad-libs.git
