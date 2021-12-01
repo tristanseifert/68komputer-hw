@@ -4145,7 +4145,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e0834058-a061-4dd6-b733-2203582d03a3)
   )
-  (hierarchical_label "NO_BERR" (shape output) (at 147.32 147.955 180)
+  (hierarchical_label "REMAP" (shape output) (at 147.32 147.955 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e34369b0-8a2b-4dd2-9b72-10d392b4c0ef)
   )
