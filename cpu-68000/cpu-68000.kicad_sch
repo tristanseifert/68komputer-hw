@@ -3246,8 +3246,14 @@
     (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/8038f188-5f7f-4751-81f5-2adc5566f9d0"
       (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/5d841968-d13a-47b4-862e-419d30a5db47"
+      (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
+    )
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/3f1391f1-ee3b-4398-bbe1-41adbe6c7891"
       (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/b4ecea00-1db5-44fe-9fe0-3b6f531d359b"
+      (reference "#PWR0178") (unit 1) (value "+5V") (footprint "")
     )
     (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/ff55bbc5-72fd-455f-b717-f01358e2d4be"
       (reference "#PWR0179") (unit 1) (value "+5V") (footprint "")
@@ -3653,12 +3659,6 @@
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/4d453ef5-0fef-471c-8937-1c4c98c853a6/87189849-d7f7-401a-a144-3096cc0a6c43"
       (reference "#PWR0625") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/5d841968-d13a-47b4-862e-419d30a5db47"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/b4ecea00-1db5-44fe-9fe0-3b6f531d359b"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/663fdf24-72f5-4662-98d1-8ad3c280cd08"
       (reference "C101") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -4138,7 +4138,7 @@
       (reference "U205") (unit 1) (value "SN74LVC2T45") (footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
     )
     (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/62adabf5-8f35-4e69-8692-db2cbe767550"
-      (reference "U301") (unit 1) (value "MC68000R") (footprint "68komputer-common:PGA-68-10x10")
+      (reference "U301") (unit 1) (value "MC68000R") (footprint "Package_LCC:PLCC-68_THT-Socket")
     )
     (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/7663401e-9484-42d0-b9ad-ce98c893a7cb"
       (reference "U302") (unit 1) (value "74HC2G08DC") (footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
@@ -4161,8 +4161,8 @@
     (path "/d78c8e5b-f415-45d2-97bd-68d83365a2b9/254af242-2d0d-4e89-8246-cfae0b451de3"
       (reference "U306") (unit 1) (value "74HC148") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/de637fe6-6976-492c-a9e4-b196304c5ff6/8be70192-8452-4daa-b782-1372c91f060a"
-      (reference "U401") (unit 1) (value "IS61C5128AL-10TLI") (footprint "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm")
+    (path "/de637fe6-6976-492c-a9e4-b196304c5ff6/33e7d7cd-5b27-4535-a526-0e6fa7b9c9bc"
+      (reference "U401") (unit 1) (value "SST39SF040-XX-4X-W") (footprint "Package_SO:TSOP-I-32_11.8x8mm_P0.5mm")
     )
     (path "/de637fe6-6976-492c-a9e4-b196304c5ff6/b607f902-c234-4629-8816-d2d0d79eb9bb"
       (reference "U402") (unit 1) (value "IS61C5128AL-10TLI") (footprint "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm")
