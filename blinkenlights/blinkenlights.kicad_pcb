@@ -368,7 +368,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0104f3d1-d6ce-410e-a724-b34ac0ba08a4)
-    (at 75.58 159.7)
+    (at 86.51 138.055)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "indicators.kicad_sch")
@@ -578,7 +578,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 0f4444c6-90da-4097-bce5-82acfe860a93)
-    (at 76.32 155.295)
+    (at 87.25 133.65)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "MPN" "AP2012YD")
@@ -1456,7 +1456,7 @@
 
   (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (layer "F.Cu")
     (tedit 5E476F32) (tstamp 30572adf-8f55-4308-a304-d95f3dae0168)
-    (at 28.566666 142.3)
+    (at 18 129.4)
     (descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (property "Sheetfile" "indicators.kicad_sch")
@@ -1805,7 +1805,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-6" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 3c617998-16b6-4be9-9522-6cee4305fccd)
-    (at 63.466666 146.2)
+    (at 73.076666 133.01)
     (descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "blinkenlights.kicad_sch")
@@ -3008,7 +3008,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-6" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 878c89c2-b538-43d0-822e-7a82486d9645)
-    (at 71.5 156)
+    (at 82.43 134.355)
     (descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "MPN" "SN74AUC2G34DBVR")
@@ -4592,7 +4592,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a6862a4b-a472-4ab7-b169-c870e0d4c9f3)
     )
-    (fp_text value ".5A" (at 0 2.7 unlocked) (layer "F.Fab")
+    (fp_text value ".5A" (at -4.4 0 90 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5232e65a-0d02-4331-8f05-7e7b43cdc5f7)
     )
@@ -4710,7 +4710,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp b91c31b2-b627-4a00-9608-ba1e9b2a982f)
-    (at 71.17 159.745)
+    (at 82.1 138.1)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "MPN" "AP2012YD")
@@ -4808,7 +4808,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b447d83e-500f-48c6-8773-1c00c93af591)
     )
-    (fp_text value "74HC2G14" (at 0 2.5 90) (layer "F.Fab")
+    (fp_text value "74HC2G14" (at 0 2.5 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7d80a202-e6ea-417b-a940-2c5c199bd0ae)
     )
@@ -5437,7 +5437,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e7fc02ad-d1ee-4724-83b3-179379d6a2ad)
-    (at 79.99 158.29)
+    (at 90.92 136.645)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "indicators.kicad_sch")
@@ -5791,7 +5791,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-6" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp f78fc1fb-8cd7-4888-96b1-d7ea2954f2de)
-    (at 58.316666 146.2)
+    (at 67.926666 133.01)
     (descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "blinkenlights.kicad_sch")
