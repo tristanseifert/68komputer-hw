@@ -459,6 +459,14 @@
     [
       "38d32164-31d5-4dda-bbb2-5564054445bc",
       "Displays and Indicators"
+    ],
+    [
+      "69ba85f7-748f-4efd-b6fb-efc1542049b1",
+      "Microcontroller"
+    ],
+    [
+      "496cefc4-8de7-4537-93ea-320c76488292",
+      "Level Shifting"
     ]
   ],
   "text_variables": {}
