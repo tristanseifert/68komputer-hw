@@ -1773,14 +1773,11 @@
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/7cbcb0ad-dc10-46e5-bd46-49bb1c151905"
       (reference "#PWR0503") (unit 1) (value "GND") (footprint "")
     )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/772cb9b5-3180-4f63-98ab-c1cf9809006d"
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/688ac086-efe2-4a11-a5f4-776e73f3b4ec"
       (reference "#PWR0504") (unit 1) (value "GND") (footprint "")
     )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/8235509a-a5d4-4db0-980f-bc931dc3bc22"
-      (reference "#PWR0505") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/ca183dc4-7fe2-4ebc-bb78-2538e7dc8731"
-      (reference "#PWR0506") (unit 1) (value "GND") (footprint "")
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/91b859f3-e3dc-4a15-8bff-147b8369492c"
+      (reference "#PWR0505") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/496cefc4-8de7-4537-93ea-320c76488292/2e57998d-121c-41e9-bbaa-6e63f9930929"
       (reference "#PWR0601") (unit 1) (value "+3V3") (footprint "")
@@ -2271,8 +2268,8 @@
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/b519df87-7202-4a5b-9b12-1283a4d92d20"
       (reference "J501") (unit 1) (value "Conn_ARM_SWD") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
     )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/7a407fdd-f182-49de-ac79-c0d6c2d32b37"
-      (reference "J502") (unit 1) (value "USB4085-GF-A_REVA4") (footprint "68komputer-common:GCT_USB4085-GF-A_REVA4")
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/80506596-780f-44ef-a828-76196f695e24"
+      (reference "J502") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/ac27a395-2840-4b7c-b1d6-4dd5b3756890/52cc0abc-c3cc-47f9-a0ef-ff9d5c182020"
       (reference "L302") (unit 1) (value "4.7µH") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering")
@@ -2348,12 +2345,6 @@
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/73d3b4a4-f262-4bb8-b18b-e31957b915fb"
       (reference "R503") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/f2d07942-b971-445a-a745-91c2b7c4e198"
-      (reference "R504") (unit 1) (value "5k1") (footprint "")
-    )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/10986223-b1e9-4304-9464-3acea5fa566a"
-      (reference "R505") (unit 1) (value "5k1") (footprint "")
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/496cefc4-8de7-4537-93ea-320c76488292/a03396a2-cda6-4731-93bb-74201c0661ac"
       (reference "R601") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
