@@ -683,6 +683,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 082c63a7-fef0-414e-ba9f-2f63727bccd8)
   )
+  (label "D[0..15]" (at 186.055 23.495 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 084711c3-84d8-4468-b75b-8a72e33634c4)
+  )
   (label "RESET" (at 112.395 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c88a277-94cd-4d21-8ba4-61d667dcc45c)
@@ -703,13 +707,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 258df703-2909-4aa2-8d38-8edb5070b993)
   )
-  (label "D{0..15}" (at 186.055 23.495 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 31b81361-5c1e-4188-b637-b6b103ff177f)
-  )
   (label "R{slash}~{W}" (at 186.055 36.195 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 365dc589-5025-4273-a215-2e245127c074)
+  )
+  (label "A[1..23]" (at 186.055 20.955 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3f1c61a0-fe7f-43c4-b413-f05719797362)
   )
   (label "~{MEM}" (at 224.155 59.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -731,13 +735,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6ea03f0f-da3e-4539-9ef0-17c28ec074d9)
   )
-  (label "A{1..23}" (at 224.155 65.405 0)
+  (label "A[1..23]" (at 224.155 65.405 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6f1bce7d-c9a6-49b3-a8bf-86424d2dfaf2)
-  )
-  (label "A{1..23}" (at 186.055 20.955 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 80ad1c54-c65a-4d0c-9cef-a93230b653ef)
   )
   (label "~{BERR}" (at 224.155 53.975 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -767,7 +767,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c4358830-a049-425b-9d9f-d639d2720ca8)
   )
-  (label "D{0..15}" (at 224.155 67.945 0)
+  (label "D[0..15]" (at 224.155 67.945 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5e2e547-102f-4f2a-9ce6-af4afba24e81)
   )
@@ -1245,11 +1245,11 @@
     (property "Sheet file" "indicators.kicad_sch" (id 1) (at 196.85 51.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "A{1..23}" input (at 196.85 20.955 180)
+    (pin "A[1..23]" input (at 196.85 20.955 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a3f01db7-df6a-41b6-a8b5-fc33a4fa7ac4)
     )
-    (pin "D{0..15}" input (at 196.85 23.495 180)
+    (pin "D[0..15]" input (at 196.85 23.495 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c0c1a1eb-c17b-4baf-b093-1a8ca0faac96)
     )
@@ -1317,7 +1317,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 2fdf9238-1d84-4540-9169-827868963b3f)
     )
-    (pin "D{0..15}" bidirectional (at 234.95 67.945 180)
+    (pin "D[0..15]" bidirectional (at 234.95 67.945 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5ff3a734-f2af-441a-a035-16fdfaee8995)
     )
@@ -1337,7 +1337,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 2e9db76f-8bec-4380-a4a7-91c6683e0a62)
     )
-    (pin "A{1..23}" bidirectional (at 234.95 65.405 180)
+    (pin "A[1..23]" bidirectional (at 234.95 65.405 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 507e983c-92d2-4173-bac3-570bbdca78e6)
     )
@@ -1779,6 +1779,27 @@
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/91b859f3-e3dc-4a15-8bff-147b8369492c"
       (reference "#PWR0505") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/cd9dbe8a-6e02-485e-bb92-264485524ca1"
+      (reference "#PWR0506") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/c207d57d-6fb5-4904-bf8a-8f74e723abf0"
+      (reference "#PWR0507") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/9f86e0e8-a768-4c6f-adef-66625c204fa3"
+      (reference "#PWR0508") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/993d4deb-f3bd-4daf-a633-6a6f3f8cbf09"
+      (reference "#PWR0509") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/487af8a0-5496-4a08-a355-98e2cd265414"
+      (reference "#PWR0510") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/c74c6715-3746-4876-95da-9f8d9bc885c1"
+      (reference "#PWR0511") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/4a290f51-e0ff-49b7-a116-d4f87929a40b"
+      (reference "#PWR0512") (unit 1) (value "GND") (footprint "")
+    )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/496cefc4-8de7-4537-93ea-320c76488292/2e57998d-121c-41e9-bbaa-6e63f9930929"
       (reference "#PWR0601") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2106,6 +2127,33 @@
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/7273ca85-952e-4495-a464-ca91856f9fda"
       (reference "C504") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/06729a9b-4220-4eaa-8fb0-1b8566eb5cbc"
+      (reference "C505") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/22ef8ee7-aca5-48a8-98fa-38f2e38def0d"
+      (reference "C506") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/414627c1-850d-4d0a-b9ce-9c564c0ec29f"
+      (reference "C507") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/1e3eae80-d9ae-4b80-92c9-ba83fd2a21e8"
+      (reference "C508") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/0ab9b269-f8f3-476c-acff-ee3d0f5de54d"
+      (reference "C509") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/b61cb706-c2a0-4bd1-94f0-a52885a00f8e"
+      (reference "C510") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/426ae12b-4d62-4876-802e-1adb6c8a99ea"
+      (reference "C511") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/32b8a325-2cb1-4e0b-9542-5e0b2c7cb7a4"
+      (reference "C512") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/d7b94ddb-be34-430f-a4d9-1efc5f3c326f"
+      (reference "C513") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+    )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/496cefc4-8de7-4537-93ea-320c76488292/59b0f73c-e494-458d-a990-cdda4c47ad8c"
       (reference "C601") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -2274,6 +2322,9 @@
     (path "/ac27a395-2840-4b7c-b1d6-4dd5b3756890/52cc0abc-c3cc-47f9-a0ef-ff9d5c182020"
       (reference "L302") (unit 1) (value "4.7µH") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering")
     )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/a8563c98-faad-4464-a335-f62beab26c94"
+      (reference "L501") (unit 1) (value "10µH") (footprint "Inductor_SMD:L_0805_2012Metric")
+    )
     (path "/baeace01-fb99-44e2-89d5-88b5f21838a1"
       (reference "R102") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -2345,6 +2396,9 @@
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/73d3b4a4-f262-4bb8-b18b-e31957b915fb"
       (reference "R503") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/d6f17292-9b97-4f13-b507-7396695cf2e1"
+      (reference "R504") (unit 1) (value "1R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/496cefc4-8de7-4537-93ea-320c76488292/a03396a2-cda6-4731-93bb-74201c0661ac"
       (reference "R601") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
