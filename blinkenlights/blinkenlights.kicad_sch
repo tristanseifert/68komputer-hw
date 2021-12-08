@@ -780,6 +780,9 @@
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/c63b39c5-424c-4669-a121-127be8b923b1"
       (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/8ce7305b-5128-4153-a9ae-6af52306bac5"
+      (reference "#PWR0226") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ac27a395-2840-4b7c-b1d6-4dd5b3756890/984990b0-715d-4277-93a2-0b2a11b195f8"
       (reference "#PWR0301") (unit 1) (value "+5V") (footprint "")
     )
@@ -1173,17 +1176,11 @@
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/d8908215-7c28-4a55-ad32-018e28ef60a1"
       (reference "C509") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/0076ba86-2650-43c5-bb51-aa9800a7ba17"
-      (reference "C510") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/3b202fed-f40b-4bc5-8880-8f3c1167fb92"
       (reference "C511") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/07bfaede-b766-47a0-af04-4d68b0d8fe90"
       (reference "C512") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/8a2179c3-9c34-465c-9c8c-026c7e76ddee"
-      (reference "C513") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/391e35eb-5c0e-4ea8-869f-cfff75a42a22"
       (reference "C514") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
@@ -1251,6 +1248,18 @@
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/57677505-1654-4582-8f07-50e319c29669"
       (reference "J201") (unit 2) (value "Conn_03x32_Row_Letter_First") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
     )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/a5a96dc9-8e13-47d4-ad6f-8aeb7ebbf7fa"
+      (reference "J202") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
+    )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/a3cdd374-7ea4-49ae-8701-91a97204267b"
+      (reference "J203") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
+    )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/09a796ab-2d66-4552-a387-5901b34a55bc"
+      (reference "J204") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
+    )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/60d9f2d3-ba22-4241-b0c3-b7ea1905ac14"
+      (reference "J205") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
+    )
     (path "/ac27a395-2840-4b7c-b1d6-4dd5b3756890/a6537ab1-812a-45cc-81a8-e272cf51e63b"
       (reference "J301") (unit 1) (value "Conn_01x01_Female") (footprint "68komputer-common:DELTRON-571-0x00")
     )
@@ -1313,6 +1322,15 @@
     )
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/7f4c8796-7c31-415f-ab1f-aae65e004b4b"
       (reference "TP202") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded")
+    )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/d0a0b29f-2406-457b-80a1-40d5c8873278"
+      (reference "TP203") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded")
+    )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/447dd6b4-806b-42eb-9da7-d41da1c9f5db"
+      (reference "TP204") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded")
+    )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/c3d2a331-5238-44fa-b9fb-b22ba1eedbf9"
+      (reference "TP205") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded")
     )
     (path "/ac27a395-2840-4b7c-b1d6-4dd5b3756890/4f9a2c48-b03a-47e0-8d70-4f3a9993fd44"
       (reference "U301") (unit 1) (value "BD9C301FJ") (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm")
