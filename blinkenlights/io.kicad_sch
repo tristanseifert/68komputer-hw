@@ -2438,7 +2438,7 @@
     (property "Value" "10µF" (id 1) (at 275.844 157.4416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" (id 2) (at 273.685 155.575 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" (id 2) (at 273.685 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 273.685 155.575 0)

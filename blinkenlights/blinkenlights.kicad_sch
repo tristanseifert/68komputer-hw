@@ -714,6 +714,9 @@
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/7ea3a228-f8f8-4416-bad8-bcdb8f8e51a1"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/e0ce465d-e728-4eb5-922d-05a3dcba7b95"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/54ea8a4e-917e-41bf-8b13-e86abbc86686"
       (reference "#PWR0201") (unit 1) (value "+5V") (footprint "")
     )
@@ -1068,11 +1071,8 @@
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/4f852024-4528-4c29-b48d-f8741aff91c1"
       (reference "#PWR0520") (unit 1) (value "GND") (footprint "")
     )
-    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/e0ce465d-e728-4eb5-922d-05a3dcba7b95"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/17f91f82-4887-4534-b778-de1cc8195d40"
-      (reference "C201") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C201") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/ae0c0a8f-52ab-40b7-8fe0-71f2da708c37"
       (reference "C202") (unit 1) (value "1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1123,16 +1123,16 @@
       (reference "C317") (unit 1) (value "22µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/6a497162-8558-4f77-b812-61b13f7a67ab"
-      (reference "C401") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C401") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/ba17130f-ea5c-427e-ba29-53665140df74"
-      (reference "C402") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C402") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/157482e4-382b-40e5-b06e-2cdc17137cb7"
-      (reference "C403") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C403") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/697b4f73-76e3-4b9c-8254-12b75d11b61a"
-      (reference "C404") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C404") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/bf274b8e-2692-460d-9f8c-08eaf4b19774"
       (reference "C405") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1141,7 +1141,7 @@
       (reference "C406") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/f7c6d28e-3dd7-4944-b2ba-cd9794519370"
-      (reference "C407") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C407") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/16281f2f-be43-484e-804f-a04907da9fc3"
       (reference "C408") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1150,7 +1150,7 @@
       (reference "C409") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/e8eaf19f-7149-4d33-b77a-18218f802c27"
-      (reference "C410") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C410") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/38d32164-31d5-4dda-bbb2-5564054445bc/bb9860c7-3966-4370-9988-b91f45b08dcf"
       (reference "C411") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1228,7 +1228,7 @@
       (reference "C512") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/391e35eb-5c0e-4ea8-869f-cfff75a42a22"
-      (reference "C514") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C514") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
     (path "/ac27a395-2840-4b7c-b1d6-4dd5b3756890/1d9f9c1a-0f0a-4727-9da8-f67ef4bbeb03"
       (reference "D301") (unit 1) (value "Green") (footprint "LED_SMD:LED_0805_2012Metric")
