@@ -58,6 +58,7 @@
       "drc_exclusions": [
         "courtyards_overlap|66200001|77120001|776fb09b-0b21-4b69-adac-b41ac5235a46|db5e9b8c-37cd-4367-a91a-998327aa3f3b",
         "courtyards_overlap|72800001|63920001|776fb09b-0b21-4b69-adac-b41ac5235a46|973e53df-533d-4cfe-b487-7368fabe9e2b",
+        "courtyards_overlap|74520001|64200001|776fb09b-0b21-4b69-adac-b41ac5235a46|973e53df-533d-4cfe-b487-7368fabe9e2b",
         "courtyards_overlap|94550001|52120001|02297257-5310-4422-b8d2-807a5269beb3|e6f8d178-cd12-48a7-bb12-98bcbac8350a",
         "silk_over_copper|154600000|107725000|3bf742eb-6ae8-4a4d-90dd-6ea91e239723|655a3307-8de6-45cc-91ff-d8063deabce3",
         "silk_over_copper|154650000|108225000|b7eff811-4a41-4d1e-a16f-b0c1da98b347|655a3307-8de6-45cc-91ff-d8063deabce3",
@@ -256,7 +257,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_driven|571500|838200|09e2978d-ccce-4e37-8f9e-57f813bef997|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -451,7 +454,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",

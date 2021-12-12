@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "68komputer CPU Board")
+    (date "2021-12-11")
+    (rev "1")
+    (company "Tristan Seifert")
+    (comment 1 "NOTE: Data/address bus is shuffled from at RAM to make routing easier")
+  )
+
   (lib_symbols
     (symbol "68komputer-common:IS61C5128AL-10TLI" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -10.16 31.75 0)
@@ -2031,11 +2039,6 @@
   (text "High" (at 23.495 154.94 90)
     (effects (font (size 2.54 2.54) italic) (justify left bottom))
     (uuid 7fd2f2d4-14cc-4ebd-bf7d-3b1f6afc5af2)
-  )
-  (text "NOTE: Data/address bus is shuffled from at RAM to make routing easier"
-    (at 177.8 168.91 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid dc357c7a-515a-4dee-81c4-ea69328dd21c)
   )
 
   (label "A19" (at 48.26 76.2 180)

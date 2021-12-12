@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "68komputer CPU Board")
+    (date "2021-12-11")
+    (rev "1")
+    (company "Tristan Seifert")
+  )
+
   (lib_symbols
     (symbol "68komputer-common:74HCT2G04" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 3.81 0)
@@ -168,7 +175,7 @@
           (name "IREF" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin tri_state inverted (at -10.16 -33.02 0) (length 3.81)
+        (pin open_collector inverted (at -10.16 -33.02 0) (length 3.81)
           (name "~{DTACK}" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
