@@ -725,7 +725,6 @@
     )
   )
 
-
   (junction (at 95.885 80.645) (diameter 0) (color 0 0 0 0)
     (uuid 029d749e-2289-4769-a0ce-e768bbda0cd0)
   )
@@ -1530,7 +1529,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5b0ba7ab-2469-4714-b11b-c92a96a4afa9)
   )
-  (hierarchical_label "CLK8" (shape output) (at 62.23 153.035 0)
+  (hierarchical_label "SNDCLK" (shape output) (at 62.23 153.035 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5ba7acdc-5271-4b94-acf8-6b111f72bfad)
   )

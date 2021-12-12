@@ -136,6 +136,7 @@
         "silk_over_copper|52350000|57600000|ea5f6f1e-de3a-4c85-a785-d4f0ab7bb1f6|45408a54-d32b-465f-8d9f-027d6f7d1882",
         "silk_over_copper|52350000|59400000|6f7b61ab-3da9-486a-86e4-338dba94822b|cb168a8f-3996-454f-9325-d3823afbfecd",
         "silk_overlap|102640000|49471523|e361f5bd-8bce-4972-8e95-ad5a81c5647d|b2e89240-789f-40ae-b857-5c75feccbf15",
+        "silk_overlap|115500000|39700000|85f28595-49bc-4aec-bf14-16950d729a09|6677ff6a-88b8-40f2-b95f-708453ed4570",
         "silk_overlap|130200000|46400000|1231a298-e6ee-418a-a5cf-595154e955ef|be175269-f541-4625-8b6f-0a1796efd371",
         "silk_overlap|130200000|46565000|be175269-f541-4625-8b6f-0a1796efd371|1231a298-e6ee-418a-a5cf-595154e955ef",
         "silk_overlap|135900000|45800000|bb54a325-2936-4d38-b511-0d216cc96ab2|7b832c2e-60b6-43c6-af60-bef1a5188587",
@@ -498,8 +499,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../exports/cpu-68000.step",
+      "vrml": "../exports/cpu-68000.wrl"
     },
     "page_layout_descr_file": ""
   },

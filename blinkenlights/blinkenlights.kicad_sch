@@ -1068,6 +1068,9 @@
     (path "/69ba85f7-748f-4efd-b6fb-efc1542049b1/4f852024-4528-4c29-b48d-f8741aff91c1"
       (reference "#PWR0520") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/e0ce465d-e728-4eb5-922d-05a3dcba7b95"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/17f91f82-4887-4534-b778-de1cc8195d40"
       (reference "C201") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
     )
