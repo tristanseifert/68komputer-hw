@@ -1,0 +1,18 @@
+GAL22V10
+AddrDecode
+
+NC      A22     A23     A21     A20     A16     A18     A17     /MEMEN  A19     ROMREMAP       GND
+NC      /PERIPH         NC      /ROMCS  /RAMCS  NC      NC      NC      DTAKFAST      DTAKSLOW      /EXT         VCC
+
+ROMCS = MEMEN * /A23 * /A22 * /A21 * /A20
+RAMCS = MEMEN * A23 * A22 * A21 * A20
+PERIPH = MEMEN * /A23 * /A22 * /A21 * A20 * /A19
+
+EXT = /ROMCS * /RAMCS * /PERIPH
+
+DTAKSLOW = PERIPH * /A18
+DTAKFAST = ROMCS + RAMCS
+
+DESCRIPTION
+
+Address decoding and /DTACK generation for the major peripheral components of the CPU board

@@ -1446,7 +1446,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b3bf2b23-c5f0-4314-9a11-fd640cc00848)
   )
-  (text "~{RD}: R/~{W}\n~{WE}: !R/~{W}\n~{LOE}: ~{LDS} & R/~{W}\n~{LWE}: ~{LDS} & !R/~{W}\n~{UOE}: ~{UDS} & R/~{W}\n~{UWE}: ~{UDS} & !R/~{W}\nABUF_DIR: !~{BGACK}\nDBUF_DIR: (!~{EXT} & !~{BGACK}) + (!~{EXT} & ~{BGACK} & R/~{W})\n           + (~{EXT} & !~{BGACK} & !R/~{W})"
+  (text "~{RD}: R/~{W}\n~{WR}: !R/~{W}\n~{LOE}: ~{LDS} & R/~{W}\n~{LWE}: ~{LDS} & !R/~{W}\n~{UOE}: ~{UDS} & R/~{W}\n~{UWE}: ~{UDS} & !R/~{W}\nABUF_DIR: !~{BGACK}\nDBUF_DIR: (!~{EXT} & !~{BGACK}) + (!~{EXT} & ~{BGACK} & R/~{W})\n           + (~{EXT} & !~{BGACK} & !R/~{W})"
     (at 22.225 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ca6dc002-4a8a-4f14-8833-a6fc9c9a2b14)
