@@ -987,7 +987,7 @@
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 11.43 -2.54 180) (length 2.54) hide
+      (pin passive line (at 11.43 -2.54 180) (length 2.54) hide
         (name "SW" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
@@ -4409,7 +4409,7 @@
         (name "P7" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin output output_low (at -15.24 -7.62 0) (length 2.54)
+      (pin open_collector output_low (at -15.24 -7.62 0) (length 2.54)
         (name "~{IRQ}" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -4488,7 +4488,7 @@
       )
     )
     (symbol "XRA1403_1_1"
-      (pin output output_low (at -15.24 -7.62 0) (length 2.54)
+      (pin open_collector output_low (at -15.24 -7.62 0) (length 2.54)
         (name "~{IRQ}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
