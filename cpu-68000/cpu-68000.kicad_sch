@@ -3420,6 +3420,12 @@
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/925793a4-bc87-4b3e-978e-0a2dbf370a7a"
       (reference "#PWR0238") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/63b5f709-1655-4d8d-b128-2125bac7f016"
+      (reference "#PWR0239") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/b88225c5-2745-434c-a581-a727ed8480d8"
+      (reference "#PWR0240") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/d5418365-e147-4269-9bc4-7cc70697b83f"
       (reference "#PWR0243") (unit 1) (value "+5V") (footprint "")
     )
@@ -3524,9 +3530,6 @@
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/bd77e6cc-6a59-415e-959f-3c0dd5cbbf3d"
       (reference "#PWR0514") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/60c905f4-d444-4c9a-aa02-bd8bdf1f6ba8"
-      (reference "#PWR0515") (unit 1) (value "+5V") (footprint "")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/ac9306d0-8e4b-486d-91b7-2e131e565232"
       (reference "#PWR0516") (unit 1) (value "+5V") (footprint "")
@@ -3927,6 +3930,9 @@
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/052e07c3-6814-4a13-ab44-1262ee146098"
       (reference "J201") (unit 2) (value "Conn_03x32_Row_Letter_First") (footprint "Connector_DIN:DIN41612_R_3x32_Male_Horizontal_THT")
     )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/cbb6aa2e-85c4-4f1a-b848-c182f5859cf6"
+      (reference "J501") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/d9c506aa-ea0d-44d8-ba00-79dbea69d297"
       (reference "J502") (unit 1) (value "DB9_Male_MountingHoles") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
@@ -4013,6 +4019,9 @@
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/f187b854-85b2-42c1-9b18-fbb3b32dd130"
       (reference "R519") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/1e4fff19-f301-4902-86ca-18b01fb146dc"
+      (reference "R520") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/4d453ef5-0fef-471c-8937-1c4c98c853a6/1680d328-bb0e-4eeb-90a6-9219c9386d10"
       (reference "R601") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0805_2012Metric")
