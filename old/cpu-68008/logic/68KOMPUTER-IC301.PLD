@@ -1,0 +1,76 @@
+Name     68komputer-008-IC301;
+PartNo   00;
+Date     10/29/2019;
+Revision 01;
+Designer Engineer;
+Company  None;
+Assembly None;
+Location None;
+Device   g22v10;
+
+/* *************** INPUT PINS *********************/
+PIN 1  = clock;
+
+/* bus control signals */
+PIN 2  = FC2;
+PIN 3  = FC1;
+PIN 4  = FC0;
+
+PIN 5  = RW; /* write is 0, read is 1 */
+PIN 6  = !AS;
+
+/* address bus */
+PIN 7  = A15;
+PIN 8  = A16;
+PIN 9  = A17;
+PIN 10 = A18;
+PIN 11 = A19;
+
+/* *************** OUTPUT PINS *********************/
+/* chip selects for various peripherals */
+PIN 14 = !DUART_CS;
+PIN 15 = !RTC_CS;
+PIN 16 = !RAM_CS;
+PIN 17 = !ROM_CS;
+PIN 18 = !OE;
+PIN 23 = !BUS_CS;
+
+/* control signals to helper GAL */
+PIN 19 = !IACK;
+PIN 20 = !REQUIRE_DTACK;
+
+/* bus timeout handling */
+PIN 22 = !BERR_TIMER_CLR;
+
+/* *************** Bit Fields *********************/
+FIELD FC = [FC2..FC0];
+FIELD ADDR = [A19 .. A15];
+
+
+
+
+/************ Chip Selects ************/
+/* ROM is at $00000 - $1FFFF */
+ROM_CS = AS & (!A19 & !A18 & !A17);
+/* RAM is at $80000 - $FFFFF */
+RAM_CS = AS & (A19);
+
+/* DUART/68681 is at $20000 - $27FFF */
+DUART_CS = AS & (!A19 & !A18 & A17 & !A16 & !A15);
+/* RTC/NVRAM is at $28000 - $2FFFF */
+RTC_CS = AS & (!A19 & !A18 & A17 & !A16 & A15);
+
+/* bus fills the space between $30000 - $7FFFF */
+BUS_CS = AS & (!A19 & ((!A18 & A17 & A16) # (A18)));
+
+
+/* OE is just !RW, but we gate it with AS */
+OE = AS & !RW;
+
+/* the bus timeout is reset on the rising edge of AS */
+BERR_TIMER_CLR = !AS;
+
+/************ Outputs to helper ************/
+REQUIRE_DTACK = AS & !DUART_CS & !BUS_CS;
+
+IACK = (FC0 & FC1 & FC2) & (A19 & A18 & A17 & A16);

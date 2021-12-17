@@ -1,0 +1,9 @@
+[submodule "shared/led-libs"]
+	path = shared/led-libs
+	url = git@github.com:jh1995/KiCad-libs.git
+[submodule "shared/teensy_library"]
+	path = shared/teensy_library
+	url = git@github.com:XenGi/teensy_library.git
+[submodule "shared/teensy.pretty"]
+	path = shared/teensy.pretty
+	url = git@github.com:XenGi/teensy.pretty.git

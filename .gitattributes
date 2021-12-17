@@ -1,0 +1,2 @@
+*.step filter=lfs diff=lfs merge=lfs -text
+gerbers/** filter=lfs diff=lfs merge=lfs -text

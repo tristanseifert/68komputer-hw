@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "68komputer-common")(type "KiCad")(uri "${KIPRJMOD}/../shared/68komputer-common.pretty")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/../shared/teensy.pretty")(options "")(descr ""))
+)

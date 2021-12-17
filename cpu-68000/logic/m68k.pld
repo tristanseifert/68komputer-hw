@@ -1,0 +1,22 @@
+GAL22V10
+CPUGlue
+
+FC1     FC0     FC2     A2      A3      A1      A16     A18     A17     A19     /AS     GND
+NC      NC      ASPOS   /MEMEN  /IACKDUART      /IACKI2C        /IACKEXT      NC      /VPA    /BERR   NC        VCC
+
+ASPOS = AS
+
+MEMEN = AS * /FC0 + AS * /FC1 + AS * /FC2
+
+IACKDUART = AS * FC0 * FC1 * FC2 * A19 * A18 * A17 * A16 * A3 * A2 * /A1
+IACKI2C = AS * FC0 * FC1 * FC2 * A19 * A18 * A17 * A16 * A3 * /A2 * A1
+IACKEXT = AS * FC0 * FC1 * FC2 * A19 * A18 * A17 * A16 * A3 * /A2 * /A1 
+VPA = AS * FC0 * FC1 * FC2 * A19 * A18 * A17 * A16 * A3 * A2 * A1
+
+DESCRIPTION
+
+CPU specific glue logic for decoding CPU space and interrupt acknowledge
+cycles.
+
+Interrupts at levels 4, 5 and 6 are expected to provide an interrupt vector on
+the bus. NMIs are autovectored.

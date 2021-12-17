@@ -1,0 +1,30 @@
+GAL22V10
+HELPER
+
+Clock NC	NC	/BUSDTACK	/BUSIRQ	/NEEDDTAK	/IACK		NC	RESETIN		/UARTIACK /UARTDTAK	GND
+/UARTIRQ	NC	NC	NC	/BERR	/IPL1	/IPL02	/DTACK	HALT	RESET	/VPA	VCC
+
+
+; assert VPA on interrupt acknowledge (signalled by IACK signal) to autovector
+VPA = IACK
+
+; generate DTACK immediately once we know we need it
+DTACK = NEEDDTAK + BUSDTACK + UARTDTAK
+
+; handle interrupt encoding
+IPL1 = UARTIRQ
+IPL02 = /UARTIRQ * BUSIRQ
+
+; generate reset (we don't drive them unless resetting)
+; since HALT/RESET are defined as active high, make their outputs inverted of
+; the active high reset request input signal
+RESET.T = /RESETIN
+RESET.E = RESETIN
+HALT.T = /RESETIN
+HALT.E = RESETIN
+
+; unused signals
+BERR = VCC
+
+DESCRIPTION:
+Handles interrupts and DTACK generation
