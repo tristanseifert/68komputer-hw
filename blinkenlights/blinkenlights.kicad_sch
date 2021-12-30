@@ -1291,7 +1291,7 @@
       (reference "DIS410") (unit 1) (value "TIL311") (footprint "led-displays-obsolete:TIL311")
     )
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/35fdb877-7d0c-47a6-81c0-4afc8172d447"
-      (reference "F201") (unit 1) (value "1.5A") (footprint "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm")
+      (reference "F201") (unit 1) (value "1.1A") (footprint "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm")
     )
     (path "/c5489d59-5747-40fc-a9a8-c03f3211b3fe/b6fa45f8-56b6-4782-86e7-2ab84383687e"
       (reference "F202") (unit 1) (value ".5A") (footprint "Fuse:Fuse_Littelfuse-NANO2-451_453")

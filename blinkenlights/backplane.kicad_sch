@@ -1537,7 +1537,6 @@
     )
   )
 
-
   (junction (at 86.995 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 0377f489-7a1e-4e9f-93b2-94696c8ac0a5)
   )
@@ -1801,7 +1800,7 @@
   (no_connect (at 74.295 146.05) (uuid 5fe13315-4c3f-44bd-b013-af899292ccd4))
   (no_connect (at 74.295 69.85) (uuid 82251cbf-67e5-4f67-93d0-9a6939a109bc))
   (no_connect (at 74.295 125.73) (uuid 9a43c66f-2c47-44ca-a61c-2acfa1945b19))
-  (no_connect (at 74.295 72.39) (uuid 9a43c66f-2c47-44ca-a61c-2acfa1945b19))
+  (no_connect (at 74.295 72.39) (uuid 9a43c66f-2c47-44ca-a61c-2acfa1945b1a))
   (no_connect (at 74.295 135.89) (uuid a3e8f47c-8277-4a94-ae6e-f999aca23821))
   (no_connect (at 74.295 143.51) (uuid a8cf39a7-4b54-4849-b727-d139ad0c90be))
   (no_connect (at 211.455 85.09) (uuid b31772d3-874a-4563-9483-30306fabb6f9))
@@ -4333,8 +4332,8 @@
   (symbol (lib_id "Device:Polyfuse_Small") (at 201.295 19.05 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 35fdb877-7d0c-47a6-81c0-4afc8172d447)
-    (property "Reference" "F201" (id 0) (at 201.295 13.335 90))
-    (property "Value" "1.5A" (id 1) (at 201.295 15.875 90))
+    (property "Reference" "F201" (id 0) (at 201.295 12.7 90))
+    (property "Value" "1.1A" (id 1) (at 201.295 15.24 90))
     (property "Footprint" "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm" (id 2) (at 196.215 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )

@@ -13,14 +13,14 @@
   )
 
   (lib_symbols
-    (symbol "68komputer-common:74HC2G14" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "68komputer-common:74HC2G17" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "74HC2G14" (id 1) (at 0 -5.08 0)
+      (property "Value" "74HC2G17" (id 1) (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 0 0 0)
+      (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.mouser.com/datasheet/2/916/74HC_HCT2G14-1319743.pdf" (id 3) (at 0 6.35 0)
@@ -32,10 +32,10 @@
       (property "ki_keywords" "HCMOS not inverter" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Dual inverter schmitt trigger" (id 6) (at 0 0 0)
+      (property "ki_description" "Dual schmitt trigger" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "74HC2G14_1_0"
+      (symbol "74HC2G17_1_0"
         (polyline
           (pts
             (xy -3.81 3.81)
@@ -50,12 +50,12 @@
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
+        (pin output line (at 7.62 0 180) (length 3.81)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "74HC2G14_1_1"
+      (symbol "74HC2G17_1_1"
         (polyline
           (pts
             (xy -1.905 -1.27)
@@ -76,7 +76,7 @@
           (fill (type none))
         )
       )
-      (symbol "74HC2G14_2_0"
+      (symbol "74HC2G17_2_0"
         (polyline
           (pts
             (xy -3.81 3.81)
@@ -91,12 +91,12 @@
           (name "~" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
+        (pin output line (at 7.62 0 180) (length 3.81)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "74HC2G14_2_1"
+      (symbol "74HC2G17_2_1"
         (polyline
           (pts
             (xy -1.905 -1.27)
@@ -117,7 +117,7 @@
           (fill (type none))
         )
       )
-      (symbol "74HC2G14_3_1"
+      (symbol "74HC2G17_3_1"
         (rectangle (start -5.08 -2.54) (end 5.08 -7.62)
           (stroke (width 0.1524) (type default) (color 0 0 0 0))
           (fill (type background))
@@ -2312,7 +2312,6 @@
       )
     )
   )
-
 
   (junction (at 41.275 151.765) (diameter 0) (color 0 0 0 0)
     (uuid 0588e431-d56d-4df4-9ffd-6cd4bba412cb)
@@ -5690,12 +5689,12 @@
     (pin "1" (uuid 66225c2a-c20e-469b-ba32-6236fc2f2d18))
   )
 
-  (symbol (lib_id "68komputer-common:74HC2G14") (at 198.755 114.3 0) (mirror y) (unit 2)
+  (symbol (lib_id "68komputer-common:74HC2G17") (at 198.755 114.3 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a401c4b6-ea46-4c91-a0b6-4a78224df3a2)
-    (property "Reference" "U501" (id 0) (at 198.755 106.5235 0))
-    (property "Value" "74HC2G14" (id 1) (at 198.755 109.2986 0))
-    (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 198.755 114.3 0)
+    (property "Reference" "U501" (id 0) (at 198.755 105.41 0))
+    (property "Value" "74HC2G17" (id 1) (at 198.755 107.95 0))
+    (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 198.755 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/916/74HC_HCT2G14-1319743.pdf" (id 3) (at 198.755 107.95 0)
@@ -5739,12 +5738,12 @@
     (pin "1" (uuid e9869f56-fdf8-4ac6-ad84-63560da4abe5))
   )
 
-  (symbol (lib_id "68komputer-common:74HC2G14") (at 198.755 130.81 0) (mirror y) (unit 1)
+  (symbol (lib_id "68komputer-common:74HC2G17") (at 198.755 130.81 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a890eb84-5c12-4f07-80a9-3d56f4c563bd)
     (property "Reference" "U501" (id 0) (at 198.755 123.0335 0))
-    (property "Value" "74HC2G14" (id 1) (at 198.755 125.8086 0))
-    (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 198.755 130.81 0)
+    (property "Value" "74HC2G17" (id 1) (at 198.755 125.8086 0))
+    (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 198.755 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/916/74HC_HCT2G14-1319743.pdf" (id 3) (at 198.755 124.46 0)
@@ -6128,12 +6127,12 @@
     (pin "1" (uuid ae374614-25ca-475c-bc32-5d0886a52642))
   )
 
-  (symbol (lib_id "68komputer-common:74HC2G14") (at 222.25 154.461 0) (unit 3)
+  (symbol (lib_id "68komputer-common:74HC2G17") (at 222.25 154.461 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid d1b3d74a-0d24-42f5-b3af-96a773ac05db)
     (property "Reference" "U501" (id 0) (at 222.25 153.0853 0))
-    (property "Value" "74HC2G14" (id 1) (at 222.25 155.8604 0))
-    (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 222.25 154.461 0)
+    (property "Value" "74HC2G17" (id 1) (at 222.25 155.8604 0))
+    (property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" (id 2) (at 222.25 149.381 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/916/74HC_HCT2G14-1319743.pdf" (id 3) (at 222.25 148.111 0)

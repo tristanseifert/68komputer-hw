@@ -4162,13 +4162,13 @@
       (reference "U404") (unit 1) (value "IS61C5128AL-10TLI") (footprint "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/a890eb84-5c12-4f07-80a9-3d56f4c563bd"
-      (reference "U501") (unit 1) (value "74HC2G14") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
+      (reference "U501") (unit 1) (value "74HC2G17") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/a401c4b6-ea46-4c91-a0b6-4a78224df3a2"
-      (reference "U501") (unit 2) (value "74HC2G14") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
+      (reference "U501") (unit 2) (value "74HC2G17") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/d1b3d74a-0d24-42f5-b3af-96a773ac05db"
-      (reference "U501") (unit 3) (value "74HC2G14") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
+      (reference "U501") (unit 3) (value "74HC2G17") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/b762772e-6ae4-4837-830c-d2df805301af"
       (reference "U502") (unit 1) (value "PCA9543A") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
