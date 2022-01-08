@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "8 Channel Relay IO")
+    (date "2022-01-08")
+    (rev "1")
+    (comment 1 "NOTE: Not for switching mains!")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC373" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 16.51 0)
@@ -3824,6 +3831,9 @@
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/bba8067e-24de-4ae2-b373-e4195cf57d88"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/b692b8a2-428c-424f-b34e-d76890b7a7f8"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/752e8ff0-deb6-403f-a0be-46c7b2e2696e"
       (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
     )
@@ -3922,6 +3932,9 @@
     )
     (path "/3703ee47-8549-4047-ae54-f351dd7ce1b3"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/b009b0eb-0f85-4729-91e1-917243f7809b"
+      (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
     )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/5feab5a5-9804-4bdb-b619-ab50ce0ad4ac"
       (reference "#PWR0201") (unit 1) (value "+5V") (footprint "")
@@ -4028,6 +4041,9 @@
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/1a3330f6-aa3a-4d91-877a-7fd42d495484"
       (reference "#PWR0235") (unit 1) (value "GND") (footprint "")
     )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/2380f0ea-c541-4606-be9d-2786c6ace66e"
+      (reference "#PWR0236") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/088528ed-9597-4a2f-884e-b077d4d99f3c"
       (reference "#PWR0237") (unit 1) (value "+5V") (footprint "")
     )
@@ -4042,6 +4058,15 @@
     )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/5a5c6dfc-600b-47d4-aecd-43acaa6e33ba"
       (reference "#PWR0241") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/204e4730-8a9c-4cdc-8fc7-1cf9cf4f7be0"
+      (reference "#PWR0242") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/c55d54df-f0cb-49b0-a54e-4ba1e4d8c239"
+      (reference "#PWR0243") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/9243a53e-d8b5-4592-a915-9f51ee6e36a0"
+      (reference "#PWR0244") (unit 1) (value "GND") (footprint "")
     )
     (path "/20540e7b-8f15-4bba-897f-079491897786"
       (reference "C101") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -4219,6 +4244,24 @@
     )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/5c88f8d0-b13e-4854-9626-de92b1d5210f"
       (reference "U203") (unit 1) (value "MCP23008-xSO") (footprint "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/ef8f89f8-ae63-4d88-a938-4c70414966d3"
+      (reference "U204") (unit 1) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/c1de4501-e1b6-4942-b001-88ab83f4db7c"
+      (reference "U204") (unit 2) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/c9352b75-69fa-4611-affb-e00a40f96633"
+      (reference "U204") (unit 3) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/a7236e94-0329-42b9-be93-82672d7507cb"
+      (reference "U204") (unit 4) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/4b34e7e6-48de-42b6-88c2-f39fe5a0e6a5"
+      (reference "U204") (unit 5) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+    )
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/481a3c2b-bb6c-4af7-8ff1-3bad48f57666"
+      (reference "U205") (unit 1) (value "74LVC1G06") (footprint "68komputer-common:SC-74-5_1.5x2.9mm_P0.95mm")
     )
   )
 )
