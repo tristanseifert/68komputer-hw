@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Backplane Management and Power")
+    (date "2022-01-09")
+    (rev "1")
+    (company "Tristan Seifert")
+  )
+
   (lib_symbols
     (symbol "68komputer-common:Conn_03x16_Row_Letter_First" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 2.54 2.54 0)
@@ -840,6 +847,18 @@
   (junction (at 20.955 178.435) (diameter 0) (color 0 0 0 0)
     (uuid f773ed91-54bc-4fda-925d-c2327ed1f1f2)
   )
+
+  (no_connect (at 232.41 46.99) (uuid 12e65b0a-2d8a-4211-908c-82aa11ef902b))
+  (no_connect (at 268.605 36.83) (uuid 531f501b-c8b8-4326-b6d5-f2651a66bab7))
+  (no_connect (at 232.41 44.45) (uuid 63ce052f-fc52-47ca-8062-80e6d0e6fddd))
+  (no_connect (at 268.605 44.45) (uuid 739611bf-0161-4091-9e3f-6d44f127a0d7))
+  (no_connect (at 268.605 41.91) (uuid 967cae11-deec-43f6-9d2f-214a5055a356))
+  (no_connect (at 268.605 46.99) (uuid c8dcb4b0-944d-493f-af24-9e1d6288285c))
+  (no_connect (at 232.41 41.91) (uuid d3fa6da6-abec-4c6e-bbed-0a0348a3f1de))
+  (no_connect (at 268.605 49.53) (uuid d93dfe47-8023-4929-8881-80df3be3009e))
+  (no_connect (at 232.41 39.37) (uuid dfcf63f3-85f4-44e3-8c61-9ed0c104d54f))
+  (no_connect (at 232.41 36.83) (uuid f52f00f8-7419-445d-8ae6-3e0459e574e9))
+  (no_connect (at 268.605 39.37) (uuid f677a53b-9f6c-486c-8755-e9203e2ad6f2))
 
   (wire (pts (xy 245.11 59.69) (xy 245.11 57.15))
     (stroke (width 0) (type default) (color 0 0 0 0))

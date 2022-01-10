@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "8 Channel Relay IO")
+    (date "2022-01-09")
+    (rev "1")
+    (company "Tristan Seifert")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -6995,8 +7002,8 @@
   (segment (start 39.44 46.04) (end 40.1 46.7) (width 0.2032) (layer "F.Cu") (net 157) (tstamp d14af199-3fb3-48e3-b911-852d8625a1e9))
   (via (at 46.9 56.9) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 157) (tstamp bb19a63f-5378-4a83-a1e3-ca9a4dc4c2a5))
   (segment (start 61.825 56.9) (end 61.4 56.9) (width 0.2032) (layer "B.Cu") (net 157) (tstamp 327c5208-9709-416a-a09f-b8aff5342660))
-  (segment (start 46.9 56.9) (end 61.4 56.9) (width 0.2032) (layer "B.Cu") (net 157) (tstamp 89b4a9f2-4f8c-4f70-84cf-6b10e918470c))
-  (segment (start 63.425 58.5) (end 61.825 56.9) (width 0.2032) (layer "B.Cu") (net 157) (tstamp d066382c-deeb-4d80-9b36-ad187dfb3ae9))
+  (segment (start 46.9 56.9) (end 61.4 56.9) (width 0.2032) (layer "B.Cu") (net 157) (tstamp 347dee84-eb41-48aa-b550-ead25c341d75))
+  (segment (start 63.425 58.5) (end 61.825 56.9) (width 0.2032) (layer "B.Cu") (net 157) (tstamp e3423a1c-bd58-43b5-b4c8-c842d5a9d1d9))
 
   (zone (net 2) (net_name "GND") (layer "F.Cu") (tstamp 6fc60b41-5cf9-4a2d-af8c-00d2a42a83a8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))

@@ -5,6 +5,10 @@
   (paper "A4")
 
   (title_block
+    (title "Backplane Management and Power")
+    (date "2022-01-09")
+    (rev "1")
+    (company "Tristan Seifert")
     (comment 1 "+5V caps must be 10V, +VIn/+12V 20V")
   )
 

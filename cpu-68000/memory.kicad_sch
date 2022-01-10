@@ -6,7 +6,7 @@
 
   (title_block
     (title "68komputer CPU Board")
-    (date "2021-12-30")
+    (date "2022-01-09")
     (rev "2")
     (company "Tristan Seifert")
     (comment 1 "NOTE: Data/address bus is shuffled from at RAM to make routing easier")

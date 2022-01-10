@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Backplane Management and Power")
+    (date "2022-01-09")
+    (rev "1")
+    (company "Tristan Seifert")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM2904" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)

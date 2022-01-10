@@ -6,7 +6,7 @@
 
   (title_block
     (title "68komputer CPU Board")
-    (date "2021-12-30")
+    (date "2022-01-09")
     (rev "2")
     (company "Tristan Seifert")
   )
@@ -2895,7 +2895,7 @@
     (property "Datasheet" "~" (id 3) (at 266.065 128.905 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "H100CGD" (id 4) (at 266.065 128.905 0)
+    (property "MPN" "H101CGD" (id 4) (at 266.065 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3f97d246-8ca9-417c-825c-b5775ce61770))

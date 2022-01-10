@@ -6,8 +6,9 @@
 
   (title_block
     (title "8 Channel Relay IO")
-    (date "2022-01-08")
+    (date "2022-01-09")
     (rev "1")
+    (company "Tristan Seifert")
     (comment 1 "NOTE: Not for switching mains!")
   )
 
@@ -4251,7 +4252,7 @@
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/c1de4501-e1b6-4942-b001-88ab83f4db7c"
       (reference "U204") (unit 2) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
-    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/c9352b75-69fa-4611-affb-e00a40f96633"
+    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/c9352b75-69fa-4611-affb-e00a40f96634"
       (reference "U204") (unit 3) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/a7236e94-0329-42b9-be93-82672d7507cb"

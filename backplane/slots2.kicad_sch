@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Backplane")
+    (date "2022-01-09")
+    (rev "1")
+    (company "Tristan Seifert")
+  )
+
   (lib_symbols
     (symbol "68komputer-common:Conn_03x32_Row_Letter_First" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 40.64 0)
