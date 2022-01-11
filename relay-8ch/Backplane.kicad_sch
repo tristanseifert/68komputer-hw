@@ -4906,7 +4906,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 60.96 178.435 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6f21e214-ea89-4335-b165-9e7d4efd6a30)
     (property "Reference" "JP201" (id 0) (at 62.611 177.5265 90)
       (effects (font (size 1.27 1.27)) (justify left))
