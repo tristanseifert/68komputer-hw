@@ -1266,6 +1266,9 @@
     (path "/1ea62f7d-17c4-4306-b3f8-0afb30605066"
       (reference "#PWR0109") (unit 1) (value "+5VA") (footprint "")
     )
+    (path "/9bf44210-988f-4323-8227-81f2cae4de79/27040ca0-9daf-4146-8bde-a5ae7c650f4c"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9bf44210-988f-4323-8227-81f2cae4de79/7c2765cc-8dd2-4a9f-962d-6e88f28bb1f9"
       (reference "#PWR0201") (unit 1) (value "+5V") (footprint "")
     )
@@ -1546,7 +1549,7 @@
       (reference "D303") (unit 1) (value "R/G") (footprint "68komputer-common:H201Cxx")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/3ea0dd1d-8efb-42b5-b5a2-fbbc08d65896"
-      (reference "F301") (unit 1) (value "140mA") (footprint "Fuse:Fuse_1812_4532Metric")
+      (reference "F301") (unit 1) (value "100mA") (footprint "Fuse:Fuse_1812_4532Metric")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/9d2a8feb-718d-4639-8e7f-7e08691d68ba"
       (reference "F302") (unit 1) (value "10A") (footprint "68komputer-common:Keystone-3557-2-0")
@@ -1599,6 +1602,12 @@
     (path "/46c9b317-cb43-43b4-b179-0d970b4ccafb"
       (reference "R106") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/9bf44210-988f-4323-8227-81f2cae4de79/a93610dc-23bf-421c-b848-b67e814508e7"
+      (reference "R201") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/9bf44210-988f-4323-8227-81f2cae4de79/6f40a043-9d28-4be1-bc86-f43abfab5671"
+      (reference "R202") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/6d36f8e2-1670-40f7-98c8-4a109990336d"
       (reference "R301") (unit 1) (value "20k5") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -1612,7 +1621,7 @@
       (reference "R304") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/8fe3f545-dbfa-4d57-bf85-867e95cf2b16"
-      (reference "R305") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R305") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/5b4d3c3d-4caa-432b-9148-0fc8aed4f833"
       (reference "R306") (unit 1) (value "750R") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -1666,7 +1675,7 @@
       (reference "U203") (unit 1) (value "AT24CS32-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/3f59ef99-9fb4-4359-a09f-47850915fde4"
-      (reference "U301") (unit 1) (value "LDL1117S50R") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U301") (unit 1) (value "AZ1117CD-5.0") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/605a61ba-5dfd-4e34-b329-f3d8b03834a7"
       (reference "U302") (unit 1) (value "PTH08T220") (footprint "68komputer-common:Texas_Instruments-PTH08T220WAD-Manufacturer_Recommended")
