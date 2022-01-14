@@ -4479,7 +4479,7 @@
       (reference "U603") (unit 1) (value "SAA1099") (footprint "Package_DIP:DIP-18_W7.62mm_Socket")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/4d453ef5-0fef-471c-8937-1c4c98c853a6/6c30f9cc-a753-44bf-a776-92005b90d6b7"
-      (reference "U604") (unit 1) (value "LDL1117S50R") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U604") (unit 1) (value "AP7381-50V") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
     )
     (path "/3f4dbd19-7bfc-4f30-b203-586f836c6356"
       (reference "X101") (unit 1) (value "10MHz") (footprint "Oscillator:Oscillator_DIP-8")
