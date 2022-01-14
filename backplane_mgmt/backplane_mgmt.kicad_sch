@@ -1570,7 +1570,7 @@
       (reference "J201") (unit 2) (value "Backplane") (footprint "Connector_DIN:DIN41612_C2_3x16_Male_Horizontal_THT")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/b2c3a57c-62d9-4d15-94f6-bb7e01350052"
-      (reference "J304") (unit 1) (value "VIn") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal")
+      (reference "J304") (unit 1) (value "VIn") (footprint "68komputer-common:CUI_TBP01R1W-508-02BE")
     )
     (path "/9bf44210-988f-4323-8227-81f2cae4de79/a1541e01-ad75-4b1f-abfe-f2576188010f"
       (reference "JP201") (unit 1) (value "WP") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm")
