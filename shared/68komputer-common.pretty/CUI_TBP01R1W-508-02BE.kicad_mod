@@ -1,6 +1,7 @@
 (footprint "CUI_TBP01R1W-508-02BE" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E09C6E)
+  (tedit 61E0CF75)
+  (descr "Pluggable Terminal Blocks 2 24 Poles, Pluggable, Receptacle, Horizontal, 5.08 Pitch, Terminal Block Connector ")
   (attr through_hole)
   (fp_text reference "REF**" (at -4.175 -11.889) (layer "F.SilkS")
     (effects (font (size 1.4 1.4) (thickness 0.15)))

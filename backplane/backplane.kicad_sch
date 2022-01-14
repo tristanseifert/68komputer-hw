@@ -4353,7 +4353,7 @@
       (reference "J201") (unit 2) (value "Management") (footprint "Connector_DIN:DIN41612_C2_3x16_Female_Vertical_THT")
     )
     (path "/04faa6f8-09d5-4a29-a760-46b6402b50f3/380bbbf0-086b-4e42-86c8-525f89493382"
-      (reference "J202") (unit 1) (value "Screw_Terminal_01x03") (footprint "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-GF-3.5_1x03_P3.50mm_Vertical_ThreadedFlange_MountHole")
+      (reference "J202") (unit 1) (value "Screw_Terminal_01x03") (footprint "68komputer-common:CUI_TBP02R2W-381-03BE")
     )
     (path "/a24aed28-441e-4b9b-b001-9cc182d3d62b/7eb75285-9dee-41bb-8ef3-814f9a5fc220"
       (reference "J301") (unit 1) (value "CPU") (footprint "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT")
