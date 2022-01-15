@@ -240,6 +240,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/../shared/68komputer-common.pretty/mf-rht1300.step"
+      (offset (xyz 5.1 -0.6 14))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
@@ -4472,10 +4477,15 @@
       (net 3 "+12V") (pintype "passive") (tstamp df1ba3d8-8c66-47c3-9a77-9b41317507e2))
     (pad "2" thru_hole circle locked (at 5.1 1.2) (size 2.01 2.01) (drill 1.01) (layers *.Cu *.Mask)
       (net 34 "/Power/12V_PRE") (pintype "passive") (tstamp 2d2dda76-a0bd-4b17-9ae2-fc42d5ea36b0))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RHT500.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RHT500.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/../shared/68komputer-common.pretty/mf-rht500.step"
+      (offset (xyz 2.5 -0.5 8.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 

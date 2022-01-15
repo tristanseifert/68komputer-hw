@@ -4452,7 +4452,7 @@
       (reference "U505") (unit 1) (value "DS1744") (footprint "Package_DIP:DIP-28_W15.24mm_Socket")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/df37f0a5-b1c1-403f-beaa-686b24b78fd2"
-      (reference "U506") (unit 1) (value "MAX202") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+      (reference "U506") (unit 1) (value "SP232E") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/a80fdcbe-0bb0-435d-8e84-e8399e2a8c71/568d058e-2ec6-48de-9ad7-8f1be115f4b4"
       (reference "U507") (unit 1) (value "74LVC1G07") (footprint "68komputer-common:SC-74-5_1.5x2.9mm_P0.95mm")
