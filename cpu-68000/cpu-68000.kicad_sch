@@ -3972,7 +3972,7 @@
       (reference "C208") (unit 1) (value "10µF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
     )
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/739e1104-1149-4680-99cf-22a9620309d0"
-      (reference "C211") (unit 1) (value "47µF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (reference "C211") (unit 1) (value "47µF") (footprint "Capacitor_SMD:CP_Elec_6.3x5.7")
     )
     (path "/dd09b3c7-f3f1-4702-9c67-cfc029c2d128/da701e5b-87c1-4a27-9821-a5b30aade149"
       (reference "C212") (unit 1) (value "1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")

@@ -1288,6 +1288,15 @@
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/6f4d19c7-2bf8-466f-aea3-817c0c6defa6/0bc25fdc-df48-4cd7-a2f9-ec82351e1273"
       (reference "#PWR0115") (unit 1) (value "VDD") (footprint "")
     )
+    (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/f19d9769-1603-4d69-89b3-a18763e14ed0"
+      (reference "#PWR0116") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/e03e61ca-23ea-46be-bad8-66ee27ce7be6"
+      (reference "#PWR0117") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/8fe437b3-5971-4b89-87f3-45baa0f5b602"
+      (reference "#PWR0118") (unit 1) (value "VDD") (footprint "")
+    )
     (path "/9bf44210-988f-4323-8227-81f2cae4de79/7c2765cc-8dd2-4a9f-962d-6e88f28bb1f9"
       (reference "#PWR0201") (unit 1) (value "+5V") (footprint "")
     )
@@ -1425,9 +1434,6 @@
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/5109c2bd-39e8-4b1c-b915-729ee0a3a32e"
       (reference "#PWR0334") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/e22eb133-feba-4c46-a6db-b61b0d641c45"
-      (reference "#PWR0335") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/7ea22e03-a711-4372-87c3-a81b21b26055"
       (reference "#PWR0336") (unit 1) (value "GND") (footprint "")
@@ -1590,6 +1596,9 @@
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/2134b5d2-8eb2-47bc-a31d-a640f65b5d60"
       (reference "C336") (unit 1) (value "2.2µF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/977fe00f-8ffc-492a-8986-fd4434bd1fc3"
+      (reference "C337") (unit 1) (value "22µF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/6f4d19c7-2bf8-466f-aea3-817c0c6defa6/db4b7401-ec7c-4cea-953d-a5df4901311f"
       (reference "C401") (unit 1) (value "330µF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")

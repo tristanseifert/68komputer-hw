@@ -2640,8 +2640,8 @@
   (symbol (lib_id "Device:R_Small") (at 83.82 139.065 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7cbd23f9-3610-4264-860b-52bca94b4075)
-    (property "Reference" "R107" (id 0) (at 83.82 132.715 90))
-    (property "Value" "1k" (id 1) (at 83.82 135.255 90))
+    (property "Reference" "R107" (id 0) (at 83.82 134.3619 90))
+    (property "Value" "4k7" (id 1) (at 83.82 137.137 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 83.82 139.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2786,8 +2786,8 @@
   (symbol (lib_id "Device:R_Small") (at 83.82 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a3af4acc-00b1-4aa5-bdde-9dc62d87ee81)
-    (property "Reference" "R108" (id 0) (at 83.82 147.32 90))
-    (property "Value" "1k" (id 1) (at 83.82 149.86 90))
+    (property "Reference" "R108" (id 0) (at 83.82 148.9669 90))
+    (property "Value" "4k7" (id 1) (at 83.82 151.742 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 83.82 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3704,6 +3704,9 @@
     (path "/a4e658ae-75b3-4b98-a317-251aa26f5622/5bfdd3db-5da1-459d-8aa2-5b08ad9082b2"
       (reference "#PWR0430") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/a4e658ae-75b3-4b98-a317-251aa26f5622/eba304d5-9616-4063-bb4d-760f539b05bb"
+      (reference "#PWR0431") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/a4e658ae-75b3-4b98-a317-251aa26f5622/8654db38-1a10-4dd8-bc50-d36d47176173/b6758490-44ba-4031-8cc3-20cb7d77e27d"
       (reference "#PWR0501") (unit 1) (value "+5V") (footprint "")
     )
@@ -4400,6 +4403,9 @@
     (path "/7d068aa9-d765-4a9b-8531-583323e447b2"
       (reference "JP101") (unit 1) (value "WP") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm")
     )
+    (path "/a4e658ae-75b3-4b98-a317-251aa26f5622/1e667bd4-8269-4be2-9551-863bf2d55da0"
+      (reference "JP401") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/f9dd99e7-c587-4119-a68a-e4e2515efb50"
       (reference "R101") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -4419,10 +4425,10 @@
       (reference "R106") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/7cbd23f9-3610-4264-860b-52bca94b4075"
-      (reference "R107") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R107") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/a3af4acc-00b1-4aa5-bdde-9dc62d87ee81"
-      (reference "R108") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R108") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/62a25890-acd4-4b95-9c8e-55d283cb6257"
       (reference "R109") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -4504,6 +4510,9 @@
     )
     (path "/68db9397-0a5f-44ed-adc6-f2d20a7e80bf/1447c4cd-5946-4d3f-af92-99aa28fd2855"
       (reference "RN704") (unit 1) (value "100k") (footprint "Resistor_THT:R_Array_SIP8")
+    )
+    (path "/a4e658ae-75b3-4b98-a317-251aa26f5622/469230b0-4188-41f3-a4d2-3d57082b5756"
+      (reference "TP401") (unit 1) (value "ALTCLK") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
     )
     (path "/73d3cc97-9324-48af-a80b-3289cf60fc17"
       (reference "U101") (unit 1) (value "MCP23008-xSO") (footprint "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm")
