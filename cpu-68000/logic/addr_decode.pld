@@ -1,7 +1,7 @@
 GAL22V10
 AddrDecode
 
-NC      A22     A23     A21     A20     A16     A18     A17     /MEMEN  A19     ROMREMAP       GND
+NC      A23     A22     A21     A20     A18     A16     A17     /MEMEN  A19     ROMREMAP       GND
 NC      /PERIPH         NC      /ROMCS  /RAMCS  NC      NC      NC      DTAKFAST      DTAKSLOW      /EXT         VCC
 
 ROMCS = MEMEN * /A23 * /A22 * /A21 * /A20

@@ -1,7 +1,6 @@
 # CPU Board Logic Equations
-Here are the GAL logic equations for the CPU board. Filenames map to component names in the rev1 board/schematic as follows:
+Here are the GAL logic equations for the CPU board. Filenames map to component names in the rev 2 board/schematic as follows:
 
-- U101: glue.pld
 - U102: addr_decode.pld
 - U305: m68k.pld
 

@@ -1,10 +1,11 @@
 GAL22V10
 CPUGlue
 
-FC1     FC0     FC2     A2      A3      A1      A16     A18     A17     A19     /AS     GND
-NC      NC      ASPOS   /MEMEN  /IACKDUART      /IACKI2C        /IACKEXT      NC      /VPA    /BERR   NC        VCC
+FC0     FC1     FC2     A2      A3      A1      A18     A16     A17     A19     /AS     GND
+RW      /RD     ASPOS   /MEMEN  /IACKDUART      /IACKI2C        /IACKEXT      NC      /VPA    /BERR   NC        VCC
 
 ASPOS = AS
+RD = RW
 
 MEMEN = AS * /FC0 + AS * /FC1 + AS * /FC2
 
