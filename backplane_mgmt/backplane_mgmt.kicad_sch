@@ -6,8 +6,8 @@
 
   (title_block
     (title "Backplane Management and Power")
-    (date "2022-01-23")
-    (rev "1")
+    (date "2022-03-02")
+    (rev "2")
     (company "Tristan Seifert")
   )
 
@@ -1270,9 +1270,6 @@
     (path "/1ea62f7d-17c4-4306-b3f8-0afb30605066"
       (reference "#PWR0109") (unit 1) (value "+5VA") (footprint "")
     )
-    (path "/9bf44210-988f-4323-8227-81f2cae4de79/27040ca0-9daf-4146-8bde-a5ae7c650f4c"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/2d4051be-daf3-4b65-9804-02a0f331f154"
       (reference "#PWR0111") (unit 1) (value "VDD") (footprint "")
     )
@@ -1332,9 +1329,6 @@
     )
     (path "/9bf44210-988f-4323-8227-81f2cae4de79/7269ca96-6cb4-4ef2-bd3d-da92f41b72cb"
       (reference "#PWR0212") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9bf44210-988f-4323-8227-81f2cae4de79/18623694-f621-45a4-9e46-42ec9298a3af"
-      (reference "#PWR0222") (unit 1) (value "GND") (footprint "")
     )
     (path "/9bf44210-988f-4323-8227-81f2cae4de79/c16e3216-0ccd-4463-88a9-f5c4c60ff0be"
       (reference "#PWR0223") (unit 1) (value "+5VA") (footprint "")
@@ -1711,12 +1705,6 @@
     (path "/46c9b317-cb43-43b4-b179-0d970b4ccafb"
       (reference "R106") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/9bf44210-988f-4323-8227-81f2cae4de79/a93610dc-23bf-421c-b848-b67e814508e7"
-      (reference "R201") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/9bf44210-988f-4323-8227-81f2cae4de79/6f40a043-9d28-4be1-bc86-f43abfab5671"
-      (reference "R202") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/6d36f8e2-1670-40f7-98c8-4a109990336d"
       (reference "R301") (unit 1) (value "20k5") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -1805,7 +1793,7 @@
       (reference "U101") (unit 3) (value "LM833") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
     )
     (path "/9bf44210-988f-4323-8227-81f2cae4de79/6d8507fc-a09f-47d9-a823-ed90b4461f54"
-      (reference "U203") (unit 1) (value "AT24CS32-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U203") (unit 1) (value "AT24CS16-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/4d7deb60-a52e-4d69-837f-454b99742e7c/3f59ef99-9fb4-4359-a09f-47850915fde4"
       (reference "U301") (unit 1) (value "AZ1117CD-5.0") (footprint "Package_TO_SOT_SMD:TO-252-2")

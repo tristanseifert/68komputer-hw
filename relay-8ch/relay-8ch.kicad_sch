@@ -3844,9 +3844,6 @@
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/a4d4a641-4df4-4de6-b0b5-ce8980da5c2c"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
-    (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/5b9206a5-613b-4eb1-95f0-c2de241b12da"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/33a7d910-9fdf-4e6d-b6f9-90b098b44868"
       (reference "#PWR0106") (unit 1) (value "+5V") (footprint "")
     )
@@ -4253,7 +4250,7 @@
       (reference "U102") (unit 1) (value "ULN2803A") (footprint "Package_DIP:DIP-18_W7.62mm_Socket")
     )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/a20e3e49-f77f-48e2-a237-40441d3240bb"
-      (reference "U201") (unit 1) (value "AT24CS32-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U201") (unit 1) (value "AT24CS16-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/480e869c-5ccd-450b-826a-11fb4eb4f7b7/c1d61362-65a2-49c7-92c4-42116f69f186"
       (reference "U202") (unit 1) (value "74HCT1G04G") (footprint "68komputer-common:SC-74-5_1.5x2.9mm_P0.95mm")

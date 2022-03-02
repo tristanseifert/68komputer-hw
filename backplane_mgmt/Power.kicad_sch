@@ -6,8 +6,8 @@
 
   (title_block
     (title "Backplane Management and Power")
-    (date "2022-01-23")
-    (rev "1")
+    (date "2022-03-02")
+    (rev "2")
     (company "Tristan Seifert")
     (comment 1 "+5V caps must be 10V, +12V/VDD 20V, VIn 50V")
     (comment 2 "VDD = 12V regulated internal; 12V/5V = regulated to backplane")

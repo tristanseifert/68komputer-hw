@@ -6,8 +6,8 @@
 
   (title_block
     (title "Backplane")
-    (date "2022-01-09")
-    (rev "1")
+    (date "2022-03-01")
+    (rev "2")
     (company "Tristan Seifert")
     (comment 1 "J202 is optional; for powering backplane w/o management card")
   )
