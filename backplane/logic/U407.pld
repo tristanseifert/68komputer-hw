@@ -1,0 +1,21 @@
+GAL22V10
+Backplane
+
+NC      NC      NC      /BGACK  /RESET  /EXT    NC      NC      /AS     /UDS   /LDS     GND
+RW      DDIR    /DOE    /AOE    ADIR    RSTLED  NC      NC      NC      NC      NC      VCC
+
+; illuminate reset LED when reset is asserted
+RSTLED = RESET
+
+; data bus is always driven
+; TODO: figure out the direction
+DOE = VCC
+DDIR = VCC
+
+; address bus is always driven
+AOE = VCC
+ADIR = BGACK
+
+DESCRIPTION
+
+Steer the address data bus buffers based on the state of the CPU bus.
